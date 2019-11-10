@@ -108,6 +108,15 @@ def delete_duplicate_reactions(model, reaction_tuple_list, save_fn = False):
     if save_fn:
         _export(model, save_fn)
 
+def fix_exchange_reactions(model, reaction_tuple_list, save_fn = None):
+    for r_id, met_id in reaction_tuple_list:
+        r = model.reactions.get_by_id(r_id)
+        m = model.metabolites.get_by_id(met_id)
+        r.subtract_metabolites(r.metabolites)
+        r.add_metabolites({m:-1})
+        print("Changed reaction {0} to {1}".format(r.id, r.reaction))
+    if save_fn:
+        _export(model, save_fn)
 
 def add_KEGG_annotations_from_IDs(model, save_fn = None):
     """
@@ -234,7 +243,8 @@ if __name__ == '__main__':
         spreadsheet_fn = "C:\\Users\\snorres\\OneDrive - SINTEF\\Boston University\\Marine strains project\\GEM\\template_GEM_iJC568\\SI_File_1_iJC568_Excel.xls"
         add_metabolite_annotations_from_spreadsheet(model, spreadsheet_fn, save_fn = str(model_path))
 
-    if 1:
+    if 0:
+        # Delete one of the reactions in each duplicate
         #                            Keep       Delete  Gene rule
         duplicate_reactions_list = [("R00488", "R00546", "PMM0222"),
                                     ("R00762", "R04780", "PMM0781 or PMM0767"),
@@ -242,4 +252,10 @@ if __name__ == '__main__':
                                     ("R01068", "R01070", "PMM0767 or PMM0781"),
                                     ("R00835", "R02736", "PMM1074 or PMM0771")]
         delete_duplicate_reactions(model, duplicate_reactions_list, save_fn = str(model_path))
+    if 1:
+        # Fix wrong exchange reactions
+        #                     Reaction id    Correct metabolite
+        exchange_reactions = [("ThymidineEX", "Thymidine_e"),   
+                              ("GuanineEX",   "Guanine_e")]
+        fix_exchange_reactions(model, exchange_reactions, str(model_path))
 

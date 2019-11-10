@@ -17299,7 +17299,7 @@
     - id: ThymidineEX
     - name: ThymidineEX
     - metabolites: !!omap
-      - Succinate_e: -1.0
+      - Thymidine_e: -1
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -17401,7 +17401,7 @@
     - id: GuanineEX
     - name: GuanineEX
     - metabolites: !!omap
-      - Dethiobiotin_e: -1.0
+      - Guanine_e: -1
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
