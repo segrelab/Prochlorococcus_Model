@@ -7193,19 +7193,6 @@
     - annotation: !!omap
       - kegg.reaction: R01055
   - !!omap
-    - id: R00546
-    - name: aspartoacylase
-    - metabolites: !!omap
-      - Acetate_c: 1.0
-      - H2O_c: -1.0
-      - L_Aspartate_c: 1.0
-      - N_Acetyl_L_aspartate_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0222
-    - annotation: !!omap
-      - kegg.reaction: R00546
-  - !!omap
     - id: R05605
     - name: KDPG aldolase
     - metabolites: !!omap
@@ -8482,9 +8469,11 @@
       - Orthophosphate_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0781
+    - gene_reaction_rule: PMM0781 or PMM0767
     - annotation: !!omap
-      - kegg.reaction: R00762
+      - kegg.reaction:
+        - R00762
+        - R04780
   - !!omap
     - id: R01056
     - name: D-ribose-5-phosphate aldose-ketose-isomerase
@@ -11033,17 +11022,6 @@
     - annotation: !!omap
       - kegg.reaction: R00710
   - !!omap
-    - id: R00959
-    - name: alpha-D-Glucose 1-phosphate 1,6-phosphomutase
-    - metabolites: !!omap
-      - D_Glucose_1_phosphate_c: -1.0
-      - D_Glucose_6_phosphate_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0076 and PMM0278
-    - annotation: !!omap
-      - kegg.reaction: R00959
-  - !!omap
     - id: R01015
     - name: D-glyceraldehyde-3-phosphate aldose-ketose-isomerase
     - metabolites: !!omap
@@ -11069,18 +11047,6 @@
     - gene_reaction_rule: PMM0023 and PMM0713
     - annotation: !!omap
       - kegg.reaction: R01061
-  - !!omap
-    - id: R01070
-    - name: beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase
-    - metabolites: !!omap
-      - D_Fructose_1_6_bisphosphate_c: -1.0
-      - D_Glyceraldehyde_3_phosphate_c: 1.0
-      - Glycerone_phosphate_c: 1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0767 and PMM0781
-    - annotation: !!omap
-      - kegg.reaction: R01070
   - !!omap
     - id: R01512
     - name: ATP:3-phospho-D-glycerate 1-phosphotransferase
@@ -11116,19 +11082,6 @@
     - gene_reaction_rule: PMM0519 and PMM0890
     - annotation: !!omap
       - kegg.reaction: R03321
-  - !!omap
-    - id: R04780
-    - name: beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase
-    - metabolites: !!omap
-      - D_Fructose_1_6_bisphosphate_c: -1.0
-      - D_Fructose_6_phosphate_c: 1.0
-      - H2O_c: -1.0
-      - Orthophosphate_c: 1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0767
-    - annotation: !!omap
-      - kegg.reaction: R04780
   - !!omap
     - id: R01071
     - name: 1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase
@@ -12163,20 +12116,6 @@
     - gene_reaction_rule: PMM0771
     - annotation: !!omap
       - kegg.reaction: R02035
-  - !!omap
-    - id: R02736
-    - name: beta-D-Glucose-6-phosphate:NADP+ 1-oxoreductase
-    - metabolites: !!omap
-      - D_Glucono_1_5_lactone_6_phosphate_c: 1.0
-      - D_Glucose_6_phosphate_c: -1.0
-      - H_c: 1.0
-      - NADPH_c: 1.0
-      - NADP_c: -1.0
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: PMM1074 and PMM0771
-    - annotation: !!omap
-      - kegg.reaction: R02736
   - !!omap
     - id: R02750
     - name: ribokinase
@@ -18064,7 +18003,9 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: PMM0222
     - annotation: !!omap
-      - kegg.reaction: R00488
+      - kegg.reaction:
+        - R00488
+        - R00546
   - !!omap
     - id: R04198
     - name: R04198
@@ -18950,9 +18891,11 @@
       - D_Glucose_6_phosphate_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0076
+    - gene_reaction_rule: PMM0076 or PMM0278
     - annotation: !!omap
-      - kegg.reaction: R08639
+      - kegg.reaction:
+        - R08639
+        - R00959
   - !!omap
     - id: R10822
     - name: R10822
@@ -19110,9 +19053,11 @@
       - Glycerone_phosphate_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: PMM0781
+    - gene_reaction_rule: PMM0767 or PMM0781
     - annotation: !!omap
-      - kegg.reaction: R01068
+      - kegg.reaction:
+        - R01068
+        - R01070
   - !!omap
     - id: R02530
     - name: R02530
@@ -19381,9 +19326,11 @@
       - NADP_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
-    - gene_reaction_rule: PMM1074
+    - gene_reaction_rule: PMM1074 or PMM0771
     - annotation: !!omap
-      - kegg.reaction: R00835
+      - kegg.reaction:
+        - R00835
+        - R02736
   - !!omap
     - id: R00867
     - name: R00867

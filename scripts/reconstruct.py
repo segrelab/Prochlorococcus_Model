@@ -82,6 +82,32 @@ def _compare_reactions(r1, r2):
                 return True
     return False
 
+def delete_duplicate_reactions(model, reaction_tuple_list, save_fn = False):
+    for keep, delete, grr in reaction_tuple_list:
+        r_keep = model.reactions.get_by_id(keep)
+        r_delete = model.reactions.get_by_id(delete)
+
+        # Concatenate annotations
+        for key, value in r_delete.annotation.items():
+            try:
+                existing_annotation = r_keep.annotation[key]
+            except KeyError:
+                r_keep.annotation[key] = value
+            else:
+                r_keep.annotation[key] = [existing_annotation, value]
+
+        
+        # Delete reaction
+        print("Deleted {0}, duplicate of {1}.".format(r_delete.id, r_keep.id))
+        r_delete.remove_from_model()
+
+        # Concatenate genes
+        print("Changed gene reaction rule of {0} from {1} to {2}".format(r_keep.id, r_keep.gene_reaction_rule, grr))
+        r_keep.gene_reaction_rule = grr
+
+    if save_fn:
+        _export(model, save_fn)
+
 
 def add_KEGG_annotations_from_IDs(model, save_fn = None):
     """
@@ -203,8 +229,17 @@ if __name__ == '__main__':
         # Give KEGG annotations
         add_KEGG_annotations_from_IDs(model, str(model_path))
 
-    if 1: 
+    if 0:
+        # Get metabolite annotations from model iJC568 (preceeding model) 
         spreadsheet_fn = "C:\\Users\\snorres\\OneDrive - SINTEF\\Boston University\\Marine strains project\\GEM\\template_GEM_iJC568\\SI_File_1_iJC568_Excel.xls"
         add_metabolite_annotations_from_spreadsheet(model, spreadsheet_fn, save_fn = str(model_path))
 
+    if 1:
+        #                            Keep       Delete  Gene rule
+        duplicate_reactions_list = [("R00488", "R00546", "PMM0222"),
+                                    ("R00762", "R04780", "PMM0781 or PMM0767"),
+                                    ("R08639", "R00959", "PMM0076 or PMM0278"),
+                                    ("R01068", "R01070", "PMM0767 or PMM0781"),
+                                    ("R00835", "R02736", "PMM1074 or PMM0771")]
+        delete_duplicate_reactions(model, duplicate_reactions_list, save_fn = str(model_path))
 
