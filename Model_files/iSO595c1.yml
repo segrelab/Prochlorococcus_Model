@@ -30,114 +30,190 @@
     - compartment: c
     - charge: 0
     - formula: H2O
+    - annotation: !!omap
+      - inchikey: XLYOFNOQVPJJNP-UHFFFAOYSA-N
+      - kegg.compound: C00001
+      - pubchem.substance: '962'
   - !!omap
     - id: ATP_c
     - name: ATP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C10H16N5O13P3
+    - annotation: !!omap
+      - inchikey: ZKHQWZAMYRWXGA-KQYNXXCUSA-N
+      - kegg.compound: C00002
+      - pubchem.substance: '5957'
   - !!omap
     - id: NAD_c
     - name: NAD+
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C21H28N7O14P2
+    - annotation: !!omap
+      - inchikey: BAWFJGJZGIEFAR-NNYOXOHSSA-O
+      - kegg.compound: C00003
+      - pubchem.substance: '5893'
   - !!omap
     - id: NADH_c
     - name: NADH
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C21H29N7O14P2
+    - annotation: !!omap
+      - inchikey: BOPGDPNILDQYTO-NNYOXOHSSA-N
+      - kegg.compound: C00004
+      - pubchem.substance: '439153'
   - !!omap
     - id: NADPH_c
     - name: NADPH
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C21H30N7O17P3
+    - annotation: !!omap
+      - inchikey: ACFIXJIJDZMPPO-NNYOXOHSSA-N
+      - kegg.compound: C00005
+      - pubchem.substance: '5884'
   - !!omap
     - id: NADP_c
     - name: NADP+
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C21H29N7O17P3
+    - annotation: !!omap
+      - inchikey: XJLXINKUBYWONI-NNYOXOHSSA-O
+      - kegg.compound: C00006
+      - pubchem.substance: '5886'
   - !!omap
     - id: Oxygen_c
     - name: Oxygen
     - compartment: c
     - charge: 0
     - formula: O2
+    - annotation: !!omap
+      - inchikey: MYMOFIZGZYHOMD-UHFFFAOYSA-N
+      - kegg.compound: C00007
+      - pubchem.substance: '977'
   - !!omap
     - id: ADP_c
     - name: ADP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H15N5O10P2
+    - annotation: !!omap
+      - inchikey: XTWYTFMLZFPYCI-KQYNXXCUSA-N
+      - kegg.compound: C00008
+      - pubchem.substance: '6022'
   - !!omap
     - id: Orthophosphate_c
     - name: Orthophosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: H3O4P
+    - annotation: !!omap
+      - inchikey: NBIIXXVUZAFLBC-UHFFFAOYSA-N
+      - kegg.compound: C00009
+      - pubchem.substance: '1004'
   - !!omap
     - id: CoA_c
     - name: CoA
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C21H36N7O16P3S
+    - annotation: !!omap
+      - inchikey: RGJOEKWQDUBAIZ-IBOSZNHHSA-N
+      - kegg.compound: C00010
+      - pubchem.substance: '87642'
   - !!omap
     - id: CO2_c
     - name: CO2
     - compartment: c
     - charge: 0
     - formula: CO2
+    - annotation: !!omap
+      - inchikey: CURLTUGMZLYLDI-UHFFFAOYSA-N
+      - kegg.compound: C00011
+      - pubchem.substance: '280'
   - !!omap
     - id: Diphosphate_c
     - name: Diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: H4O7P2
+    - annotation: !!omap
+      - inchikey: XPPKVPWEQAFLFU-UHFFFAOYSA-N
+      - kegg.compound: C00013
+      - pubchem.substance: '1023'
   - !!omap
     - id: Ammonia_c
     - name: Ammonia
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: H3N
+    - annotation: !!omap
+      - inchikey: QGZKDVFQNNGYKY-UHFFFAOYSA-N
+      - kegg.compound: C00014
+      - pubchem.substance: '222'
   - !!omap
     - id: UDP_c
     - name: UDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H14N2O12P2
+    - annotation: !!omap
+      - inchikey: XCCTYIAWTASOJW-XVFCMESISA-N
+      - kegg.compound: C00015
+      - pubchem.substance: '6031'
   - !!omap
     - id: FAD_c
     - name: FAD
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C27H33N9O15P2
+    - annotation: !!omap
+      - inchikey: VWWQXMAJTJZDQX-UYBVJOGSSA-N
+      - kegg.compound: C00016
+      - pubchem.substance: '643975'
   - !!omap
     - id: S_Adenosyl_L_methionine_c
     - name: S-Adenosyl-L-methionine
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: C15H22N6O5S
+    - annotation: !!omap
+      - inchikey: MEFKEPWMEQBLKI-AIRLBKTGSA-N
+      - kegg.compound: C00019
+      - pubchem.substance: '34755'
   - !!omap
     - id: AMP_c
     - name: AMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H14N5O7P
+    - annotation: !!omap
+      - inchikey: UDMBCSSLTHHNCD-KQYNXXCUSA-N
+      - kegg.compound: C00020
+      - pubchem.substance: '6083'
   - !!omap
     - id: S_Adenosyl_L_homocysteine_c
     - name: S-Adenosyl-L-homocysteine
     - compartment: c
     - charge: 0
     - formula: C14H20N6O5S
+    - annotation: !!omap
+      - inchikey: ZJUKTBDSGOFHSH-WFMPWKQPSA-N
+      - kegg.compound: C00021
+      - pubchem.substance: '439155'
   - !!omap
     - id: Pyruvate_c
     - name: Pyruvate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C3H4O3
+    - annotation: !!omap
+      - inchikey: LCTONWCANYUPML-UHFFFAOYSA-N
+      - kegg.compound: C00022
+      - pubchem.substance: '1060'
   - !!omap
     - id: Acetyl_c
     - name: Acetyl-CoA
@@ -148,254 +224,415 @@
     - id: L_Glutamate_c
     - name: L-Glutamate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H9NO4
+    - annotation: !!omap
+      - inchikey: WHUUTDBJXJRKMK-VKHMYHEASA-N
+      - kegg.compound: C00025
+      - pubchem.substance: '33032'
   - !!omap
     - id: 2_Oxoglutarate_c
     - name: 2-Oxoglutarate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H6O5
+    - annotation: !!omap
+      - inchikey: KPGXRSRHYNQIFN-UHFFFAOYSA-N
+      - kegg.compound: C00026
+      - pubchem.substance: '51'
   - !!omap
     - id: Hydrogen_peroxide_c
     - name: Hydrogen peroxide
     - compartment: c
     - charge: 0
     - formula: H2O2
+    - annotation: !!omap
+      - inchikey: MHAJPDPJQMAIIY-UHFFFAOYSA-N
+      - kegg.compound: C00027
+      - pubchem.substance: '784'
   - !!omap
     - id: UDP_glucose_c
     - name: UDP-glucose
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C15H24N2O17P2
+    - annotation: !!omap
+      - inchikey: HSCJRCZFDFQWRP-JZMIEXBBSA-N
+      - kegg.compound: C00029
+      - pubchem.substance: '8629'
   - !!omap
     - id: D_Glucose_c
     - name: D-Glucose
     - compartment: c
     - charge: 0
     - formula: C6H12O6
+    - annotation: !!omap
+      - inchikey: WQZGKKKJIJFFOK-GASJEMHNSA-N
+      - kegg.compound: C00031
+      - pubchem.substance: '5793'
   - !!omap
     - id: Heme_c
     - name: Heme
     - compartment: c
     - charge: 0
     - formula: C34H34FeN4O4
+    - annotation: !!omap
+      - inchikey: KABFMIBPWCXCRK-RGGAHWMASA-L
+      - kegg.compound: C00032
   - !!omap
     - id: Acetate_c
     - name: Acetate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C2H4O2
+    - annotation: !!omap
+      - inchikey: QTBSBXVTEAMEQO-UHFFFAOYSA-N
+      - kegg.compound: C00033
+      - pubchem.substance: '176'
   - !!omap
     - id: GDP_c
     - name: GDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H15N5O11P2
+    - annotation: !!omap
+      - inchikey: QGWNDRXFNXRZMB-UUOKFMHZSA-N
+      - kegg.compound: C00035
+      - pubchem.substance: '8977'
   - !!omap
     - id: Oxaloacetate_c
     - name: Oxaloacetate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H4O5
+    - annotation: !!omap
+      - inchikey: KHPXUQMNIQBQEV-UHFFFAOYSA-N
+      - kegg.compound: C00036
+      - pubchem.substance: '970'
   - !!omap
     - id: Glycine_c
     - name: Glycine
     - compartment: c
     - charge: 0
     - formula: C2H5NO2
+    - annotation: !!omap
+      - inchikey: DHMQDGOQFOQNFH-UHFFFAOYSA-N
+      - kegg.compound: C00037
+      - pubchem.substance: '750'
   - !!omap
     - id: Zn2_c
     - name: Zn2+
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00038
   - !!omap
     - id: L_Alanine_c
     - name: L-Alanine
     - compartment: c
     - charge: 0
     - formula: C3H7NO2
+    - annotation: !!omap
+      - inchikey: QNAYBMKLOCPYGJ-REOHCLBHSA-N
+      - kegg.compound: C00041
+      - pubchem.substance: '5950'
   - !!omap
     - id: Succinate_c
     - name: Succinate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H6O4
+    - annotation: !!omap
+      - inchikey: KDYFGRWQOYBRFD-UHFFFAOYSA-N
+      - kegg.compound: C00042
+      - pubchem.substance: '1110'
   - !!omap
     - id: UDP_N_acetyl_alpha_D_glucosamine_c
     - name: UDP-N-acetyl-alpha-D-glucosamine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C17H27N3O17P2
+    - annotation: !!omap
+      - inchikey: LFTYTUAZOPRMMI-CFRASDGPSA-N
+      - kegg.compound: C00043
+      - pubchem.substance: '445675'
   - !!omap
     - id: GTP_c
     - name: GTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C10H16N5O14P3
+    - annotation: !!omap
+      - inchikey: XKMLYUALXHKNFT-UUOKFMHZSA-N
+      - kegg.compound: C00044
+      - pubchem.substance: '6830'
   - !!omap
     - id: L_Lysine_c
     - name: L-Lysine
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: C6H14N2O2
+    - annotation: !!omap
+      - inchikey: KDXKERNSBIXSRK-YFKPBYRVSA-N
+      - kegg.compound: C00047
+      - pubchem.substance: '5962'
   - !!omap
     - id: Glyoxylate_c
     - name: Glyoxylate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C2H2O3
+    - annotation: !!omap
+      - inchikey: HHLFWLYXYJOTON-UHFFFAOYSA-N
+      - kegg.compound: C00048
+      - pubchem.substance: '760'
   - !!omap
     - id: L_Aspartate_c
     - name: L-Aspartate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C4H7NO4
+    - annotation: !!omap
+      - inchikey: CKLJMWTZIZZHCS-REOHCLBHSA-N
+      - kegg.compound: C00049
+      - pubchem.substance: '5960'
   - !!omap
     - id: Glutathione_c
     - name: Glutathione
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C10H17N3O6S
+    - annotation: !!omap
+      - inchikey: RWSXRVCMGQZWBV-WDSKDSINSA-N
+      - kegg.compound: C00051
+      - pubchem.substance: '124886'
   - !!omap
     - id: UDP_alpha_D_galactose_c
     - name: UDP-alpha-D-galactose
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C15H24N2O17P2
+    - annotation: !!omap
+      - inchikey: HSCJRCZFDFQWRP-WBRQRZOHSA-N
+      - kegg.compound: C00052
+      - pubchem.substance: '23724458'
   - !!omap
     - id: 3_Phosphoadenylyl_sulfate_c
     - name: 3-Phosphoadenylyl sulfate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C10H15N5O13P2S
+    - annotation: !!omap
+      - inchikey: GACDQMDRPRGCTN-KQYNXXCUSA-N
+      - kegg.compound: C00053
+      - pubchem.substance: '10214'
   - !!omap
     - id: Adenosine_3_5_bisphosphate_c
     - name: Adenosine 3_5-bisphosphate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C10H15N5O10P2
+    - annotation: !!omap
+      - inchikey: WHTCPDAXWFLDIH-KQYNXXCUSA-N
+      - kegg.compound: C00054
+      - pubchem.substance: '159296'
   - !!omap
     - id: CMP_c
     - name: CMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H14N3O8P
+    - annotation: !!omap
+      - inchikey: IERHLVCPSMICTF-XVFCMESISA-N
+      - kegg.compound: C00055
+      - pubchem.substance: '6131'
   - !!omap
     - id: Formate_c
     - name: Formate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: CH2O2
+    - annotation: !!omap
+      - inchikey: BDAGIHXWWSANSR-UHFFFAOYSA-N
+      - kegg.compound: C00058
+      - pubchem.substance: '284'
   - !!omap
     - id: Sulfate_c
     - name: Sulfate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: H2O4S
+    - annotation: !!omap
+      - inchikey: QAOWNCQODCNURD-UHFFFAOYSA-N
+      - kegg.compound: C00059
+      - pubchem.substance: '1118'
   - !!omap
     - id: FMN_c
     - name: FMN
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C17H21N4O9P
+    - annotation: !!omap
+      - inchikey: FVTCRASFADXXNN-SCRDCRAPSA-N
+      - kegg.compound: C00061
+      - pubchem.substance: '643976'
   - !!omap
     - id: L_Arginine_c
     - name: L-Arginine
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: C6H14N4O2
+    - annotation: !!omap
+      - inchikey: ODKSFYDXXFIFQN-BYPYZUCNSA-N
+      - kegg.compound: C00062
+      - pubchem.substance: '6322'
   - !!omap
     - id: CTP_c
     - name: CTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H16N3O14P3
+    - annotation: !!omap
+      - inchikey: PCDQPRRSZKQHHS-XVFCMESISA-N
+      - kegg.compound: C00063
+      - pubchem.substance: '6176'
   - !!omap
     - id: L_Glutamine_c
     - name: L-Glutamine
     - compartment: c
     - charge: 0
     - formula: C5H10N2O3
+    - annotation: !!omap
+      - inchikey: ZDXPYRJPNDTMRX-VKHMYHEASA-N
+      - kegg.compound: C00064
+      - pubchem.substance: '5961'
   - !!omap
     - id: L_Serine_c
     - name: L-Serine
     - compartment: c
     - charge: 0
     - formula: C3H7NO3
+    - annotation: !!omap
+      - inchikey: MTCFGRXMJLQNBG-REOHCLBHSA-N
+      - kegg.compound: C00065
+      - pubchem.substance: '5951'
   - !!omap
     - id: tRNA_c
     - name: tRNA
     - compartment: c
     - charge: 0
     - formula: C15H25O16P2R
+    - annotation: !!omap
+      - kegg.compound: C00066
   - !!omap
     - id: Thiamin_diphosphate_c
     - name: Thiamin diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C12H19N4O7P2S
+    - annotation: !!omap
+      - inchikey: AYEKOFBPNLCAJY-UHFFFAOYSA-O
+      - kegg.compound: C00068
+      - pubchem.substance: '1132'
   - !!omap
     - id: Copper_c
     - name: Copper
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: Cu
+    - annotation: !!omap
+      - inchikey: RYGMFSIKBFXOCR-UHFFFAOYSA-N
+      - kegg.compound: C00070
+      - pubchem.substance: '3370'
   - !!omap
     - id: L_Methionine_c
     - name: L-Methionine
     - compartment: c
     - charge: 0
     - formula: C5H11NO2S
+    - annotation: !!omap
+      - inchikey: FFEARJCKVFRZRR-BYPYZUCNSA-N
+      - kegg.compound: C00073
+      - pubchem.substance: '6137'
   - !!omap
     - id: Phosphoenolpyruvate_c
     - name: Phosphoenolpyruvate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C3H5O6P
+    - annotation: !!omap
+      - inchikey: DTBNBXWJWCWCIK-UHFFFAOYSA-N
+      - kegg.compound: C00074
+      - pubchem.substance: '1005'
   - !!omap
     - id: UTP_c
     - name: UTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H15N2O15P3
+    - annotation: !!omap
+      - inchikey: PGAVKCOVUIYSFO-XVFCMESISA-N
+      - kegg.compound: C00075
+      - pubchem.substance: '6133'
   - !!omap
     - id: Calcium_cation_c
     - name: Ca2+
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00076
   - !!omap
     - id: L_Ornithine_c
     - name: L-Ornithine
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: C5H12N2O2
+    - annotation: !!omap
+      - inchikey: AHLPHDHHMVZTML-BYPYZUCNSA-N
+      - kegg.compound: C00077
+      - pubchem.substance: '6262'
   - !!omap
     - id: L_Tryptophan_c
     - name: L-Tryptophan
     - compartment: c
     - charge: 0
     - formula: C11H12N2O2
+    - annotation: !!omap
+      - inchikey: QIVBCDIJIAJPQS-VIFPVBQESA-N
+      - kegg.compound: C00078
+      - pubchem.substance: '6305'
   - !!omap
     - id: L_Phenylalanine_c
     - name: L-Phenylalanine
     - compartment: c
     - charge: 0
     - formula: C9H11NO2
+    - annotation: !!omap
+      - inchikey: COLNVLDHVKWLRT-QMMMGPOBSA-N
+      - kegg.compound: C00079
+      - pubchem.substance: '6140'
   - !!omap
     - id: H_c
     - name: H+
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: H
+    - annotation: !!omap
+      - inchikey: GPRLSGONYQIRFK-UHFFFAOYSA-N
+      - kegg.compound: C00080
+      - pubchem.substance: '1038'
   - !!omap
     - id: L_Tyrosine_c
     - name: L-Tyrosine
     - compartment: c
     - charge: 0
     - formula: C9H11NO3
+    - annotation: !!omap
+      - inchikey: OUYCCCASQSFEME-QMMMGPOBSA-N
+      - kegg.compound: C00082
+      - pubchem.substance: '6057'
   - !!omap
     - id: Malonyl_c
     - name: Malonyl-CoA
@@ -408,1050 +645,1712 @@
     - compartment: c
     - charge: 0
     - formula: C2H4O
+    - annotation: !!omap
+      - inchikey: IKHGUXGNUITLKF-UHFFFAOYSA-N
+      - kegg.compound: C00084
+      - pubchem.substance: '177'
   - !!omap
     - id: D_Fructose_6_phosphate_c
     - name: D-Fructose 6-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H13O9P
+    - annotation: !!omap
+      - inchikey: BGWGXPAPYGQALX-VRPWFDPXSA-N
+      - kegg.compound: C00085
+      - pubchem.substance: '439160'
   - !!omap
     - id: Urea_c
     - name: Urea
     - compartment: c
     - charge: 0
     - formula: CH4N2O
+    - annotation: !!omap
+      - inchikey: XSQUKJJJFZCRTK-UHFFFAOYSA-N
+      - kegg.compound: C00086
+      - pubchem.substance: '1176'
   - !!omap
     - id: Sucrose_c
     - name: Sucrose
     - compartment: c
     - charge: 0
     - formula: C12H22O11
+    - annotation: !!omap
+      - inchikey: CZMRCDWAGMRECN-UGDNZRGBSA-N
+      - kegg.compound: C00089
+      - pubchem.substance: '5988'
   - !!omap
     - id: D_Glucose_6_phosphate_c
     - name: D-Glucose 6-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H13O9P
+    - annotation: !!omap
+      - inchikey: NBSCHQHZLSJFNQ-GASJEMHNSA-N
+      - kegg.compound: C00092
+      - pubchem.substance: '5958'
   - !!omap
     - id: sn_Glycerol_3_phosphate_c
     - name: sn-Glycerol 3-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C3H9O6P
+    - annotation: !!omap
+      - inchikey: AWUCVROLDVIAJX-GSVOUGTGSA-N
+      - kegg.compound: C00093
+      - pubchem.substance: '439162'
   - !!omap
     - id: sn_Glycerol_3_phosphate_e
     - name: sn-Glycerol 3-phosphate
     - compartment: e
-    - charge: 0
+    - charge: -2
     - formula: C3H9O6P
+    - annotation: !!omap
+      - inchikey: AWUCVROLDVIAJX-GSVOUGTGSA-N
+      - kegg.compound: C00093
+      - pubchem.substance: '439162'
   - !!omap
     - id: Sulfite_c
     - name: Sulfite
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: H2O3S
+    - annotation: !!omap
+      - inchikey: LSNNMFCWUKXFEE-UHFFFAOYSA-N
+      - kegg.compound: C00094
+      - pubchem.substance: '1100'
   - !!omap
     - id: D_Fructose_c
     - name: D-Fructose
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H12O6
+    - annotation: !!omap
+      - inchikey: RFSUNEUAIZKAJO-VRPWFDPXSA-N
+      - kegg.compound: C00095
+      - pubchem.substance: '439163'
   - !!omap
     - id: GDP_mannose_c
     - name: GDP-mannose
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C16H25N5O16P2
+    - annotation: !!omap
+      - inchikey: MVMSCBBUIHUTGJ-GDJBGNAASA-N
+      - kegg.compound: C00096
+      - pubchem.substance: '18396'
   - !!omap
     - id: L_Cysteine_c
     - name: L-Cysteine
     - compartment: c
     - charge: 0
     - formula: C3H7NO2S
+    - annotation: !!omap
+      - inchikey: XUJNEKJLAYXESH-REOHCLBHSA-N
+      - kegg.compound: C00097
+      - pubchem.substance: '5862'
   - !!omap
     - id: beta_Alanine_c
     - name: beta-Alanine
     - compartment: c
     - charge: 0
     - formula: C3H7NO2
+    - annotation: !!omap
+      - inchikey: UCMIRNVEIXFBKS-UHFFFAOYSA-N
+      - kegg.compound: C00099
+      - pubchem.substance: '239'
   - !!omap
     - id: Tetrahydrofolate_c
     - name: Tetrahydrofolate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C19H23N7O6
+    - annotation: !!omap
+      - inchikey: MSTNYGQPCMXVAQ-KIYNQFGBSA-N
+      - kegg.compound: C00101
+      - pubchem.substance: '91443'
   - !!omap
     - id: D_Glucose_1_phosphate_c
     - name: D-Glucose 1-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H13O9P
+    - annotation: !!omap
+      - inchikey: HXXFSFRBOHSIMQ-VFUOTHLCSA-N
+      - kegg.compound: C00103
+      - pubchem.substance: '65533'
   - !!omap
     - id: UMP_c
     - name: UMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H13N2O9P
+    - annotation: !!omap
+      - inchikey: DJJCXFVJDGTHFX-XVFCMESISA-N
+      - kegg.compound: C00105
+      - pubchem.substance: '6030'
   - !!omap
     - id: Uracil_c
     - name: Uracil
     - compartment: c
     - charge: 0
     - formula: C4H4N2O2
+    - annotation: !!omap
+      - inchikey: ISAKRJDGNUQOIC-UHFFFAOYSA-N
+      - kegg.compound: C00106
+      - pubchem.substance: '1174'
   - !!omap
     - id: Anthranilate_c
     - name: Anthranilate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H7NO2
+    - annotation: !!omap
+      - inchikey: RWZYAGGXGHYGMB-UHFFFAOYSA-N
+      - kegg.compound: C00108
+      - pubchem.substance: '227'
   - !!omap
     - id: 2_Oxobutanoate_c
     - name: 2-Oxobutanoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C4H6O3
+    - annotation: !!omap
+      - inchikey: TYEYBOSBBBHJIV-UHFFFAOYSA-N
+      - kegg.compound: C00109
+      - pubchem.substance: '58'
   - !!omap
     - id: Glycerone_phosphate_c
     - name: Glycerone phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C3H7O6P
+    - annotation: !!omap
+      - inchikey: GNGACRATGGDKBX-UHFFFAOYSA-N
+      - kegg.compound: C00111
+      - pubchem.substance: '668'
   - !!omap
     - id: CDP_c
     - name: CDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H15N3O11P2
+    - annotation: !!omap
+      - inchikey: ZWIADYZPOWUWEW-XVFCMESISA-N
+      - kegg.compound: C00112
+      - pubchem.substance: '6132'
   - !!omap
     - id: Glycerol_c
     - name: Glycerol
     - compartment: c
     - charge: 0
     - formula: C3H8O3
+    - annotation: !!omap
+      - inchikey: PEDCQBHIVMGVHV-UHFFFAOYSA-N
+      - kegg.compound: C00116
+      - pubchem.substance: '753'
   - !!omap
     - id: D_Ribose_5_phosphate_c
     - name: D-Ribose 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H11O8P
+    - annotation: !!omap
+      - inchikey: KTVPXOYAKDPRHY-SOOFDHNKSA-N
+      - kegg.compound: C00117
+      - pubchem.substance: '439167'
   - !!omap
     - id: D_Glyceraldehyde_3_phosphate_c
     - name: D-Glyceraldehyde 3-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C3H7O6P
+    - annotation: !!omap
+      - inchikey: LXJXRIRHZLFYRP-VKHMYHEASA-N
+      - kegg.compound: C00118
+      - pubchem.substance: '439168'
   - !!omap
     - id: 5_Phospho_alpha_D_ribose_1_diphosphate_c
     - name: 5-Phospho-alpha-D-ribose 1-diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C5H13O14P3
+    - annotation: !!omap
+      - inchikey: PQGCEDQWHSBAJP-TXICZTDVSA-N
+      - kegg.compound: C00119
+      - pubchem.substance: '7339'
   - !!omap
     - id: Biotin_c
     - name: Biotin
     - compartment: c
     - charge: 0
     - formula: C10H16N2O3S
+    - annotation: !!omap
+      - inchikey: YBJHBAHKTGYVGT-ZKWXMUAHSA-N
+      - kegg.compound: C00120
+      - pubchem.substance: '171548'
   - !!omap
     - id: D_Ribose_c
     - name: D-Ribose
     - compartment: c
     - charge: 0
     - formula: C5H10O5
+    - annotation: !!omap
+      - inchikey: HMFHBZSHGGEWLO-SOOFDHNKSA-N
+      - kegg.compound: C00121
+      - pubchem.substance: '5779'
   - !!omap
     - id: Fumarate_c
     - name: Fumarate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H4O4
+    - annotation: !!omap
+      - inchikey: VZCYOOQTPOCHFL-OWOJBTEDSA-N
+      - kegg.compound: C00122
+      - pubchem.substance: '444972'
   - !!omap
     - id: L_Leucine_c
     - name: L-Leucine
     - compartment: c
     - charge: 0
     - formula: C6H13NO2
+    - annotation: !!omap
+      - inchikey: ROHFNLRQFUQHCH-YFKPBYRVSA-N
+      - kegg.compound: C00123
+      - pubchem.substance: '6106'
   - !!omap
     - id: Glutathione_disulfide_c
     - name: Glutathione disulfide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C20H32N6O12S2
+    - annotation: !!omap
+      - inchikey: YPZRWBKMTBYPTK-BJDJZHNGSA-N
+      - kegg.compound: C00127
+      - pubchem.substance: '65359'
   - !!omap
     - id: Isopentenyl_diphosphate_c
     - name: Isopentenyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H12O7P2
+    - annotation: !!omap
+      - inchikey: NUHSROFQTUXZQQ-UHFFFAOYSA-N
+      - kegg.compound: C00129
+      - pubchem.substance: '1195'
   - !!omap
     - id: IMP_c
     - name: IMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H13N4O8P
+    - annotation: !!omap
+      - inchikey: GRSZFWQUAKGDAV-KQYNXXCUSA-N
+      - kegg.compound: C00130
+      - pubchem.substance: '8582'
   - !!omap
     - id: dATP_c
     - name: dATP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C10H16N5O12P3
+    - annotation: !!omap
+      - inchikey: SUYVUBYJARFZHO-RRKCRQDMSA-N
+      - kegg.compound: C00131
+      - pubchem.substance: '15993'
   - !!omap
     - id: Methanol_c
     - name: Methanol
     - compartment: c
     - charge: 0
     - formula: CH4O
+    - annotation: !!omap
+      - inchikey: OKKJLVBELUTLKV-UHFFFAOYSA-N
+      - kegg.compound: C00132
+      - pubchem.substance: '887'
   - !!omap
     - id: D_Alanine_c
     - name: D-Alanine
     - compartment: c
     - charge: 0
     - formula: C3H7NO2
+    - annotation: !!omap
+      - inchikey: QNAYBMKLOCPYGJ-UWTATZPHSA-N
+      - kegg.compound: C00133
+      - pubchem.substance: '71080'
   - !!omap
     - id: Putrescine_c
     - name: Putrescine
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: C4H12N2
+    - annotation: !!omap
+      - inchikey: KIDHWZJUCRJVML-UHFFFAOYSA-N
+      - kegg.compound: C00134
+      - pubchem.substance: '1045'
   - !!omap
     - id: L_Histidine_c
     - name: L-Histidine
     - compartment: c
     - charge: 0
     - formula: C6H9N3O2
+    - annotation: !!omap
+      - inchikey: HNDVDQJCIGZPNO-YFKPBYRVSA-N
+      - kegg.compound: C00135
+      - pubchem.substance: '6274'
   - !!omap
     - id: Reduced_ferredoxin_c
     - name: Reduced ferredoxin
     - compartment: c
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00138
   - !!omap
     - id: Oxidized_ferredoxin_c
     - name: Oxidized ferredoxin
     - compartment: c
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00139
   - !!omap
     - id: 3_Methyl_2_oxobutanoic_acid_c
     - name: 3-Methyl-2-oxobutanoic acid
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H8O3
+    - annotation: !!omap
+      - inchikey: QHKABHOOEWYVLI-UHFFFAOYSA-N
+      - kegg.compound: C00141
+      - pubchem.substance: '49'
   - !!omap
     - id: 5_10_Methylenetetrahydrofolate_c
     - name: 5_10-Methylenetetrahydrofolate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C20H23N7O6
+    - annotation: !!omap
+      - inchikey: QYNUQALWYRSVHF-PZORYLMUSA-N
+      - kegg.compound: C00143
+      - pubchem.substance: '439175'
   - !!omap
     - id: GMP_c
     - name: GMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H14N5O8P
+    - annotation: !!omap
+      - inchikey: RQFCJASXJCIDSX-UUOKFMHZSA-N
+      - kegg.compound: C00144
+      - pubchem.substance: '6804'
   - !!omap
     - id: Adenine_c
     - name: Adenine
     - compartment: c
     - charge: 0
     - formula: C5H5N5
+    - annotation: !!omap
+      - inchikey: GFFGJBXGBJISGV-UHFFFAOYSA-N
+      - kegg.compound: C00147
+      - pubchem.substance: '190'
   - !!omap
     - id: L_Proline_c
     - name: L-Proline
     - compartment: c
     - charge: 0
     - formula: C5H9NO2
+    - annotation: !!omap
+      - inchikey: ONIBWKKTOPOVIA-BYPYZUCNSA-N
+      - kegg.compound: C00148
+      - pubchem.substance: '145742'
   - !!omap
     - id: S_Malate_c
     - name: (S)-Malate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H6O5
+    - annotation: !!omap
+      - inchikey: BJEPYKJPYRNKOW-REOHCLBHSA-N
+      - kegg.compound: C00149
+      - pubchem.substance: '222656'
   - !!omap
     - id: Molybdenum_c
     - name: Molybdenum
     - compartment: c
     - charge: 0
     - formula: Mo
+    - annotation: !!omap
+      - inchikey: ZOKXTWBITQBERF-UHFFFAOYSA-N
+      - kegg.compound: C00150
+      - pubchem.substance: '3450'
   - !!omap
     - id: L_Asparagine_c
     - name: L-Asparagine
     - compartment: c
     - charge: 0
     - formula: C4H8N2O3
+    - annotation: !!omap
+      - inchikey: DCXYFEDJOCDNAF-REOHCLBHSA-N
+      - kegg.compound: C00152
+      - pubchem.substance: '6267'
   - !!omap
     - id: L_Homocysteine_c
     - name: L-Homocysteine
     - compartment: c
     - charge: 0
     - formula: C4H9NO2S
+    - annotation: !!omap
+      - inchikey: FFFHZYDWPBMWHY-VKHMYHEASA-N
+      - kegg.compound: C00155
+      - pubchem.substance: '91552'
   - !!omap
     - id: Citrate_c
     - name: Citrate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C6H8O7
+    - annotation: !!omap
+      - inchikey: KRKNYBCHXYNGOX-UHFFFAOYSA-N
+      - kegg.compound: C00158
+      - pubchem.substance: '311'
   - !!omap
     - id: Glycolate_c
     - name: Glycolate
     - compartment: c
     - charge: 0
     - formula: C2H4O3
+    - annotation: !!omap
+      - inchikey: AEMRFAOFKBGASW-UHFFFAOYSA-N
+      - kegg.compound: C00160
+      - pubchem.substance: '3460'
   - !!omap
     - id: Phenylpyruvate_c
     - name: Phenylpyruvate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C9H8O3
+    - annotation: !!omap
+      - inchikey: BTNMPGBKDVTSJY-UHFFFAOYSA-N
+      - kegg.compound: C00166
+      - pubchem.substance: '997'
   - !!omap
     - id: UDP_glucuronate_c
     - name: UDP-glucuronate
     - compartment: c
     - charge: 0
     - formula: C15H22N2O18P2
+    - annotation: !!omap
+      - inchikey: HDYANYHVCAPMJV-LXQIFKJMSA-N
+      - kegg.compound: C00167
+      - pubchem.substance: '17473'
   - !!omap
     - id: Hydroxypyruvate_c
     - name: Hydroxypyruvate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C3H4O4
+    - annotation: !!omap
+      - inchikey: HHDDCCUIIUWNGJ-UHFFFAOYSA-N
+      - kegg.compound: C00168
+      - pubchem.substance: '964'
   - !!omap
     - id: Carbamoyl_phosphate_c
     - name: Carbamoyl phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: CH4NO5P
+    - annotation: !!omap
+      - inchikey: FFQKYPRQEYGKAF-UHFFFAOYSA-N
+      - kegg.compound: C00169
+      - pubchem.substance: '278'
   - !!omap
     - id: 5_Methylthioadenosine_c
     - name: 5-Methylthioadenosine
     - compartment: c
     - charge: 0
     - formula: C11H15N5O3S
+    - annotation: !!omap
+      - inchikey: WUUGFSXJNOTRMR-IOSLPCCCSA-N
+      - kegg.compound: C00170
+      - pubchem.substance: '439176'
   - !!omap
     - id: Cobalt_c
     - name: Cobalt ion
     - compartment: c
     - charge: 0
     - formula: Co
+    - annotation: !!omap
+      - inchikey: XLJKHNWPARRRJB-UHFFFAOYSA-N
+      - kegg.compound: C00175
+      - pubchem.substance: '104729'
   - !!omap
     - id: Agmatine_c
     - name: Agmatine
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: C5H14N4
+    - annotation: !!omap
+      - inchikey: QYPPJABKJHAVHS-UHFFFAOYSA-N
+      - kegg.compound: C00179
+      - pubchem.substance: '199'
   - !!omap
     - id: Glycogen_c
     - name: Glycogen
     - compartment: c
     - charge: 0
     - formula: C6H10O5
+    - annotation: !!omap
+      - kegg.compound: C00182
+      - pubchem.substance: '3482'
   - !!omap
     - id: L_Valine_c
     - name: L-Valine
     - compartment: c
     - charge: 0
     - formula: C5H11NO2
+    - annotation: !!omap
+      - inchikey: KZSNJWFQEVHDMF-BYPYZUCNSA-N
+      - kegg.compound: C00183
+      - pubchem.substance: '6287'
   - !!omap
     - id: Glycerone_c
     - name: Glycerone
     - compartment: c
     - charge: 0
     - formula: C3H6O3
+    - annotation: !!omap
+      - inchikey: RXKJFZQQPQGTFL-UHFFFAOYSA-N
+      - kegg.compound: C00184
+      - pubchem.substance: '670'
   - !!omap
     - id: L_Threonine_c
     - name: L-Threonine
     - compartment: c
     - charge: 0
     - formula: C4H9NO3
+    - annotation: !!omap
+      - inchikey: AYFVYJQAPQTCCC-GBXIJSLDSA-N
+      - kegg.compound: C00188
+      - pubchem.substance: '6288'
   - !!omap
     - id: Cobamide_coenzyme_c
     - name: Cobamide coenzyme
     - compartment: c
     - charge: 0
     - formula: C72H100CoN18O17P
+    - annotation: !!omap
+      - inchikey: ZIHHMGTYZOSFRC-QRVZQHAISA-L
+      - kegg.compound: C00194
   - !!omap
     - id: 3_Phospho_D_glycerate_c
     - name: 3-Phospho-D-glycerate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C3H7O7P
+    - annotation: !!omap
+      - inchikey: OSJPPGNTCRNQQC-UWTATZPHSA-N
+      - kegg.compound: C00197
+      - pubchem.substance: '439183'
   - !!omap
     - id: D_Ribulose_5_phosphate_c
     - name: D-Ribulose 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H11O8P
+    - annotation: !!omap
+      - inchikey: FNZLKVNUWIIPSJ-UHNVWZDZSA-N
+      - kegg.compound: C00199
+      - pubchem.substance: '439184'
   - !!omap
     - id: Photon_c
     - name: Photon
     - compartment: c
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00205
   - !!omap
     - id: Photon_P680_c
     - name: Photon absorbed by PSII
     - compartment: c
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00205
   - !!omap
     - id: Photon_P700_c
     - name: Photon absorbed by PSI
     - compartment: c
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00205
   - !!omap
     - id: dADP_c
     - name: dADP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H15N5O9P2
+    - annotation: !!omap
+      - inchikey: DAEAPNUQQAICNR-RRKCRQDMSA-N
+      - kegg.compound: C00206
+      - pubchem.substance: '188966'
   - !!omap
     - id: Adenosine_c
     - name: Adenosine
     - compartment: c
     - charge: 0
     - formula: C10H15N5O5
+    - annotation: !!omap
+      - kegg.compound: C00212
+      - pubchem.substance: '60961'
   - !!omap
     - id: Thymidine_c
     - name: Thymidine
     - compartment: c
     - charge: 0
     - formula: C10H14N2O5
+    - annotation: !!omap
+      - inchikey: IQFYYKKMVGJFEH-XLPZGREQSA-N
+      - kegg.compound: C00214
+      - pubchem.substance: '5789'
   - !!omap
     - id: D_Glutamate_c
     - name: D-Glutamate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H9NO4
+    - annotation: !!omap
+      - inchikey: WHUUTDBJXJRKMK-GSVOUGTGSA-N
+      - kegg.compound: C00217
+      - pubchem.substance: '23327'
   - !!omap
     - id: Adenylyl_sulfate_c
     - name: Adenylyl sulfate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H14N5O10PS
+    - annotation: !!omap
+      - inchikey: IRLPACMLTUPBCL-KQYNXXCUSA-N
+      - kegg.compound: C00224
+      - pubchem.substance: '10238'
   - !!omap
     - id: Acyl_carrier_protein_c
     - name: Acyl-carrier protein
     - compartment: c
     - charge: 0
     - formula: HSR
+    - annotation: !!omap
+      - kegg.compound: C00229
   - !!omap
     - id: D_Xylulose_5_phosphate_c
     - name: D-Xylulose 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H11O8P
+    - annotation: !!omap
+      - inchikey: FNZLKVNUWIIPSJ-RFZPGFLSSA-N
+      - kegg.compound: C00231
+      - pubchem.substance: '439190'
   - !!omap
     - id: 4_Methyl_2_oxopentanoate_c
     - name: 4-Methyl-2-oxopentanoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H10O3
+    - annotation: !!omap
+      - inchikey: BKAJNAXTPSGJCU-UHFFFAOYSA-N
+      - kegg.compound: C00233
+      - pubchem.substance: '70'
   - !!omap
     - id: 10_Formyltetrahydrofolate_c
     - name: 10-Formyltetrahydrofolate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C20H23N7O7
+    - annotation: !!omap
+      - inchikey: AUFGTPPARQZWDO-YUZLPWPTSA-N
+      - kegg.compound: C00234
+      - pubchem.substance: '122347'
   - !!omap
     - id: Dimethylallyl_diphosphate_c
     - name: Dimethylallyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H12O7P2
+    - annotation: !!omap
+      - inchikey: CBIDRCWHNCKSTO-UHFFFAOYSA-N
+      - kegg.compound: C00235
+      - pubchem.substance: '647'
   - !!omap
     - id: 3_Phospho_D_glyceroyl_phosphate_c
     - name: 3-Phospho-D-glyceroyl phosphate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C3H8O10P2
+    - annotation: !!omap
+      - inchikey: LJQLQCAXBUHEAZ-UWTATZPHSA-N
+      - kegg.compound: C00236
+      - pubchem.substance: '439191'
   - !!omap
     - id: CO_c
     - name: CO
     - compartment: c
     - charge: 0
     - formula: CO
+    - annotation: !!omap
+      - inchikey: UGFAIRIUMAVXCW-UHFFFAOYSA-N
+      - kegg.compound: C00237
+      - pubchem.substance: '281'
   - !!omap
     - id: K_c
     - name: K+
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: K
+    - annotation: !!omap
+      - inchikey: NPYPAHLBTDXSSS-UHFFFAOYSA-N
+      - kegg.compound: C00238
+      - pubchem.substance: '3537'
   - !!omap
     - id: dCMP_c
     - name: dCMP
     - compartment: c
     - charge: 0
     - formula: C9H14N3O7P
+    - annotation: !!omap
+      - inchikey: NCMVOABPESMRCP-SHYZEUOFSA-N
+      - kegg.compound: C00239
+      - pubchem.substance: '13945'
   - !!omap
     - id: Guanine_c
     - name: Guanine
     - compartment: c
     - charge: 0
     - formula: C5H5N5O
+    - annotation: !!omap
+      - inchikey: UYTPUPDQBNUYGX-UHFFFAOYSA-N
+      - kegg.compound: C00242
+      - pubchem.substance: '764'
   - !!omap
     - id: Hexadecanoic_acid_c
     - name: Hexadecanoic acid
     - compartment: c
     - charge: 0
     - formula: C16H32O2
+    - annotation: !!omap
+      - inchikey: IPCSVZSSVZVIGE-UHFFFAOYSA-N
+      - kegg.compound: C00249
+      - pubchem.substance: '985'
   - !!omap
     - id: Chorismate_c
     - name: Chorismate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H10O6
+    - annotation: !!omap
+      - inchikey: WTFXTQVDAKGDEY-HTQZYQBOSA-N
+      - kegg.compound: C00251
+      - pubchem.substance: '12039'
   - !!omap
     - id: Nicotinate_c
     - name: Nicotinate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H5NO2
+    - annotation: !!omap
+      - inchikey: PVNIIMVLHYAWGP-UHFFFAOYSA-N
+      - kegg.compound: C00253
+      - pubchem.substance: '938'
   - !!omap
     - id: Prephenate_c
     - name: Prephenate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H10O6
+    - annotation: !!omap
+      - inchikey: FPWMCUPFBRFMLH-XGAOUMNUSA-N
+      - kegg.compound: C00254
   - !!omap
     - id: Riboflavin_c
     - name: Riboflavin
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C17H20N4O6
+    - annotation: !!omap
+      - inchikey: AUNGANRZJHBGPY-SCRDCRAPSA-N
+      - kegg.compound: C00255
+      - pubchem.substance: '493570'
   - !!omap
     - id: D_Glycerate_c
     - name: D-Glycerate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C3H6O4
+    - annotation: !!omap
+      - inchikey: RBNPOMFGQQGHHO-UWTATZPHSA-N
+      - kegg.compound: C00258
+      - pubchem.substance: '439194'
   - !!omap
     - id: L_Homoserine_c
     - name: L-Homoserine
     - compartment: c
     - charge: 0
     - formula: C4H9NO3
+    - annotation: !!omap
+      - inchikey: UKAUYVFTDYCKQA-VKHMYHEASA-N
+      - kegg.compound: C00263
+      - pubchem.substance: '12647'
   - !!omap
     - id: Glycolaldehyde_c
     - name: Glycolaldehyde
     - compartment: c
     - charge: 0
     - formula: C2H4O2
+    - annotation: !!omap
+      - inchikey: WGCNASOHLSPBMP-UHFFFAOYSA-N
+      - kegg.compound: C00266
+      - pubchem.substance: '756'
   - !!omap
     - id: CDP_diacylglycerol_c
     - name: CDP-diacylglycerol
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C14H19N3O15P2R2
+    - annotation: !!omap
+      - kegg.compound: C00269
   - !!omap
     - id: D_Erythrose_4_phosphate_c
     - name: D-Erythrose 4-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H9O7P
+    - annotation: !!omap
+      - inchikey: NGHMDNPXVRFFGS-IUYQGCFVSA-N
+      - kegg.compound: C00279
+      - pubchem.substance: '122357'
   - !!omap
     - id: Hydrogen_sulfide_c
     - name: Hydrogen sulfide
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: H2S
+    - annotation: !!omap
+      - inchikey: RWSOTUBLDIXVET-UHFFFAOYSA-N
+      - kegg.compound: C00283
+      - pubchem.substance: '402'
   - !!omap
     - id: dGTP_c
     - name: dGTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C10H16N5O13P3
+    - annotation: !!omap
+      - inchikey: HAAZLUGHYHWQIW-KVQBGUIXSA-N
+      - kegg.compound: C00286
+      - pubchem.substance: '65103'
   - !!omap
     - id: HCO3__c
     - name: HCO3-
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: CHO3
+    - annotation: !!omap
+      - inchikey: BVKZGUZCCUSVTD-UHFFFAOYSA-M
+      - kegg.compound: C00288
+      - pubchem.substance: '769'
   - !!omap
     - id: Inosine_c
     - name: Inosine
     - compartment: c
     - charge: 0
     - formula: C10H12N4O5
+    - annotation: !!omap
+      - inchikey: UGQMRVRMYYASKQ-KQYNXXCUSA-N
+      - kegg.compound: C00294
+      - pubchem.substance: '6021'
   - !!omap
     - id: Orotate_c
     - name: Orotate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H4N2O4
+    - annotation: !!omap
+      - inchikey: PXQPEWDEAKTCGB-UHFFFAOYSA-N
+      - kegg.compound: C00295
+      - pubchem.substance: '967'
   - !!omap
     - id: Uridine_c
     - name: Uridine
     - compartment: c
     - charge: 0
     - formula: C9H12N2O6
+    - annotation: !!omap
+      - inchikey: DRTQHJPVMGBUCF-XVFCMESISA-N
+      - kegg.compound: C00299
+      - pubchem.substance: '6029'
   - !!omap
     - id: Magnesium_cation_c
     - name: Magnesium cation
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: Mg
+    - annotation: !!omap
+      - inchikey: JLVVSXFLKOJNIY-UHFFFAOYSA-N
+      - kegg.compound: C00305
+      - pubchem.substance: '888'
   - !!omap
     - id: Isocitrate_c
     - name: Isocitrate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C6H8O7
+    - annotation: !!omap
+      - inchikey: ODBLHEXUDAPZAU-UHFFFAOYSA-N
+      - kegg.compound: C00311
+      - pubchem.substance: '1198'
   - !!omap
     - id: Spermidine_c
     - name: Spermidine
     - compartment: c
-    - charge: 0
+    - charge: 3
     - formula: C7H19N3
+    - annotation: !!omap
+      - inchikey: ATHGHQPFGPMSJY-UHFFFAOYSA-N
+      - kegg.compound: C00315
+      - pubchem.substance: '1102'
   - !!omap
     - id: Thiosulfate_c
     - name: Thiosulfate
     - compartment: c
     - charge: 0
     - formula: HO3S2
+    - annotation: !!omap
+      - inchikey: DHCDFWKWKRSZHF-UHFFFAOYSA-M
+      - kegg.compound: C00320
+      - pubchem.substance: '439208'
   - !!omap
     - id: GDP_L_fucose_c
     - name: GDP-L-fucose
     - compartment: c
     - charge: 0
     - formula: C16H25N5O15P2
+    - annotation: !!omap
+      - inchikey: LQEBEXMHBLQMDB-JGQUBWHWSA-N
+      - kegg.compound: C00325
+      - pubchem.substance: '10918995'
   - !!omap
     - id: L_Citrulline_c
     - name: L-Citrulline
     - compartment: c
     - charge: 0
     - formula: C6H13N3O3
+    - annotation: !!omap
+      - inchikey: RHGKLRLOHDJJDR-BYPYZUCNSA-N
+      - kegg.compound: C00327
+      - pubchem.substance: '9750'
   - !!omap
     - id: Deoxyguanosine_c
     - name: Deoxyguanosine
     - compartment: c
     - charge: 0
     - formula: C10H13N5O4
+    - annotation: !!omap
+      - inchikey: YKBGVTZYEHREMT-KVQBGUIXSA-N
+      - kegg.compound: C00330
+      - pubchem.substance: '187790'
   - !!omap
     - id: S_Dihydroorotate_c
     - name: (S)-Dihydroorotate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H6N2O4
+    - annotation: !!omap
+      - inchikey: UFIVEPVSAGBUSI-REOHCLBHSA-N
+      - kegg.compound: C00337
+      - pubchem.substance: '439216'
   - !!omap
     - id: Geranyl_diphosphate_c
     - name: Geranyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H20O7P2
+    - annotation: !!omap
+      - inchikey: GVVPGTZRZFNKDS-JXMROGBWSA-N
+      - kegg.compound: C00341
+      - pubchem.substance: '445995'
   - !!omap
     - id: Thioredoxin_c
     - name: Thioredoxin
     - compartment: c
     - charge: 0
     - formula: C10H14N4O4S2R4
+    - annotation: !!omap
+      - kegg.compound: C00342
   - !!omap
     - id: Thioredoxin_disulfide_c
     - name: Thioredoxin disulfide
     - compartment: c
     - charge: 0
     - formula: C10H12N4O4S2R4
+    - annotation: !!omap
+      - kegg.compound: C00343
   - !!omap
     - id: Phosphatidylglycerol_c
     - name: Phosphatidylglycerol
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C8H13O10P
+    - annotation: !!omap
+      - kegg.compound: C00344
   - !!omap
     - id: 6_Phospho_D_gluconate_c
     - name: 6-Phospho-D-gluconate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C6H13O10P
+    - annotation: !!omap
+      - inchikey: BIRSGZKFKXLSJQ-SQOUGZDYSA-N
+      - kegg.compound: C00345
+      - pubchem.substance: '91493'
   - !!omap
     - id: D_Glucosamine_6_phosphate_c
     - name: D-Glucosamine 6-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H14NO8P
+    - annotation: !!omap
+      - inchikey: XHMJOUIAFHJHBW-IVMDWMLBSA-N
+      - kegg.compound: C00352
+      - pubchem.substance: '440997'
   - !!omap
     - id: Geranylgeranyl_diphosphate_c
     - name: Geranylgeranyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C20H36O7P2
+    - annotation: !!omap
+      - inchikey: OINNEUNVOZHBOX-QIRCYJPOSA-N
+      - kegg.compound: C00353
+      - pubchem.substance: '447277'
   - !!omap
     - id: D_Fructose_1_6_bisphosphate_c
     - name: D-Fructose 1_6-bisphosphate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C6H14O12P2
+    - annotation: !!omap
+      - inchikey: RNBGYGVWRKECFJ-VRPWFDPXSA-N
+      - kegg.compound: C00354
+      - pubchem.substance: '172313'
   - !!omap
     - id: dAMP_c
     - name: dAMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H14N5O6P
+    - annotation: !!omap
+      - inchikey: KHWCHTKSEGGWEX-RRKCRQDMSA-N
+      - kegg.compound: C00360
+      - pubchem.substance: '12599'
   - !!omap
     - id: dGDP_c
     - name: dGDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H15N5O10P2
+    - annotation: !!omap
+      - inchikey: CIKGWCTVFSRMJU-KVQBGUIXSA-N
+      - kegg.compound: C00361
+      - pubchem.substance: '439220'
   - !!omap
     - id: dGMP_c
     - name: dGMP
     - compartment: c
     - charge: 0
     - formula: C10H14N5O7P
+    - annotation: !!omap
+      - inchikey: LTFMZDNNPPEQNG-KVQBGUIXSA-N
+      - kegg.compound: C00362
+      - pubchem.substance: '65059'
   - !!omap
     - id: dTDP_c
     - name: dTDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H16N2O11P2
+    - annotation: !!omap
+      - inchikey: UJLXYODCHAELLY-XLPZGREQSA-N
+      - kegg.compound: C00363
+      - pubchem.substance: '164628'
   - !!omap
     - id: dTMP_c
     - name: dTMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H15N2O8P
+    - annotation: !!omap
+      - inchikey: GYOZYWVXFNDGLU-XLPZGREQSA-N
+      - kegg.compound: C00364
+      - pubchem.substance: '9700'
   - !!omap
     - id: dUMP_c
     - name: dUMP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H13N2O8P
+    - annotation: !!omap
+      - inchikey: JSRLJPSBLDHEIO-SHYZEUOFSA-N
+      - kegg.compound: C00365
+      - pubchem.substance: '65063'
   - !!omap
     - id: Thiamine_c
     - name: Thiamine
     - compartment: c
     - charge: 0
     - formula: C12H17N4OS
+    - annotation: !!omap
+      - inchikey: JZRWCGZRTZMZEH-UHFFFAOYSA-N
+      - kegg.compound: C00378
+      - pubchem.substance: '1130'
   - !!omap
     - id: Cytosine_c
     - name: Cytosine
     - compartment: c
     - charge: 0
     - formula: C4H5N3O
+    - annotation: !!omap
+      - inchikey: OPTASPLRGRRNAP-UHFFFAOYSA-N
+      - kegg.compound: C00380
+      - pubchem.substance: '597'
   - !!omap
     - id: Guanosine_c
     - name: Guanosine
     - compartment: c
     - charge: 0
     - formula: C10H13N5O5
+    - annotation: !!omap
+      - inchikey: NYHBQMYGNKIUIF-UUOKFMHZSA-N
+      - kegg.compound: C00387
+      - pubchem.substance: '6802'
   - !!omap
     - id: L_Isoleucine_c
     - name: L-Isoleucine
     - compartment: c
     - charge: 0
     - formula: C6H13NO2
+    - annotation: !!omap
+      - inchikey: AGPKZVBTJJNPAG-WHFBIAKZSA-N
+      - kegg.compound: C00407
+      - pubchem.substance: '6306'
   - !!omap
     - id: Dihydrofolate_c
     - name: Dihydrofolate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C19H21N7O6
+    - annotation: !!omap
+      - inchikey: OZRNSSUDZOLUSN-LBPRGKRZSA-N
+      - kegg.compound: C00415
+      - pubchem.substance: '98792'
   - !!omap
     - id: Phosphatidate_MGDG_c
     - name: Phosphatidate MGDG
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H7O8PR2
+    - annotation: !!omap
+      - kegg.compound: C00416
+      - pubchem.substance: '3706'
   - !!omap
     - id: Phosphatidate_DGDG_c
     - name: Phosphatidate DGDG
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H7O8PR2
+    - annotation: !!omap
+      - kegg.compound: C00416
+      - pubchem.substance: '3706'
   - !!omap
     - id: Phosphatidate_SQDG_c
     - name: Phosphatidate SQDG
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H7O8PR2
+    - annotation: !!omap
+      - kegg.compound: C00416
+      - pubchem.substance: '3706'
   - !!omap
     - id: Phosphatidate_c
     - name: Phosphatidate PG
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H7O8PR2
+    - annotation: !!omap
+      - kegg.compound: C00416
+      - pubchem.substance: '3706'
   - !!omap
     - id: cis_Aconitate_c
     - name: cis-Aconitate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C6H6O6
+    - annotation: !!omap
+      - inchikey: GTZCVFVGUGFEME-IWQZZHSRSA-N
+      - kegg.compound: C00417
+      - pubchem.substance: '643757'
   - !!omap
     - id: 5_Aminolevulinate_c
     - name: 5-Aminolevulinate
     - compartment: c
     - charge: 0
     - formula: C5H9NO3
+    - annotation: !!omap
+      - inchikey: ZGXJTSGNIOSYLO-UHFFFAOYSA-N
+      - kegg.compound: C00430
+      - pubchem.substance: '137'
   - !!omap
     - id: N_Acetylornithine_c
     - name: N-Acetylornithine
     - compartment: c
     - charge: 0
     - formula: C7H14N2O3
+    - annotation: !!omap
+      - inchikey: JRLGPAXAGHMNOL-LURJTMIESA-N
+      - kegg.compound: C00437
+      - pubchem.substance: '439232'
   - !!omap
     - id: N_Carbamoyl_L_aspartate_c
     - name: N-Carbamoyl-L-aspartate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H8N2O5
+    - annotation: !!omap
+      - inchikey: HLKXYZVTANABHZ-REOHCLBHSA-N
+      - kegg.compound: C00438
+      - pubchem.substance: '93072'
   - !!omap
     - id: 5_Methyltetrahydrofolate_c
     - name: 5-Methyltetrahydrofolate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C20H25N7O6
+    - annotation: !!omap
+      - inchikey: ZNOVTXRBGFNYRX-ABLWVSNPSA-N
+      - kegg.compound: C00440
+      - pubchem.substance: '9825434'
   - !!omap
     - id: L_Aspartate_4_semialdehyde_c
     - name: L-Aspartate 4-semialdehyde
     - compartment: c
     - charge: 0
     - formula: C4H7NO3
+    - annotation: !!omap
+      - inchikey: HOSWPDPVFBCLSY-VKHMYHEASA-N
+      - kegg.compound: C00441
+      - pubchem.substance: '439235'
   - !!omap
     - id: 5_10_Methenyltetrahydrofolate_c
     - name: 5_10-Methenyltetrahydrofolate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C20H22N7O6
+    - annotation: !!omap
+      - inchikey: MEANFMOQMXYMCT-ABLWVSNPSA-O
+      - kegg.compound: C00445
+      - pubchem.substance: '439237'
   - !!omap
     - id: Sedoheptulose_1_7_bisphosphate_c
     - name: Sedoheptulose 1_7-bisphosphate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C7H16O13P2
+    - annotation: !!omap
+      - inchikey: OKHXOUGRECCASI-SHUUEZRQSA-N
+      - kegg.compound: C00447
+      - pubchem.substance: '164735'
   - !!omap
     - id: trans_trans_Farnesyl_diphosphate_c
     - name: trans_trans-Farnesyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C15H28O7P2
+    - annotation: !!omap
+      - inchikey: VWFJDQUYCIWHTN-YFVJMOTDSA-N
+      - kegg.compound: C00448
+      - pubchem.substance: '445713'
   - !!omap
     - id: dCTP_c
     - name: dCTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H16N3O13P3
+    - annotation: !!omap
+      - inchikey: RGWHQCVHVJXOKC-SHYZEUOFSA-N
+      - kegg.compound: C00458
+      - pubchem.substance: '65091'
   - !!omap
     - id: dTTP_c
     - name: dTTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C10H17N2O14P3
+    - annotation: !!omap
+      - inchikey: NHVNXKFIZYSCEB-XLPZGREQSA-N
+      - kegg.compound: C00459
+      - pubchem.substance: '64968'
   - !!omap
     - id: dUTP_c
     - name: dUTP
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H15N2O14P3
+    - annotation: !!omap
+      - inchikey: AHCYMLUZIRLXAA-SHYZEUOFSA-N
+      - kegg.compound: C00460
+      - pubchem.substance: '65070'
   - !!omap
     - id: Indole_c
     - name: Indole
     - compartment: c
     - charge: 0
     - formula: C8H7N
+    - annotation: !!omap
+      - inchikey: SIKJAQJRHWYJAI-UHFFFAOYSA-N
+      - kegg.compound: C00463
+      - pubchem.substance: '798'
   - !!omap
     - id: Cytidine_c
     - name: Cytidine
     - compartment: c
     - charge: 0
     - formula: C9H13N3O5
+    - annotation: !!omap
+      - inchikey: UHDGCWIWMRVCDJ-XVFCMESISA-N
+      - kegg.compound: C00475
+      - pubchem.substance: '6175'
   - !!omap
     - id: L_Cystine_c
     - name: L-Cystine
     - compartment: c
     - charge: 0
     - formula: C6H12N2O4S2
+    - annotation: !!omap
+      - inchikey: LEVWYRKDKASIDU-IMJSIDKUSA-N
+      - kegg.compound: C00491
+      - pubchem.substance: '67678'
   - !!omap
     - id: Shikimate_c
     - name: Shikimate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H10O5
+    - annotation: !!omap
+      - inchikey: JXOHGGNKMLTUBP-HSUXUTPPSA-N
+      - kegg.compound: C00493
+      - pubchem.substance: '8742'
   - !!omap
     - id: ADP_glucose_c
     - name: ADP-glucose
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C16H25N5O15P2
+    - annotation: !!omap
+      - inchikey: WFPZSXYXPSUOPY-ROYWQJLOSA-N
+      - kegg.compound: C00498
+      - pubchem.substance: '16500'
   - !!omap
     - id: Biliverdin_c
     - name: Biliverdin
     - compartment: c
     - charge: 0
     - formula: C33H34N4O6
+    - annotation: !!omap
+      - inchikey: QBUVFDKTZJNUPP-BBROENKCSA-N
+      - kegg.compound: C00500
   - !!omap
     - id: CDP_glucose_c
     - name: CDP-glucose
     - compartment: c
     - charge: 0
     - formula: C15H25N3O16P2
+    - annotation: !!omap
+      - inchikey: CGPHZDRCVSLMCF-JZMIEXBBSA-N
+      - kegg.compound: C00501
+      - pubchem.substance: '439244'
   - !!omap
     - id: R_Pantoate_c
     - name: (R)-Pantoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H12O4
+    - annotation: !!omap
+      - inchikey: OTOIIPJYVQJATP-BYPYZUCNSA-N
+      - kegg.compound: C00522
+      - pubchem.substance: '439251'
   - !!omap
     - id: Deoxyuridine_c
     - name: Deoxyuridine
     - compartment: c
     - charge: 0
     - formula: C9H12N2O5
+    - annotation: !!omap
+      - inchikey: MXHRCPNRJAMMIM-SHYZEUOFSA-N
+      - kegg.compound: C00526
+      - pubchem.substance: '13712'
   - !!omap
     - id: Triphosphate_c
     - name: Triphosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: H5O10P3
+    - annotation: !!omap
+      - inchikey: UNXRWKVEANCORM-UHFFFAOYSA-N
+      - kegg.compound: C00536
+      - pubchem.substance: '983'
   - !!omap
     - id: Deoxyadenosine_c
     - name: Deoxyadenosine
     - compartment: c
     - charge: 0
     - formula: C10H13N5O3
+    - annotation: !!omap
+      - inchikey: OLXZPDWKRNYJJZ-RRKCRQDMSA-N
+      - kegg.compound: C00559
+      - pubchem.substance: '13730'
   - !!omap
     - id: 4_Aminobenzoate_c
     - name: 4-Aminobenzoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H7NO2
+    - annotation: !!omap
+      - inchikey: ALYNCZNDIQEVRV-UHFFFAOYSA-N
+      - kegg.compound: C00568
+      - pubchem.substance: '978'
   - !!omap
     - id: D_Glyceraldehyde_c
     - name: D-Glyceraldehyde
     - compartment: c
     - charge: 0
     - formula: C3H6O3
+    - annotation: !!omap
+      - inchikey: MNQZXJOMYWMBOU-VKHMYHEASA-N
+      - kegg.compound: C00577
+      - pubchem.substance: '79014'
   - !!omap
     - id: UDP_D_galacturonate_c
     - name: UDP-D-galacturonate;
     - compartment: c
     - charge: 0
     - formula: C15H22N2O18P2
+    - annotation: !!omap
+      - inchikey: HDYANYHVCAPMJV-GXNRKQDOSA-N
+      - kegg.compound: C00617
+      - pubchem.substance: '3891'
   - !!omap
     - id: alpha_D_Ribose_1_phosphate_c
     - name: alpha-D-Ribose 1-phosphate
     - compartment: c
     - charge: 0
     - formula: C5H11O8P
+    - annotation: !!omap
+      - inchikey: YXJDFQJKERBOBM-TXICZTDVSA-N
+      - kegg.compound: C00620
+      - pubchem.substance: '439236'
   - !!omap
     - id: N_Acetyl_L_glutamate_c
     - name: N-Acetyl-L-glutamate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H11NO5
+    - annotation: !!omap
+      - inchikey: RFMMMVDNIPUKGG-YFKPBYRVSA-N
+      - kegg.compound: C00624
+      - pubchem.substance: '70914'
   - !!omap
     - id: 2_Phospho_D_glycerate_c
     - name: 2-Phospho-D-glycerate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C3H7O7P
+    - annotation: !!omap
+      - inchikey: GXIURPTVHJPJLF-UWTATZPHSA-N
+      - kegg.compound: C00631
+      - pubchem.substance: '439278'
   - !!omap
     - id: D_Mannose_1_phosphate_c
     - name: D-Mannose 1-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H13O9P
+    - annotation: !!omap
+      - inchikey: HXXFSFRBOHSIMQ-RWOPYEJCSA-N
+      - kegg.compound: C00636
+      - pubchem.substance: '439279'
   - !!omap
     - id: 1_2_Diacyl_sn_glycerol_MGDG_c
     - name: 1_2_Diacyl_sn_glycerol_MGDG
     - compartment: c
     - charge: 0
     - formula: C5H6O5R2
+    - annotation: !!omap
+      - kegg.compound: C00641
   - !!omap
     - id: 1_2_Diacyl_sn_glycerol_DGDG_c
     - name: 1_2_Diacyl_sn_glycerol_DGDG
     - compartment: c
     - charge: 0
     - formula: C5H6O5R2
+    - annotation: !!omap
+      - kegg.compound: C00641
   - !!omap
     - id: 1_2_Diacyl_sn_glycerol_SQDG_c
     - name: 1_2_Diacyl_sn_glycerol_SQDG
     - compartment: c
     - charge: 0
     - formula: C5H6O5R2
+    - annotation: !!omap
+      - kegg.compound: C00641
   - !!omap
     - id: Xanthosine_5_phosphate_c
     - name: Xanthosine 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H13N4O9P
+    - annotation: !!omap
+      - inchikey: DCTLYFZHFGENCW-UUOKFMHZSA-N
+      - kegg.compound: C00655
+      - pubchem.substance: '73323'
   - !!omap
     - id: LL_2_6_Diaminoheptanedioate_c
     - name: LL-2_6-Diaminoheptanedioate
     - compartment: c
     - charge: 0
     - formula: C7H14N2O4
+    - annotation: !!omap
+      - inchikey: GMKMEZVLHJARHF-WHFBIAKZSA-N
+      - kegg.compound: C00666
+      - pubchem.substance: '439283'
   - !!omap
     - id: gamma_L_Glutamyl_L_cysteine_c
     - name: gamma-L-Glutamyl-L-cysteine
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C8H14N2O5S
+    - annotation: !!omap
+      - inchikey: RITKHVBHSGLULN-WHFBIAKZSA-N
+      - kegg.compound: C00669
+      - pubchem.substance: '123938'
   - !!omap
     - id: S_3_Methyl_2_oxopentanoic_acid_c
     - name: (S)-3-Methyl-2-oxopentanoic acid
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H10O3
+    - annotation: !!omap
+      - inchikey: JVQYSWDUAOAHFM-BYPYZUCNSA-N
+      - kegg.compound: C00671
+      - pubchem.substance: '439286'
   - !!omap
     - id: 2_Deoxy_D_ribose_5_phosphate_c
     - name: 2-Deoxy-D-ribose 5-phosphate
     - compartment: c
     - charge: 0
     - formula: C5H11O7P
+    - annotation: !!omap
+      - inchikey: KKZFLSZAWCYPOC-PYHARJCCSA-N
+      - kegg.compound: C00673
+      - pubchem.substance: '439288'
   - !!omap
     - id: meso_2_6_Diaminoheptanedioate_c
     - name: meso-2_6-Diaminoheptanedioate
     - compartment: c
     - charge: 0
     - formula: C7H14N2O4
+    - annotation: !!omap
+      - inchikey: GMKMEZVLHJARHF-SYDPRGILSA-N
+      - kegg.compound: C00680
+      - pubchem.substance: '99290'
   - !!omap
     - id: UDP_N_acetylmuramoyl_L_alanyl_D_glutamate_c
     - name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C28H43N5O23P2
+    - annotation: !!omap
+      - inchikey: OJZCATPXPWFLHF-HPUCEMLMSA-N
+      - kegg.compound: C00692
+      - pubchem.substance: '449538'
   - !!omap
     - id: Chloride_c
     - name: Cl-
     - compartment: c
     - charge: 0
     - formula: ClH
+    - annotation: !!omap
+      - inchikey: VEXZGXHMUGYJMC-UHFFFAOYSA-M
+      - kegg.compound: C00698
+      - pubchem.substance: '312'
   - !!omap
     - id: Superoxide_anion_c
     - name: Superoxide anion
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: O2
+    - annotation: !!omap
+      - inchikey: OUUQCZGPVNCOIJ-UHFFFAOYSA-M
+      - kegg.compound: C00704
+      - pubchem.substance: '5359597'
   - !!omap
     - id: dCDP_c
     - name: dCDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H15N3O10P2
+    - annotation: !!omap
+      - inchikey: FTDHDKPUHBLBTL-SHYZEUOFSA-N
+      - kegg.compound: C00705
+      - pubchem.substance: '150855'
   - !!omap
     - id: Amylose_c
     - name: Amylose
     - compartment: c
     - charge: 0
     - formula: C6H10O5
+    - annotation: !!omap
+      - kegg.compound: C00718
   - !!omap
     - id: Spermine_c
     - name: Spermine
     - compartment: c
-    - charge: 0
+    - charge: 4
     - formula: C10H26N4
+    - annotation: !!omap
+      - inchikey: PFNFFQXMRSDOHW-UHFFFAOYSA-N
+      - kegg.compound: C00750
+      - pubchem.substance: '1103'
   - !!omap
     - id: L_Arogenate_c
     - name: L-Arogenate
     - compartment: c
     - charge: 0
     - formula: C10H13NO5
+    - annotation: !!omap
+      - inchikey: MIEILDYWGANZNH-DSQUFTABSA-N
+      - kegg.compound: C00826
+      - pubchem.substance: '439319'
   - !!omap
     - id: Menaquinone_c
     - name: Menaquinone
     - compartment: c
     - charge: 0
     - formula: C51H74O2
+    - annotation: !!omap
+      - kegg.compound: C00828
+      - pubchem.substance: '4086'
   - !!omap
     - id: Deamino_c
     - name: Deamino-NAD+
@@ -1462,1964 +2361,3088 @@
     - id: L_Histidinol_c
     - name: L-Histidinol
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: C6H11N3O
+    - annotation: !!omap
+      - inchikey: ZQISRDCJNBUVMM-YFKPBYRVSA-N
+      - kegg.compound: C00860
+      - pubchem.substance: '165271'
   - !!omap
     - id: Pantothenate_c
     - name: Pantothenate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C9H17NO5
+    - annotation: !!omap
+      - inchikey: GHOKWGTUZJEAQD-ZETCQYMHSA-N
+      - kegg.compound: C00864
+      - pubchem.substance: '6613'
   - !!omap
     - id: Deoxycytidine_c
     - name: Deoxycytidine
     - compartment: c
     - charge: 0
     - formula: C9H13N3O4
+    - annotation: !!omap
+      - inchikey: CKTSBUTUHBMZGZ-SHYZEUOFSA-N
+      - kegg.compound: C00881
+      - pubchem.substance: '13711'
   - !!omap
     - id: Dephospho_c
     - name: Dephospho-CoA
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C21H35N7O13P2S
+    - annotation: !!omap
+      - inchikey: KDTSHFARGAKYJN-IBOSZNHHSA-N
+      - kegg.compound: C00882
+      - pubchem.substance: '444485'
   - !!omap
     - id: Isochorismate_c
     - name: Isochorismate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H10O6
+    - annotation: !!omap
+      - inchikey: NTGWPRCCOQCMGE-YUMQZZPRSA-N
+      - kegg.compound: C00885
+      - pubchem.substance: '189062'
   - !!omap
     - id: L_Alanyl_tRNA_c
     - name: L-Alanyl-tRNA
     - compartment: c
     - charge: 0
     - formula: C18H30NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C00886
   - !!omap
     - id: 2_Acetolactate_c
     - name: 2-Acetolactate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H8O4
+    - annotation: !!omap
+      - inchikey: NMDWGEGFJUBKLB-UHFFFAOYSA-N
+      - kegg.compound: C00900
+      - pubchem.substance: '22'
   - !!omap
     - id: Dihydropteroate_c
     - name: Dihydropteroate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C14H14N6O3
+    - annotation: !!omap
+      - inchikey: WBFYVDCHGVNRBH-UHFFFAOYSA-N
+      - kegg.compound: C00921
+      - pubchem.substance: '170'
   - !!omap
     - id: Porphobilinogen_c
     - name: Porphobilinogen
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C10H14N2O4
+    - annotation: !!omap
+      - inchikey: QSHWIQZFGQKFMA-UHFFFAOYSA-N
+      - kegg.compound: C00931
+      - pubchem.substance: '1021'
   - !!omap
     - id: 3_Dehydroquinate_c
     - name: 3-Dehydroquinate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H10O6
+    - annotation: !!omap
+      - inchikey: WVMWZWGZRAXUBK-SYTVJDICSA-N
+      - kegg.compound: C00944
+      - pubchem.substance: '439351'
   - !!omap
     - id: 2_Dehydropantoate_c
     - name: 2-Dehydropantoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H10O4
+    - annotation: !!omap
+      - inchikey: PKVVTUWHANFMQC-UHFFFAOYSA-N
+      - kegg.compound: C00966
+      - pubchem.substance: '38'
   - !!omap
     - id: O_Acetyl_L_serine_c
     - name: O-Acetyl-L-serine
     - compartment: c
     - charge: 0
     - formula: C5H9NO4
+    - annotation: !!omap
+      - inchikey: VZXPDPZARILFQX-BYPYZUCNSA-N
+      - kegg.compound: C00979
+      - pubchem.substance: '99478'
   - !!omap
     - id: 2_Phosphoglycolate_c
     - name: 2-Phosphoglycolate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C2H5O6P
+    - annotation: !!omap
+      - inchikey: ASCFNMCAHFUBCO-UHFFFAOYSA-N
+      - kegg.compound: C00988
+      - pubchem.substance: '529'
   - !!omap
     - id: D_Alanyl_D_alanine_c
     - name: D-Alanyl-D-alanine
     - compartment: c
     - charge: 0
     - formula: C6H12N2O3
+    - annotation: !!omap
+      - inchikey: DEFJQIDDEAULHB-SYPWQXSBSA-N
+      - kegg.compound: C00993
+      - pubchem.substance: '20112020'
   - !!omap
     - id: O_Phospho_L_serine_c
     - name: O-Phospho-L-serine
     - compartment: c
     - charge: 0
     - formula: C3H8NO6P
+    - annotation: !!omap
+      - inchikey: BZQFBWGGLXLEPQ-REOHCLBHSA-N
+      - kegg.compound: C01005
+      - pubchem.substance: '68841'
   - !!omap
     - id: Hydroxymethylbilane_c
     - name: Hydroxymethylbilane
     - compartment: c
-    - charge: 0
+    - charge: -8
     - formula: C40H46N4O17
+    - annotation: !!omap
+      - inchikey: WDFJYRZCZIUBPR-UHFFFAOYSA-N
+      - kegg.compound: C01024
+      - pubchem.substance: '788'
   - !!omap
     - id: 7_8_Diaminononanoate_c
     - name: 7_8-Diaminononanoate
     - compartment: c
     - charge: 0
     - formula: C9H20N2O2
+    - annotation: !!omap
+      - inchikey: KCEGBPIYGIWCDH-UHFFFAOYSA-N
+      - kegg.compound: C01037
+      - pubchem.substance: '652'
   - !!omap
     - id: N_Acetyl_L_aspartate_c
     - name: N-Acetyl-L-aspartate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H9NO5
+    - annotation: !!omap
+      - inchikey: OTCCIMWXFLJLIA-BYPYZUCNSA-L
+      - kegg.compound: C01042
+      - pubchem.substance: '4284'
   - !!omap
     - id: UDP_N_acetylmuramate_c
     - name: UDP-N-acetylmuramate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C20H31N3O19P2
+    - annotation: !!omap
+      - inchikey: NQBRVZNDBBMBLJ-MQTLHLSBSA-N
+      - kegg.compound: C01050
+      - pubchem.substance: '11006912'
   - !!omap
     - id: Uroporphyrinogen_c
     - name: Uroporphyrinogen III
     - compartment: c
-    - charge: 0
+    - charge: -8
     - formula: C40H44N4O16
+    - annotation: !!omap
+      - inchikey: HUHWZXWWOFSFKF-UHFFFAOYSA-N
+      - kegg.compound: C01051
+      - pubchem.substance: '1179'
   - !!omap
     - id: O_Acetyl_L_homoserine_c
     - name: O-Acetyl-L-homoserine
     - compartment: c
     - charge: 0
     - formula: C6H11NO4
+    - annotation: !!omap
+      - inchikey: FCXZBWSIAGGPCB-YFKPBYRVSA-N
+      - kegg.compound: C01077
+      - pubchem.substance: '439389'
   - !!omap
     - id: Protoporphyrinogen_c
     - name: Protoporphyrinogen IX
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C34H40N4O4
+    - annotation: !!omap
+      - inchikey: UHSGPDMIQQYNAX-UHFFFAOYSA-N
+      - kegg.compound: C01079
+      - pubchem.substance: '121893'
   - !!omap
     - id: Thiamin_monophosphate_c
     - name: Thiamin monophosphate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C12H18N4O4PS
+    - annotation: !!omap
+      - inchikey: HZSAJDVWZRBGIF-UHFFFAOYSA-O
+      - kegg.compound: C01081
+      - pubchem.substance: '1131'
   - !!omap
     - id: 8_Amino_7_oxononanoate_c
     - name: 8-Amino-7-oxononanoate
     - compartment: c
     - charge: 0
     - formula: C9H17NO3
+    - annotation: !!omap
+      - inchikey: GUAHPAJOXVYFON-UHFFFAOYSA-N
+      - kegg.compound: C01092
+      - pubchem.substance: '173'
   - !!omap
     - id: L_Histidinol_phosphate_c
     - name: L-Histidinol phosphate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H12N3O4P
+    - annotation: !!omap
+      - inchikey: CWNDERHTHMWBSI-YFKPBYRVSA-N
+      - kegg.compound: C01100
+      - pubchem.substance: '439398'
   - !!omap
     - id: O_Phospho_L_homoserine_c
     - name: O-Phospho-L-homoserine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H10NO6P
+    - annotation: !!omap
+      - inchikey: FXDNYOANAXWZHG-VKHMYHEASA-N
+      - kegg.compound: C01102
+      - pubchem.substance: '151187'
   - !!omap
     - id: Orotidine_5_phosphate_c
     - name: Orotidine 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C10H13N2O11P
+    - annotation: !!omap
+      - inchikey: KYOBSHFOBAOFBF-XVFCMESISA-N
+      - kegg.compound: C01103
+      - pubchem.substance: '160617'
   - !!omap
     - id: O_Succinyl_L_homoserine_c
     - name: O-Succinyl-L-homoserine
     - compartment: c
     - charge: 0
     - formula: C8H13NO6
+    - annotation: !!omap
+      - inchikey: GNISQJGXJIDKDJ-YFKPBYRVSA-N
+      - kegg.compound: C01118
+      - pubchem.substance: '439406'
   - !!omap
     - id: Pantetheine_4_phosphate_c
     - name: Pantetheine 4-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C11H23N2O7PS
+    - annotation: !!omap
+      - inchikey: JDMUPRLRUUMCTL-VIFPVBQESA-N
+      - kegg.compound: C01134
+      - pubchem.substance: '115254'
   - !!omap
     - id: S_Adenosylmethioninamine_c
     - name: S-Adenosylmethioninamine
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: C14H23N6O3S
+    - annotation: !!omap
+      - inchikey: ZUNBITIXDCPNSD-LSRJEVITSA-N
+      - kegg.compound: C01137
+      - pubchem.substance: '439415'
   - !!omap
     - id: D_Ribose_1_5_bisphosphate_c
     - name: D-Ribose 1,5-bisphosphate
     - compartment: c
     - charge: 0
     - formula: C5H12O11P2
+    - annotation: !!omap
+      - inchikey: AAAFZMYJJHWUPN-SOOFDHNKSA-N
+      - kegg.compound: C01151
+      - pubchem.substance: '4380'
   - !!omap
     - id: Phosphonate_c
     - name: Phosphonate
     - compartment: c
     - charge: 0
     - formula: H2PO4R
+    - annotation: !!omap
+      - kegg.compound: C01153
   - !!omap
     - id: L_Glutamate_5_semialdehyde_c
     - name: L-Glutamate 5-semialdehyde
     - compartment: c
     - charge: 0
     - formula: C5H9NO3
+    - annotation: !!omap
+      - inchikey: KABXUUFDPUOJMW-BYPYZUCNSA-N
+      - kegg.compound: C01165
+      - pubchem.substance: '193305'
   - !!omap
     - id: Pseudouridine_5_phosphate_c
     - name: Pseudouridine 5-phosphate
     - compartment: c
     - charge: 0
     - formula: C9H13N2O9P
+    - annotation: !!omap
+      - inchikey: MOBMOJGXNHLLIR-GBNDHIKLSA-N
+      - kegg.compound: C01168
+      - pubchem.substance: '439424'
   - !!omap
     - id: D_Ribulose_1_5_bisphosphate_c
     - name: D-Ribulose 1_5-bisphosphate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C5H12O11P2
+    - annotation: !!omap
+      - inchikey: YAHZABJORDUQGO-NQXXGFSBSA-N
+      - kegg.compound: C01182
+      - pubchem.substance: '123658'
   - !!omap
     - id: Nicotinate_D_ribonucleotide_c
     - name: Nicotinate D-ribonucleotide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C11H15NO9P
+    - annotation: !!omap
+      - inchikey: JOUIQRNQJGXQDC-ZYUZMQFOSA-O
+      - kegg.compound: C01185
+      - pubchem.substance: '121992'
   - !!omap
     - id: Oleoyl_acyl_carrier_protein_c
     - name: Oleoyl-acyl-carrier protein
     - compartment: c
     - charge: 0
     - formula: C18H33OSR
+    - annotation: !!omap
+      - kegg.compound: C01203
+      - pubchem.substance: '4427'
   - !!omap
     - id: Malonyl_acyl_carrier_protein_c
     - name: Malonyl-(acyl-carrier protein)
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C3H3O3SR
+    - annotation: !!omap
+      - kegg.compound: C01209
   - !!omap
     - id: UDP_N_acetylmuramoyl_L_alanine_c
     - name: UDP-N-acetylmuramoyl-L-alanine
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C23H36N4O20P2
+    - annotation: !!omap
+      - inchikey: NTMMCWJNQNKACG-KBKUWGQMSA-N
+      - kegg.compound: C01212
+      - pubchem.substance: '5496796'
   - !!omap
     - id: CDP_4_dehydro_6_deoxy_D_glucose_c
     - name: CDP-4-dehydro-6-deoxy-D-glucose
     - compartment: c
     - charge: 0
     - formula: C15H23N3O15P2
+    - annotation: !!omap
+      - inchikey: PUBYMNIINUUJLL-JPHISPRKSA-N
+      - kegg.compound: C01219
+      - pubchem.substance: '439443'
   - !!omap
     - id: GDP_4_dehydro_6_deoxy_D_mannose_c
     - name: GDP-4-dehydro-6-deoxy-D-mannose
     - compartment: c
     - charge: 0
     - formula: C16H23N5O15P2
+    - annotation: !!omap
+      - inchikey: PNHLMHWWFOPQLK-BKUUWRAGSA-N
+      - kegg.compound: C01222
+      - pubchem.substance: '439446'
   - !!omap
     - id: Guanosine_3_5_bisdiphosphate_c
     - name: Guanosine 3_5-bis(diphosphate)
     - compartment: c
     - charge: 0
     - formula: C10H17N5O17P4
+    - annotation: !!omap
+      - inchikey: BUFLLCUFNHESEH-UUOKFMHZSA-N
+      - kegg.compound: C01228
+      - pubchem.substance: '439450'
   - !!omap
     - id: D_Glucono_1_5_lactone_6_phosphate_c
     - name: D-Glucono-1_5-lactone 6-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H11O9P
+    - annotation: !!omap
+      - inchikey: IJOJIVNDFQSGAB-SQOUGZDYSA-N
+      - kegg.compound: C01236
+      - pubchem.substance: '439452'
   - !!omap
     - id: S_Aminomethyldihydrolipoylprotein_c
     - name: S-Aminomethyldihydrolipoylprotein
     - compartment: c
     - charge: 0
     - formula: C9H19N2OS2R
+    - annotation: !!omap
+      - kegg.compound: C01242
   - !!omap
     - id: N_Acetyl_L_glutamate_5_semialdehyde_c
     - name: N-Acetyl-L-glutamate 5-semialdehyde
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H11NO4
+    - annotation: !!omap
+      - inchikey: BCPSFKBPHHBDAI-LURJTMIESA-N
+      - kegg.compound: C01250
+      - pubchem.substance: '192878'
   - !!omap
     - id: 3_Imidazol_4_yl_2_oxopropyl_phosphate_c
     - name: 3-(Imidazol-4-yl)-2-oxopropyl phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H9N2O5P
+    - annotation: !!omap
+      - inchikey: YCFFMSOLUMRAMD-UHFFFAOYSA-N
+      - kegg.compound: C01267
+      - pubchem.substance: '792'
   - !!omap
     - id: 5_Amino_6_5_phosphoribosylaminouracil_c
     - name: 5-Amino-6-(5-phosphoribosylamino)uracil
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H15N4O9P
+    - annotation: !!omap
+      - inchikey: LZEXYCAGPMYXLX-UMMCILCDSA-N
+      - kegg.compound: C01268
+      - pubchem.substance: '439462'
   - !!omap
     - id: 5_O_1_Carboxyvinyl_3_phosphoshikimate_c
     - name: 5-O-(1-Carboxyvinyl)-3-phosphoshikimate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C10H13O10P
+    - annotation: !!omap
+      - inchikey: QUTYKIXIUDQOLK-PRJMDXOYSA-N
+      - kegg.compound: C01269
+      - pubchem.substance: '439463'
   - !!omap
     - id: 4_Amino_5_hydroxymethyl_2_methylpyrimidine_c
     - name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine
     - compartment: c
     - charge: 0
     - formula: C6H9N3O
+    - annotation: !!omap
+      - inchikey: VUTBELPREDJDDH-UHFFFAOYSA-N
+      - kegg.compound: C01279
+      - pubchem.substance: '777'
   - !!omap
     - id: 2_Amino_4_hydroxy_6_hydroxymethyl_7_8_dihydropteridine_c
     - name: 2-Amino-4-hydroxy-6-hydroxymethyl-7_8-dihydropteridine
     - compartment: c
     - charge: 0
     - formula: C7H9N5O2
+    - annotation: !!omap
+      - inchikey: CQQNNQTXUGLUEV-UHFFFAOYSA-N
+      - kegg.compound: C01300
+      - pubchem.substance: '218'
   - !!omap
     - id: 1_2_Carboxyphenylamino_1_deoxy_D_ribulose_5_phosphate_c
     - name: 1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C12H16NO9P
+    - annotation: !!omap
+      - inchikey: QKMBYNRMPRKVTO-MNOVXSKESA-N
+      - kegg.compound: C01302
+      - pubchem.substance: '446894'
   - !!omap
     - id: 2_5_Diamino_6_5_phospho_D_ribosylaminopyrimidin_43H_c
     - name: 2_5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H16N5O8P
+    - annotation: !!omap
+      - inchikey: OCLCLRXKNJCOJD-UMMCILCDSA-N
+      - kegg.compound: C01304
+      - pubchem.substance: '439480'
   - !!omap
     - id: Sodium_cation_c
     - name: Na+
     - compartment: c
-    - charge: 0
+    - charge: 1
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C01330
   - !!omap
     - id: dUDP_c
     - name: dUDP
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H14N2O11P2
+    - annotation: !!omap
+      - inchikey: QHWZTVCCBMIIKE-SHYZEUOFSA-N
+      - kegg.compound: C01346
+      - pubchem.substance: '145729'
   - !!omap
     - id: FADH2_c
     - name: FADH2
     - compartment: c
     - charge: 0
     - formula: C27H35N9O15P2
+    - annotation: !!omap
+      - inchikey: YPZRHBJKEMOYQH-UYBVJOGSSA-N
+      - kegg.compound: C01352
+      - pubchem.substance: '446013'
   - !!omap
     - id: Cadmium_c
     - name: Cadmium
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: Cd
+    - annotation: !!omap
+      - inchikey: WLZRMCYVCSSEQC-UHFFFAOYSA-N
+      - kegg.compound: C01413
+      - pubchem.substance: '4601'
   - !!omap
     - id: Cyanate_c
     - name: Cyanate
     - compartment: c
     - charge: 0
     - formula: CHNO
+    - annotation: !!omap
+      - inchikey: XLJMAIOERFSOGZ-UHFFFAOYSA-N
+      - kegg.compound: C01417
+      - pubchem.substance: '540'
   - !!omap
     - id: Cys_c
     - name: Cys-Gly
     - compartment: c
     - charge: 0
     - formula: C5H10N2O3S
+    - annotation: !!omap
+      - inchikey: ZUKPVRWZDMRIEO-VKHMYHEASA-N
+      - kegg.compound: C01419
+      - pubchem.substance: '439498'
   - !!omap
     - id: Hydrogen_selenide_c
     - name: Hydrogen selenide
     - compartment: c
     - charge: 0
     - formula: H2Se
+    - annotation: !!omap
+      - inchikey: SPVXKVOXSXTJOY-UHFFFAOYSA-N
+      - kegg.compound: C01528
+      - pubchem.substance: '533'
   - !!omap
     - id: Octadecanoic_acid_c
     - name: Octadecanoic_acid
     - compartment: c
     - charge: 0
     - formula: C18H36O2
+    - annotation: !!omap
+      - inchikey: QIQXTHQIDYTFRH-UHFFFAOYSA-M
+      - kegg.compound: C01530
+      - pubchem.substance: '4692'
   - !!omap
     - id: Carbamate_c
     - name: Carbamate
     - compartment: c
     - charge: 0
     - formula: CH3NO2
+    - annotation: !!omap
+      - inchikey: KXDHJXZQYSOELW-UHFFFAOYSA-N
+      - kegg.compound: C01563
+      - pubchem.substance: '277'
   - !!omap
     - id: Cadaverine_c
     - name: Cadaverine
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: C5H14N2
+    - annotation: !!omap
+      - inchikey: VHRGRCVQAFMJIZ-UHFFFAOYSA-N
+      - kegg.compound: C01672
+      - pubchem.substance: '273'
   - !!omap
     - id: Xanthosine_c
     - name: Xanthosine
     - compartment: c
     - charge: 0
     - formula: C10H12N4O6
+    - annotation: !!omap
+      - inchikey: UBORTCNDUKBEOP-UUOKFMHZSA-N
+      - kegg.compound: C01762
+      - pubchem.substance: '64959'
   - !!omap
     - id: Deoxyribose_c
     - name: Deoxyribose
     - compartment: c
     - charge: 0
     - formula: C5H10O4
+    - annotation: !!omap
+      - inchikey: PDWIQYODPROSQH-PYHARJCCSA-N
+      - kegg.compound: C01801
+      - pubchem.substance: '9828112'
   - !!omap
     - id: Reduced_c
     - name: Reduced FMN
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C17H23N4O9P
+    - annotation: !!omap
+      - inchikey: YTNIXZGTHTVJBW-UHFFFAOYSA-N
+      - kegg.compound: C01847
+      - pubchem.substance: '711'
   - !!omap
     - id: Dethiobiotin_c
     - name: Dethiobiotin
     - compartment: c
     - charge: 0
     - formula: C10H18N2O3
+    - annotation: !!omap
+      - inchikey: AUTOLBMXDDTRRT-UHFFFAOYSA-N
+      - kegg.compound: C01909
+      - pubchem.substance: '643'
   - !!omap
     - id: L_Lysyl_tRNA_c
     - name: L-Lysyl-tRNA
     - compartment: c
     - charge: 0
     - formula: C21H37N2O17P2R
+    - annotation: !!omap
+      - kegg.compound: C01931
   - !!omap
     - id: L_Leucyl_tRNA_c
     - name: L-Leucyl-tRNA
     - compartment: c
     - charge: 0
     - formula: C21H36NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C02047
   - !!omap
     - id: Lipoylprotein_c
     - name: Lipoylprotein
     - compartment: c
     - charge: 0
     - formula: C8H14NOS2R
+    - annotation: !!omap
+      - kegg.compound: C02051
   - !!omap
     - id: Plastoquinone_c
     - name: Plastoquinone
     - compartment: c
     - charge: 0
     - formula: C13H16O2
+    - annotation: !!omap
+      - inchikey: VBFJJMPOYIKNHB-UHFFFAOYSA-N
+      - kegg.compound: C02061
+      - pubchem.substance: '10219885'
   - !!omap
     - id: beta_Carotene_c
     - name: beta-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - inchikey: OENHQHLEOONYIE-JLTXGRSLSA-N
+      - kegg.compound: C02094
+      - pubchem.substance: '5280489'
   - !!omap
     - id: L_Arginyl_tRNAArg_c
     - name: L-Arginyl-tRNA(Arg)
     - compartment: c
     - charge: 0
     - formula: C21H37N4O17P2R
+    - annotation: !!omap
+      - kegg.compound: C02163
   - !!omap
     - id: Protoporphyrin_c
     - name: Protoporphyrin
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C34H34N4O4
+    - annotation: !!omap
+      - inchikey: KSFOVUSSGSKXFI-UJJXFSCMSA-N
+      - kegg.compound: C02191
   - !!omap
     - id: 2_Methylmaleate_c
     - name: 2-Methylmaleate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H6O4
+    - annotation: !!omap
+      - inchikey: HNEGQIOMVPPMNR-IHWYPQMZSA-N
+      - kegg.compound: C02226
+      - pubchem.substance: '643798'
   - !!omap
     - id: L_Cystathionine_c
     - name: L-Cystathionine
     - compartment: c
     - charge: 0
     - formula: C7H14N2O4S
+    - annotation: !!omap
+      - inchikey: ILRYLPWNYFXEMH-WHFBIAKZSA-N
+      - kegg.compound: C02291
+      - pubchem.substance: '439258'
   - !!omap
     - id: Glycyl_tRNAGly_c
     - name: Glycyl-tRNA(Gly)
     - compartment: c
     - charge: 0
     - formula: C17H28NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C02412
   - !!omap
     - id: L_Methionyl_tRNA_c
     - name: L-Methionyl-tRNA
     - compartment: c
     - charge: 0
     - formula: C20H34NO17P2SR
+    - annotation: !!omap
+      - kegg.compound: C02430
   - !!omap
     - id: Precorrin_2_c
     - name: Precorrin 2
     - compartment: c
-    - charge: 0
+    - charge: -7
     - formula: C42H48N4O16
+    - annotation: !!omap
+      - inchikey: CSWLXNNNLVVXKD-ZIBVGKFXSA-N
+      - kegg.compound: C02463
+      - pubchem.substance: '5280516'
   - !!omap
     - id: alpha_Isopropylmalate_c
     - name: alpha-Isopropylmalate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H12O5
+    - annotation: !!omap
+      - inchikey: BITYXLXUCSKTJS-ZETCQYMHSA-N
+      - kegg.compound: C02504
+      - pubchem.substance: '5280523'
   - !!omap
     - id: L_Seryl_tRNASer_c
     - name: L-Seryl-tRNA(Ser)
     - compartment: c
     - charge: 0
     - formula: C18H30NO18P2R
+    - annotation: !!omap
+      - kegg.compound: C02553
   - !!omap
     - id: L_Valyl_tRNAVal_c
     - name: L-Valyl-tRNA(Val)
     - compartment: c
     - charge: 0
     - formula: C20H34NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C02554
   - !!omap
     - id: Sucrose_6_phosphate_c
     - name: Sucrose 6-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C12H23O14P
+    - annotation: !!omap
+      - inchikey: PJTTXANTBQDXME-UGDNZRGBSA-N
+      - kegg.compound: C02591
+      - pubchem.substance: '439762'
   - !!omap
     - id: R_2_Methylmalate_c
     - name: (R)-2-Methylmalate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H8O5
+    - annotation: !!omap
+      - inchikey: XFTRTWQBIOMVPK-RXMQYKEDSA-N
+      - kegg.compound: C02612
+      - pubchem.substance: '439766'
   - !!omap
     - id: 2_Isopropylmaleate_c
     - name: 2-Isopropylmaleate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H10O4
+    - annotation: !!omap
+      - inchikey: NJMGRJLQRLFQQX-HWKANZROSA-N
+      - kegg.compound: C02631
+      - pubchem.substance: '6508102'
   - !!omap
     - id: 3_Dehydroshikimate_c
     - name: 3-Dehydroshikimate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H8O5
+    - annotation: !!omap
+      - inchikey: SLWWJZMPHJJOPH-PHDIDXHHSA-N
+      - kegg.compound: C02637
+      - pubchem.substance: '439774'
   - !!omap
     - id: L_Prolyl_tRNAPro_c
     - name: L-Prolyl-tRNA(Pro)
     - compartment: c
     - charge: 0
     - formula: C20H32NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C02702
   - !!omap
     - id: 2_Succinylbenzoate_c
     - name: 2-Succinylbenzoate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C11H10O5
+    - annotation: !!omap
+      - inchikey: YIVWQNVQRXFZJB-UHFFFAOYSA-N
+      - kegg.compound: C02730
+      - pubchem.substance: '955'
   - !!omap
     - id: 1_5_Phospho_D_ribosyl_c
     - name: 1-(5-Phospho-D-ribosyl)-ATP
     - compartment: c
-    - charge: 0
+    - charge: -5
     - formula: C15H25N5O20P4
+    - annotation: !!omap
+      - inchikey: RKNHJBVBFHDXGR-KEOHHSTQSA-N
+      - kegg.compound: C02739
+      - pubchem.substance: '11050836'
   - !!omap
     - id: Phosphoribosyl_c
     - name: Phosphoribosyl-AMP
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C15H23N5O14P2
+    - annotation: !!omap
+      - inchikey: RTQMRTSPTLIIHM-KEOHHSTQSA-N
+      - kegg.compound: C02741
+      - pubchem.substance: '11988267'
   - !!omap
     - id: L_Tyrosyl_tRNATyr_c
     - name: L-Tyrosyl-tRNA(Tyr)
     - compartment: c
     - charge: 0
     - formula: C24H34NO18P2R
+    - annotation: !!omap
+      - kegg.compound: C02839
   - !!omap
     - id: Dihydrolipoylprotein_c
     - name: Dihydrolipoylprotein
     - compartment: c
     - charge: 0
     - formula: C8H16NOS2R
+    - annotation: !!omap
+      - kegg.compound: C02972
   - !!omap
     - id: L_Aspartyl_tRNAAsp_c
     - name: L-Aspartyl-tRNA(Asp)
     - compartment: c
     - charge: 0
     - formula: C19H30NO19P2R
+    - annotation: !!omap
+      - kegg.compound: C02984
   - !!omap
     - id: L_Glutamyl_tRNAGlu_c
     - name: L-Glutamyl-tRNA(Glu)
     - compartment: c
     - charge: 0
     - formula: C20H32NO19P2R
+    - annotation: !!omap
+      - kegg.compound: C02987
   - !!omap
     - id: L_Histidyl_tRNAHis_c
     - name: L-Histidyl-tRNA(His)
     - compartment: c
     - charge: 0
     - formula: C21H32N3O17P2R
+    - annotation: !!omap
+      - kegg.compound: C02988
   - !!omap
     - id: L_Threonyl_tRNAThr_c
     - name: L-Threonyl-tRNA(Thr)
     - compartment: c
     - charge: 0
     - formula: C19H32NO18P2R
+    - annotation: !!omap
+      - kegg.compound: C02992
   - !!omap
     - id: 4_Phospho_L_aspartate_c
     - name: 4-Phospho-L-aspartate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H8NO7P
+    - annotation: !!omap
+      - inchikey: IXZNKTPIYKDIGG-REOHCLBHSA-N
+      - kegg.compound: C03082
+      - pubchem.substance: '152441'
   - !!omap
     - id: S_Methyl_5_thio_D_ribose_c
     - name: S-Methyl-5-thio-D-ribose
     - compartment: c
     - charge: 0
     - formula: C6H12O4S
+    - annotation: !!omap
+      - inchikey: OLVVOVIFTBSBBH-KAZBKCHUSA-N
+      - kegg.compound: C03089
+      - pubchem.substance: '5987'
   - !!omap
     - id: 5_Phosphoribosylamine_c
     - name: 5-Phosphoribosylamine
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H12NO7P
+    - annotation: !!omap
+      - inchikey: SKCBPEVYGOQGJN-TXICZTDVSA-N
+      - kegg.compound: C03090
+      - pubchem.substance: '439905'
   - !!omap
     - id: Dimethylbenzimidazole_c
     - name: Dimethylbenzimidazole
     - compartment: c
     - charge: 0
     - formula: C9H10N2
+    - annotation: !!omap
+      - inchikey: LJUQGASMPRMWIW-UHFFFAOYSA-N
+      - kegg.compound: C03114
+      - pubchem.substance: '6009'
   - !!omap
     - id: L_Cysteinyl_tRNACys_c
     - name: L-Cysteinyl-tRNA(Cys)
     - compartment: c
     - charge: 0
     - formula: C18H30NO17P2SR
+    - annotation: !!omap
+      - kegg.compound: C03125
   - !!omap
     - id: L_Isoleucyl_tRNAIle_c
     - name: L-Isoleucyl-tRNA(Ile)
     - compartment: c
     - charge: 0
     - formula: C21H36NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C03127
   - !!omap
     - id: 2_Succinylbenzoyl_c
     - name: 2-Succinylbenzoyl-CoA
     - compartment: c
-    - charge: 0
+    - charge: -5
     - formula: C32H44N7O20P3S
+    - annotation: !!omap
+      - inchikey: KVAQAPQXOXTRAE-HSJNEKGZSA-N
+      - kegg.compound: C03160
+      - pubchem.substance: '71448891'
   - !!omap
     - id: Shikimate_3_phosphate_c
     - name: Shikimate 3-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C7H11O8P
+    - annotation: !!omap
+      - inchikey: QYOJSKGCWNAKGW-PBXRRBTRSA-N
+      - kegg.compound: C03175
+      - pubchem.substance: '121947'
   - !!omap
     - id: R_1_Aminopropan_2_c
     - name: (R)-1-Aminopropan-2-ol
     - compartment: c
     - charge: 0
     - formula: C3H9NO
+    - annotation: !!omap
+      - inchikey: HXKKHQJGJAFBHI-GSVOUGTGSA-N
+      - kegg.compound: C03194
+      - pubchem.substance: '439938'
   - !!omap
     - id: 3_Phosphonooxypyruvate_c
     - name: 3-Phosphonooxypyruvate
     - compartment: c
     - charge: 0
     - formula: C3H5O7P
+    - annotation: !!omap
+      - inchikey: LFLUCDOSQPJJBE-UHFFFAOYSA-N
+      - kegg.compound: C03232
+      - pubchem.substance: '105'
   - !!omap
     - id: Coproporphyrinogen_c
     - name: Coproporphyrinogen III
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C36H44N4O8
+    - annotation: !!omap
+      - inchikey: NIUVHXTXUXOFEB-UHFFFAOYSA-N
+      - kegg.compound: C03263
+      - pubchem.substance: '321'
   - !!omap
     - id: L_Glutamyl_5_phosphate_c
     - name: L-Glutamyl 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H10NO7P
+    - annotation: !!omap
+      - inchikey: PJRXVIJAERNUIP-VKHMYHEASA-N
+      - kegg.compound: C03287
+      - pubchem.substance: '193475'
   - !!omap
     - id: N_Formylmethionyl_tRNA_c
     - name: N-Formylmethionyl-tRNA
     - compartment: c
     - charge: 0
     - formula: C21H33NO18P2SR
+    - annotation: !!omap
+      - kegg.compound: C03294
   - !!omap
     - id: Aminoimidazole_ribotide_c
     - name: Aminoimidazole ribotide
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C8H14N3O7P
+    - annotation: !!omap
+      - inchikey: PDACUKOKVHBVHJ-XVFCMESISA-N
+      - kegg.compound: C03373
+      - pubchem.substance: '161500'
   - !!omap
     - id: L_Asparaginyl_tRNAAsn_c
     - name: L-Asparaginyl-tRNA(Asn)
     - compartment: c
     - charge: 0
     - formula: C19H31N2O18P2R
+    - annotation: !!omap
+      - kegg.compound: C03402
   - !!omap
     - id: N_L_Argininosuccinate_c
     - name: N-(L-Arginino)succinate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C10H18N4O6
+    - annotation: !!omap
+      - inchikey: KDZOASGQNOPSCU-WDSKDSINSA-N
+      - kegg.compound: C03406
+      - pubchem.substance: '16950'
   - !!omap
     - id: Prephytoene_diphosphate_c
     - name: Prephytoene diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C40H68O7P2
+    - annotation: !!omap
+      - inchikey: RVCNKTPCHZNAAO-UZDKSQMHSA-N
+      - kegg.compound: C03427
+      - pubchem.substance: '24883415'
   - !!omap
     - id: D_4_Phosphopantothenate_c
     - name: D-4-Phosphopantothenate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H18NO8P
+    - annotation: !!omap
+      - inchikey: XHFVGHPGDLDEQO-ZETCQYMHSA-N
+      - kegg.compound: C03492
+      - pubchem.substance: '41635'
   - !!omap
     - id: Indoleglycerol_phosphate_c
     - name: Indoleglycerol phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C11H14NO6P
+    - annotation: !!omap
+      - inchikey: NQEQTYPJSIEPHW-MNOVXSKESA-N
+      - kegg.compound: C03506
+      - pubchem.substance: '444150'
   - !!omap
     - id: L_Phenylalanyl_tRNAPhe_c
     - name: L-Phenylalanyl-tRNA(Phe)
     - compartment: c
     - charge: 0
     - formula: C24H34NO17P2R
+    - annotation: !!omap
+      - kegg.compound: C03511
   - !!omap
     - id: L_Tryptophanyl_tRNATrp_c
     - name: L-Tryptophanyl-tRNA(Trp)
     - compartment: c
     - charge: 0
     - formula: C26H35N2O17P2R
+    - annotation: !!omap
+      - kegg.compound: C03512
   - !!omap
     - id: Magnesium_protoporphyrin_c
     - name: Magnesium protoporphyrin
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C34H34MgN4O4
+    - annotation: !!omap
+      - inchikey: REJJDEGSUOCEEW-RGGAHWMASA-L
+      - kegg.compound: C03516
   - !!omap
     - id: THF_polyglutamate_c
     - name: THF-polyglutamate
     - compartment: c
     - charge: 0
     - formula: C29H37N9O12
+    - annotation: !!omap
+      - inchikey: ZAOGJXDWOQXFBW-UHFFFAOYSA-N
+      - kegg.compound: C03541
+      - pubchem.substance: '442163'
   - !!omap
     - id: CDP_3_6_dideoxy_D_glucose_c
     - name: CDP-3_6-dideoxy-D-glucose
     - compartment: c
     - charge: 0
     - formula: C15H25N3O14P2
+    - annotation: !!omap
+      - inchikey: JHEDABDMLBOYRG-VZRUIPTFSA-N
+      - kegg.compound: C03598
+      - pubchem.substance: '14427002'
   - !!omap
     - id: CDP_3_6_dideoxy_D_mannose_c
     - name: CDP-3_6-dideoxy-D-mannose
     - compartment: c
     - charge: 0
     - formula: C15H25N3O14P2
+    - annotation: !!omap
+      - inchikey: JHEDABDMLBOYRG-LLWSESFUSA-N
+      - kegg.compound: C03599
+      - pubchem.substance: '24892738'
   - !!omap
     - id: 1_4_Dihydroxy_2_naphthoate_c
     - name: 1_4-Dihydroxy-2-naphthoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C11H8O4
+    - annotation: !!omap
+      - inchikey: VOJUXHHACRXLTD-UHFFFAOYSA-N
+      - kegg.compound: C03657
+      - pubchem.substance: '671'
   - !!omap
     - id: Apo_acyl_carrier_protein_c
     - name: Apo-(acyl-carrier-protein)
     - compartment: c
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C03688
   - !!omap
     - id: 1_2_Diacyl_3_beta_D_galactosyl_sn_glycerol_MGDG_c
     - name: 1_2_Diacyl_3_beta_D_galactosyl_sn_glycerol_MGDG
     - compartment: c
     - charge: 0
     - formula: C11H16O10
+    - annotation: !!omap
+      - kegg.compound: C03692
+      - pubchem.substance: '6466'
   - !!omap
     - id: 1_2_Diacyl_3_beta_D_galactosyl_sn_glycerol_DGDG_c
     - name: 1_2_Diacyl_3_beta_D_galactosyl_sn_glycerol_DGDG
     - compartment: c
     - charge: 0
     - formula: C11H16O10
+    - annotation: !!omap
+      - kegg.compound: C03692
+      - pubchem.substance: '6466'
   - !!omap
     - id: Quinolinate_c
     - name: Quinolinate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H5NO4
+    - annotation: !!omap
+      - inchikey: GJAWHXHKYYXBSV-UHFFFAOYSA-N
+      - kegg.compound: C03722
+      - pubchem.substance: '1066'
   - !!omap
     - id: S_4_Amino_5_oxopentanoate_c
     - name: (S)-4-Amino-5-oxopentanoate
     - compartment: c
     - charge: 0
     - formula: C5H9NO3
+    - annotation: !!omap
+      - inchikey: MPUUQNGXJSEWTF-BYPYZUCNSA-N
+      - kegg.compound: C03741
+      - pubchem.substance: '129297'
   - !!omap
     - id: N6_1_2_Dicarboxyethyl_c
     - name: N6-(1_2-Dicarboxyethyl)-AMP
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C14H18N5O11P
+    - annotation: !!omap
+      - inchikey: OFBHPPMPBOJXRT-VWJPMABRSA-N
+      - kegg.compound: C03794
+      - pubchem.substance: '447145'
   - !!omap
     - id: 5_Phosphoribosylglycinamide_c
     - name: 5-Phosphoribosylglycinamide
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C7H15N2O8P
+    - annotation: !!omap
+      - inchikey: OBQMLSFOUZUIOB-SHUUEZRQSA-N
+      - kegg.compound: C03838
+      - pubchem.substance: '160913'
   - !!omap
     - id: Phosphatidylglycerophosphate_c
     - name: Phosphatidylglycerophosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C8H14O13P2R2
+    - annotation: !!omap
+      - kegg.compound: C03892
   - !!omap
     - id: S_1_Pyrroline_5_carboxylate_c
     - name: (S)-1-Pyrroline-5-carboxylate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H7NO2
+    - annotation: !!omap
+      - inchikey: DWAKNKKXGALPNW-BYPYZUCNSA-N
+      - kegg.compound: C03912
+      - pubchem.substance: '440162'
   - !!omap
     - id: Acetyl_acyl_carrier_protein_c
     - name: Acetyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C2H3OSR
+    - annotation: !!omap
+      - kegg.compound: C03939
   - !!omap
     - id: 2_3_4_5_Tetrahydrodipicolinate_c
     - name: 2_3_4_5-Tetrahydrodipicolinate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H9NO4
+    - annotation: !!omap
+      - inchikey: CXMBCXQHOXUCEO-BYPYZUCNSA-N
+      - kegg.compound: C03972
+      - pubchem.substance: '440179'
   - !!omap
     - id: 2_3_Dihydroxy_3_methylbutanoate_c
     - name: 2_3-Dihydroxy-3-methylbutanoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C5H10O4
+    - annotation: !!omap
+      - inchikey: JTEYKUFKXGDTEU-UHFFFAOYSA-N
+      - kegg.compound: C04039
+      - pubchem.substance: '677'
   - !!omap
     - id: Octadecanoyl_acyl_carrier_protein_c
     - name: Octadecanoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C18H35OSR
+    - annotation: !!omap
+      - kegg.compound: C04088
   - !!omap
     - id: D_1_Aminopropan_2_ol_O_phosphate_c
     - name: D-1-Aminopropan-2-ol O-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C3H10NO4P
+    - annotation: !!omap
+      - inchikey: YBOLZUJJGUZUDC-GSVOUGTGSA-N
+      - kegg.compound: C04122
+      - pubchem.substance: '440233'
   - !!omap
     - id: N_Acetyl_L_glutamate_5_phosphate_c
     - name: N-Acetyl-L-glutamate 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C7H12NO8P
+    - annotation: !!omap
+      - inchikey: FCVIHFVSXHOPSW-YFKPBYRVSA-N
+      - kegg.compound: C04133
+      - pubchem.substance: '440236'
   - !!omap
     - id: all_trans_Octaprenyl_diphosphate_c
     - name: all-trans-Octaprenyl diphosphate
     - compartment: c
     - charge: 0
     - formula: C40H68O7P2
+    - annotation: !!omap
+      - inchikey: IKKLDISSULFFQO-DJMILUHSSA-N
+      - kegg.compound: C04146
+      - pubchem.substance: '5280651'
   - !!omap
     - id: 3_Hydroxy_3_methyl_2_oxobutanoic_acid_c
     - name: 3-Hydroxy-3-methyl-2-oxobutanoic acid
     - compartment: c
     - charge: 0
     - formula: C5H8O4
+    - annotation: !!omap
+      - inchikey: DNOPJXBPONYBLB-UHFFFAOYSA-N
+      - kegg.compound: C04181
+      - pubchem.substance: '440248'
   - !!omap
     - id: 2S_2_Isopropyl_3_oxosuccinate_c
     - name: (2S)-2-Isopropyl-3-oxosuccinate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H10O5
+    - annotation: !!omap
+      - inchikey: HIIZAGQWABAMRR-BYPYZUCNSA-N
+      - kegg.compound: C04236
+      - pubchem.substance: '5462259'
   - !!omap
     - id: But_2_enoyl_acyl_carrier_protein_c
     - name: But-2-enoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C4H5OSR
+    - annotation: !!omap
+      - kegg.compound: C04246
   - !!omap
     - id: R_2_3_Dihydroxy_3_methylbutanoate_c
     - name: (R)-2_3-Dihydroxy-3-methylbutanoate
     - compartment: c
     - charge: 0
     - formula: C5H10O4
+    - annotation: !!omap
+      - inchikey: JTEYKUFKXGDTEU-VKHMYHEASA-N
+      - kegg.compound: C04272
+      - pubchem.substance: '440279'
   - !!omap
     - id: 5_2_Hydroxyethyl_4_methylthiazole_c
     - name: 5-(2-Hydroxyethyl)-4-methylthiazole
     - compartment: c
     - charge: 0
     - formula: C6H9NOS
+    - annotation: !!omap
+      - inchikey: BKAWJIRCKVUVED-UHFFFAOYSA-N
+      - kegg.compound: C04294
+      - pubchem.substance: '1136'
   - !!omap
     - id: CDP_4_dehydro_3_6_dideoxy_D_glucose_c
     - name: CDP-4-dehydro-3_6-dideoxy-D-glucose
     - compartment: c
     - charge: 0
     - formula: C15H23N3O14P2
+    - annotation: !!omap
+      - inchikey: DATWFRMXXZBEPM-SNAICPSHSA-N
+      - kegg.compound: C04297
+      - pubchem.substance: '193002'
   - !!omap
     - id: N_5_Phospho_D_ribosylanthranilate_c
     - name: N-(5-Phospho-D-ribosyl)anthranilate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C12H16NO9P
+    - annotation: !!omap
+      - inchikey: PMFMJXPRNJUYMB-GWOFURMSSA-N
+      - kegg.compound: C04302
+      - pubchem.substance: '440289'
   - !!omap
     - id: 4_Methyl_5_2_phosphoethyl_thiazole_c
     - name: 4-Methyl-5-(2-phosphoethyl)-thiazole
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H10NO4PS
+    - annotation: !!omap
+      - inchikey: OCYMERZCMYJQQO-UHFFFAOYSA-N
+      - kegg.compound: C04327
+      - pubchem.substance: '1137'
   - !!omap
     - id: 6_7_Dimethyl_8_D_ribityllumazine_c
     - name: 6_7-Dimethyl-8-(D-ribityl)lumazine
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C13H18N4O6
+    - annotation: !!omap
+      - inchikey: SXDXRJZUAJBNFL-XKSSXDPKSA-N
+      - kegg.compound: C04332
+      - pubchem.substance: '168989'
   - !!omap
     - id: R_4_Phosphopantothenoyl_L_cysteine_c
     - name: (R)-4-Phosphopantothenoyl-L-cysteine
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C12H23N2O9PS
+    - annotation: !!omap
+      - inchikey: XQYALQVLCNHCFT-CBAPKCEASA-N
+      - kegg.compound: C04352
+      - pubchem.substance: '440304'
   - !!omap
     - id: 5_Phosphoribosyl_N_formylglycinamide_c
     - name: 5-Phosphoribosyl-N-formylglycinamide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C8H15N2O9P
+    - annotation: !!omap
+      - inchikey: VDXLUNDMVKSKHO-XVFCMESISA-N
+      - kegg.compound: C04376
+      - pubchem.substance: '130805'
   - !!omap
     - id: 2R_3S_3_Isopropylmalate_c
     - name: (2R_3S)-3-Isopropylmalate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H12O5
+    - annotation: !!omap
+      - inchikey: RNQHMTFBUSSBJQ-CRCLSJGQSA-N
+      - kegg.compound: C04411
+      - pubchem.substance: '5462261'
   - !!omap
     - id: S_Adenosyl_4_methylthio_2_oxobutanoate_c
     - name: S-Adenosyl-4-methylthio-2-oxobutanoate
     - compartment: c
     - charge: 0
     - formula: C15H20N5O6S
+    - annotation: !!omap
+      - inchikey: UOKVQQMBGVMXPU-CJPDYEHRSA-O
+      - kegg.compound: C04425
+      - pubchem.substance: '440336'
   - !!omap
     - id: 2_Dehydro_3_deoxy_6_phospho_D_gluconate_c
     - name: 2-Dehydro-3-deoxy-6-phospho-D-gluconate
     - compartment: c
     - charge: 0
     - formula: C6H11O9P
+    - annotation: !!omap
+      - inchikey: OVPRPPOVAXRCED-UHFFFAOYSA-N
+      - kegg.compound: C04442
+      - pubchem.substance: '46'
   - !!omap
     - id: 5_Amino_6_5_phospho_D_ribitylaminouracil_c
     - name: 5-Amino-6-(5-phospho-D-ribitylamino)uracil
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H17N4O9P
+    - annotation: !!omap
+      - inchikey: RQRINYISXYAZKL-RPDRRWSUSA-N
+      - kegg.compound: C04454
+      - pubchem.substance: '18666812'
   - !!omap
     - id: Guanosine_3_diphosphate_5_triphosphate_c
     - name: Guanosine 3-diphosphate 5-triphosphate
     - compartment: c
     - charge: 0
     - formula: C10H18N5O20P5
+    - annotation: !!omap
+      - inchikey: KCPMACXZAITQAX-UUOKFMHZSA-N
+      - kegg.compound: C04494
+      - pubchem.substance: '38166'
   - !!omap
     - id: N_Acetyl_alpha_D_glucosamine_1_phosphate_c
     - name: N-Acetyl-alpha-D-glucosamine 1-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C8H16NO9P
+    - annotation: !!omap
+      - inchikey: FZLJPEPAYPUMMR-FMDGEEDCSA-N
+      - kegg.compound: C04501
+      - pubchem.substance: '440364'
   - !!omap
     - id: Magnesium_protoporphyrin_monomethyl_ester_c
     - name: Magnesium protoporphyrin monomethyl ester
     - compartment: c
     - charge: 0
     - formula: C35H35MgN4O4
+    - annotation: !!omap
+      - inchikey: JHTBRMHXRULRGV-NCCDZXNNSA-M
+      - kegg.compound: C04536
   - !!omap
     - id: 4_Amino_2_methyl_5_phosphomethylpyrimidine_c
     - name: 4-Amino-2-methyl-5-phosphomethylpyrimidine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H10N3O4P
+    - annotation: !!omap
+      - inchikey: PKYFHKIYHBRTPI-UHFFFAOYSA-N
+      - kegg.compound: C04556
+      - pubchem.substance: '216'
   - !!omap
     - id: di_trans_poly_cis_Undecaprenyl_diphosphate_c
     - name: di-trans_poly-cis-Undecaprenyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C55H92O7P2
+    - annotation: !!omap
+      - inchikey: NTXGVHCCXVHYCL-NTDVEAECSA-N
+      - kegg.compound: C04574
+      - pubchem.substance: '5280700'
   - !!omap
     - id: 3R_3_Hydroxybutanoyl_acyl_carrier_protein_c
     - name: (3R)-3-Hydroxybutanoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C4H7O2SR
+    - annotation: !!omap
+      - kegg.compound: C04618
   - !!omap
     - id: 3R_3_Hydroxydecanoyl_acyl_carrier_protein_c
     - name: (3R)-3-Hydroxydecanoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C10H19O2SR
+    - annotation: !!omap
+      - kegg.compound: C04619
   - !!omap
     - id: 3R_3_Hydroxyoctanoyl_acyl_carrier_protein_c
     - name: (3R)-3-Hydroxyoctanoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C8H15O2SR
+    - annotation: !!omap
+      - kegg.compound: C04620
   - !!omap
     - id: UDP_N_acetyl_3_1_carboxyvinyl_D_glucosamine_c
     - name: UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C20H29N3O19P2
+    - annotation: !!omap
+      - inchikey: BEGZZYPUNCJHKP-DBYWSUQTSA-N
+      - kegg.compound: C04631
+      - pubchem.substance: '172502'
   - !!omap
     - id: 3R_3_Hydroxypalmitoyl_acyl_carrier_protein_c
     - name: (3R)-3-Hydroxypalmitoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C16H31O2SR
+    - annotation: !!omap
+      - kegg.compound: C04633
   - !!omap
     - id: 2_Formamido_N1_5_phosphoribosylacetamidine_c
     - name: 2-(Formamido)-N1-(5-phosphoribosyl)acetamidine
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C8H16N3O8P
+    - annotation: !!omap
+      - inchikey: PMCOGCVKOAOZQM-XVFCMESISA-N
+      - kegg.compound: C04640
+      - pubchem.substance: '440417'
   - !!omap
     - id: UDP_2_3_bis3_hydroxytetradecanoylglucosamine_c
     - name: UDP-2_3-bis(3-hydroxytetradecanoyl)glucosamine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C43H77N3O20P2
+    - annotation: !!omap
+      - inchikey: KOJCFMYSTWNMQW-RUAJDYCTSA-N
+      - kegg.compound: C04652
+      - pubchem.substance: '25203769'
   - !!omap
     - id: D_erythro_1_Imidazol_4_ylglycerol_3_phosphate_c
     - name: D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H11N2O6P
+    - annotation: !!omap
+      - inchikey: HFYBTHCYPKEDQQ-RITPCOANSA-N
+      - kegg.compound: C04666
+      - pubchem.substance: '440431'
   - !!omap
     - id: 1_5_Phosphoribosyl_5_amino_4_imidazolecarboxamide_c
     - name: 1-(5-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H15N4O8P
+    - annotation: !!omap
+      - inchikey: NOTGFIUVDGNKRI-UUOKFMHZSA-N
+      - kegg.compound: C04677
+      - pubchem.substance: '65110'
   - !!omap
     - id: 3R_3_Hydroxytetradecanoyl_acyl_carrier_protein_c
     - name: (3R)-3-Hydroxytetradecanoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C14H27O2SR
+    - annotation: !!omap
+      - kegg.compound: C04688
   - !!omap
     - id: 2_Dehydro_3_deoxy_D_arabino_heptonate_7_phosphate_c
     - name: 2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C7H13O10P
+    - annotation: !!omap
+      - inchikey: PJWIPEXIFFQAQZ-PUFIMZNGSA-N
+      - kegg.compound: C04691
+      - pubchem.substance: '160647'
   - !!omap
     - id: 5_Amino_6_1_D_ribitylaminouracil_c
     - name: 5-Amino-6-(1-D-ribitylamino)uracil
     - compartment: c
     - charge: 0
     - formula: C9H16N4O6
+    - annotation: !!omap
+      - inchikey: XKQZIXVJVUPORE-RPDRRWSUSA-N
+      - kegg.compound: C04732
+      - pubchem.substance: '193516'
   - !!omap
     - id: 1_5_Phosphoribosyl_5_formamido_4_imidazolecarboxamide_c
     - name: 1-(5-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C10H15N4O9P
+    - annotation: !!omap
+      - inchikey: ABCOOORLYAOBOZ-KQYNXXCUSA-N
+      - kegg.compound: C04734
+      - pubchem.substance: '166760'
   - !!omap
     - id: UDP_3_O_3_hydroxytetradecanoyl_N_acetylglucosamine_c
     - name: UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C31H53N3O19P2
+    - annotation: !!omap
+      - inchikey: TZSJGZGYQDNRRX-MPLCHSTDSA-N
+      - kegg.compound: C04738
+      - pubchem.substance: '194791'
   - !!omap
     - id: 1_5_Phospho_D_ribosyl_5_amino_4_imidazolecarboxylate_c
     - name: 1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C9H14N3O9P
+    - annotation: !!omap
+      - inchikey: XFVULMDJZXYMSG-ZIYNGMLESA-N
+      - kegg.compound: C04751
+      - pubchem.substance: '165388'
   - !!omap
     - id: 2_Methyl_4_amino_5_hydroxymethylpyrimidine_diphosphate_c
     - name: 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H11N3O7P2
+    - annotation: !!omap
+      - inchikey: AGQJQCFEPUVXNK-UHFFFAOYSA-N
+      - kegg.compound: C04752
+      - pubchem.substance: '217'
   - !!omap
     - id: N1_5_Phospho_alpha_D_ribosyl_5_6_dimethylbenzimidazole_c
     - name: N1-(5-Phospho-alpha-D-ribosyl)-5_6-dimethylbenzimidazole
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C14H19N2O7P
+    - annotation: !!omap
+      - inchikey: ZMRGXEJKZPRBPJ-SYQHCUMBSA-N
+      - kegg.compound: C04778
+      - pubchem.substance: '444941'
   - !!omap
     - id: 2_Amino_7_8_dihydro_4_hydroxy_6_diphosphooxymethylpteridine_c
     - name: 2-Amino-7_8-dihydro-4-hydroxy-6-(diphosphooxymethyl)pteridine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H11N5O8P2
+    - annotation: !!omap
+      - inchikey: FCQGJGLSOWZZON-UHFFFAOYSA-N
+      - kegg.compound: C04807
+      - pubchem.substance: '666'
   - !!omap
     - id: 1_5_Phosphoribosyl_5_amino_4_N_succinocarboxamide_imidazole_c
     - name: 1-(5-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C13H19N4O12P
+    - annotation: !!omap
+      - inchikey: NAQGHJTUZRHGAC-ZZZDFHIKSA-N
+      - kegg.compound: C04823
+      - pubchem.substance: '160666'
   - !!omap
     - id: Lipid_c
     - name: Lipid X
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C34H66NO12P
+    - annotation: !!omap
+      - inchikey: HEHQDWUWJVPREQ-XQJZMFRCSA-N
+      - kegg.compound: C04824
+      - pubchem.substance: '123907'
   - !!omap
     - id: 2_Amino_4_hydroxy_6_D_erythro_1_2_3_trihydroxypropyl_7_8_dihydropteridine_c
     - name: 2-Amino-4-hydroxy-6-(D-erythro-1_2_3-trihydroxypropyl)-7_8-dihydropteridine
     - compartment: c
     - charge: 0
     - formula: C9H13N5O4
+    - annotation: !!omap
+      - inchikey: YQIFAMYNGGOTFB-XINAWCOVSA-N
+      - kegg.compound: C04874
+      - pubchem.substance: '65074'
   - !!omap
     - id: UDP_N_acetylmuramoyl_L_alanyl_D_gamma_glutamyl_meso_2_6_diaminopimelate_c
     - name: UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2_6-diaminopimelate
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C35H55N7O26P2
+    - annotation: !!omap
+      - inchikey: QUHLBZKCGUXHGP-YXVFMYSNSA-N
+      - kegg.compound: C04877
+      - pubchem.substance: '53297336'
   - !!omap
     - id: UDP_N_acetylmuramoyl_L_alanyl_D_glutamyl_6_carboxy_L_lysyl_D_alanyl_D_alanine_c
     - name: UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-6-carboxy-L-lysyl-D-alanyl-D-alanine
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C41H65N9O28P2
+    - annotation: !!omap
+      - inchikey: IMWOXEZVYQDRDF-MCZXNMLPSA-N
+      - kegg.compound: C04882
+      - pubchem.substance: '16059194'
   - !!omap
     - id: 7_8_Dihydroneopterin_3_triphosphate_c
     - name: 7_8-Dihydroneopterin 3-triphosphate
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H16N5O13P3
+    - annotation: !!omap
+      - inchikey: DGGUVLXVLHAAGT-XINAWCOVSA-N
+      - kegg.compound: C04895
+      - pubchem.substance: '121885'
   - !!omap
     - id: 5_5_Phospho_D_ribosylaminoformimino_1_5_phosphoribosyl_imidazole_4_carboxamide_c
     - name: 5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C15H25N5O15P2
+    - annotation: !!omap
+      - inchikey: QOUSHGMTBIIAHR-KEOHHSTQSA-N
+      - kegg.compound: C04896
+      - pubchem.substance: '5460212'
   - !!omap
     - id: N_5_Phospho_D_1_ribulosylformimino_5_amino_1_5_phospho_D_ribosyl_4_imidazolecarboxamide_c
     - name: N-(5-Phospho-D-1-ribulosylformimino)-5-amino-1-(5-phospho-D-ribosyl)-4-imidazolecarboxamide
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C15H25N5O15P2
+    - annotation: !!omap
+      - inchikey: BLKFNHOCHNCLII-GHVQHMAVSA-N
+      - kegg.compound: C04916
+      - pubchem.substance: '193735'
   - !!omap
     - id: Lipid_A_disaccharide_c
     - name: Lipid A disaccharide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C68H129N2O20P
+    - annotation: !!omap
+      - inchikey: HLDJGHAAKRKPAV-QDORLFPLSA-N
+      - kegg.compound: C04932
+      - pubchem.substance: '13831140'
   - !!omap
     - id: Lipid_A_disaccharide_e
     - name: Lipid A disaccharide
     - compartment: e
-    - charge: 0
+    - charge: -2
     - formula: C68H129N2O20P
+    - annotation: !!omap
+      - inchikey: HLDJGHAAKRKPAV-QDORLFPLSA-N
+      - kegg.compound: C04932
+      - pubchem.substance: '13831140'
   - !!omap
     - id: Selenophosphoric_acid_c
     - name: Selenophosphoric acid
     - compartment: c
     - charge: 0
     - formula: H3O3PSe
+    - annotation: !!omap
+      - inchikey: JRPHGDYSKGJTKZ-UHFFFAOYSA-N
+      - kegg.compound: C05172
+      - pubchem.substance: '1092'
   - !!omap
     - id: 5_Deoxyadenosine_c
     - name: 5-Deoxyadenosine
     - compartment: c
     - charge: 0
     - formula: C10H13N5O3
+    - annotation: !!omap
+      - inchikey: XGYIMTFOTBMPFP-KQYNXXCUSA-N
+      - kegg.compound: C05198
+      - pubchem.substance: '439182'
   - !!omap
     - id: Dodecanoyl_acyl_carrier_protein_c
     - name: Dodecanoyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C12H23OSR
+    - annotation: !!omap
+      - kegg.compound: C05223
   - !!omap
     - id: Divinylchlorophyll_b_c
     - name: (Divinyl)Chlorophyll b
     - compartment: c
     - charge: 0
     - formula: C55H73MgN4O6
+    - annotation: !!omap
+      - inchikey: NSMUHPMZFPKNMZ-IOBBVUIDSA-M
+      - kegg.compound: C05307
+      - pubchem.substance: '46173742'
   - !!omap
     - id: L_Selenomethionine_c
     - name: L-Selenomethionine
     - compartment: c
     - charge: 0
     - formula: C5H11NO2Se
+    - annotation: !!omap
+      - inchikey: RJFAYQIBOAGBLC-BYPYZUCNSA-N
+      - kegg.compound: C05335
+      - pubchem.substance: '105024'
   - !!omap
     - id: Selenomethionyl_tRNAMet_c
     - name: Selenomethionyl-tRNA(Met)
     - compartment: c
     - charge: 0
     - formula: C20H34NO17P2SeR
+    - annotation: !!omap
+      - kegg.compound: C05336
   - !!omap
     - id: Oxalosuccinate_c
     - name: Oxalosuccinate
     - compartment: c
     - charge: 0
     - formula: C6H6O7
+    - annotation: !!omap
+      - inchikey: UFSCUAXLTRFIDC-UHFFFAOYSA-N
+      - kegg.compound: C05379
+      - pubchem.substance: '972'
   - !!omap
     - id: Sedoheptulose_7_phosphate_c
     - name: Sedoheptulose 7-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C7H15O10P
+    - annotation: !!omap
+      - inchikey: JDTUMPKOJBQPKX-GBNDHIKLSA-N
+      - kegg.compound: C05382
+      - pubchem.substance: '165007'
   - !!omap
     - id: all_trans_Phytofluene_c
     - name: all-trans-Phytofluene
     - compartment: c
     - charge: 0
     - formula: C40H62
+    - annotation: !!omap
+      - inchikey: OVSVTCFNLSGAMM-OUOOUFEBSA-N
+      - kegg.compound: C05414
+      - pubchem.substance: '6436722'
   - !!omap
     - id: 15_cis_Phytoene_c
     - name: 15-cis-Phytoene
     - compartment: c
     - charge: 0
     - formula: C40H64
+    - annotation: !!omap
+      - inchikey: YVLPJIGOMTXXLP-BHLJUDRVSA-N
+      - kegg.compound: C05421
+      - pubchem.substance: '9963391'
   - !!omap
     - id: Phytyl_diphosphate_c
     - name: Phytyl diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C20H42O7P2
+    - annotation: !!omap
+      - inchikey: ITPLBNCCPZSWEU-PYDDKJGSSA-N
+      - kegg.compound: C05427
+      - pubchem.substance: '14556929'
   - !!omap
     - id: all_trans_zeta_Carotene_c
     - name: all-trans-zeta-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H60
+    - annotation: !!omap
+      - inchikey: BIWLELKAFXRPDE-WTXAYMOSSA-N
+      - kegg.compound: C05430
+      - pubchem.substance: '5280788'
   - !!omap
     - id: all_trans_Neurosporene_c
     - name: all-trans-Neurosporene
     - compartment: c
     - charge: 0
     - formula: C40H58
+    - annotation: !!omap
+      - inchikey: ATCICVFRSJQYDV-XILUKMICSA-N
+      - kegg.compound: C05431
+      - pubchem.substance: '7795'
   - !!omap
     - id: Lycopene_c
     - name: Lycopene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - inchikey: OAIJSZIZWZSQBC-GYZMGTAESA-N
+      - kegg.compound: C05432
+      - pubchem.substance: '446925'
   - !!omap
     - id: alpha_Carotene_c
     - name: alpha-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - inchikey: ANVAOWXLWRTKGA-JLTXGRSLSA-N
+      - kegg.compound: C05433
   - !!omap
     - id: beta_Zeacarotene_c
     - name: beta-Zeacarotene
     - compartment: c
     - charge: 0
     - formula: C40H58
+    - annotation: !!omap
+      - inchikey: MICBIPJWKDDGNL-FILYMEKXSA-N
+      - kegg.compound: C05434
+      - pubchem.substance: '7798'
   - !!omap
     - id: gamma_Carotene_c
     - name: gamma-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - inchikey: HRQKOYFGHJYEFS-BXOLYSJBSA-N
+      - kegg.compound: C05435
+      - pubchem.substance: '5280791'
   - !!omap
     - id: Selenite_c
     - name: Selenite
     - compartment: c
     - charge: 0
     - formula: H2O3Se
+    - annotation: !!omap
+      - inchikey: MCAHWIHFGHIESP-UHFFFAOYSA-L
+      - kegg.compound: C05684
+      - pubchem.substance: '1090'
   - !!omap
     - id: Adenylylselenate_c
     - name: Adenylylselenate
     - compartment: c
     - charge: 0
     - formula: C10H14N5O10PSe
+    - annotation: !!omap
+      - inchikey: XCADVMZZFPIERR-KQYNXXCUSA-N
+      - kegg.compound: C05686
+      - pubchem.substance: '440758'
   - !!omap
     - id: L_Selenocysteine_c
     - name: L-Selenocysteine
     - compartment: c
     - charge: 0
     - formula: C3H7NO2Se
+    - annotation: !!omap
+      - inchikey: ZKZBPNGNEQAJSX-REOHCLBHSA-N
+      - kegg.compound: C05688
+      - pubchem.substance: '25076'
   - !!omap
     - id: Selenate_c
     - name: Selenate
     - compartment: c
     - charge: 0
     - formula: H2O4Se
+    - annotation: !!omap
+      - inchikey: QYHFIVBSNOWOCQ-UHFFFAOYSA-N
+      - kegg.compound: C05697
+      - pubchem.substance: '1089'
   - !!omap
     - id: Selenohomocysteine_c
     - name: Selenohomocysteine
     - compartment: c
     - charge: 0
     - formula: C4H9NO2Se
+    - annotation: !!omap
+      - inchikey: RCWCGLALNCIQNM-VKHMYHEASA-N
+      - kegg.compound: C05698
+      - pubchem.substance: '49787004'
   - !!omap
     - id: L_Selenocystathionine_c
     - name: L-Selenocystathionine
     - compartment: c
     - charge: 0
     - formula: C7H14N2O4Se
+    - annotation: !!omap
+      - inchikey: ZNWYDQPOUQRDLY-WHFBIAKZSA-N
+      - kegg.compound: C05699
+      - pubchem.substance: '441455'
   - !!omap
     - id: Acetoacetyl_c
     - name: Acetoacetyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C4H5O2SR
+    - annotation: !!omap
+      - kegg.compound: C05744
   - !!omap
     - id: Butyryl_c
     - name: Butyryl-(acp)
     - compartment: c
     - charge: 0
     - formula: C4H7OSR
+    - annotation: !!omap
+      - kegg.compound: C05745
   - !!omap
     - id: 3_Oxohexanoyl_c
     - name: 3-Oxohexanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C6H9O2SR
+    - annotation: !!omap
+      - kegg.compound: C05746
   - !!omap
     - id: R_3_Hydroxyhexanoyl_c
     - name: (R)-3-Hydroxyhexanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C6H11O2SR
+    - annotation: !!omap
+      - kegg.compound: C05747
   - !!omap
     - id: trans_Hex_2_enoyl_c
     - name: trans-Hex-2-enoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C6H9OSR
+    - annotation: !!omap
+      - kegg.compound: C05748
   - !!omap
     - id: Hexanoyl_c
     - name: Hexanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C6H11OSR
+    - annotation: !!omap
+      - kegg.compound: C05749
   - !!omap
     - id: 3_Oxooctanoyl_c
     - name: 3-Oxooctanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C8H13O2SR
+    - annotation: !!omap
+      - kegg.compound: C05750
   - !!omap
     - id: trans_Oct_2_enoyl_c
     - name: trans-Oct-2-enoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C8H13OSR
+    - annotation: !!omap
+      - kegg.compound: C05751
   - !!omap
     - id: Octanoyl_c
     - name: Octanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C8H15OSR
+    - annotation: !!omap
+      - kegg.compound: C05752
   - !!omap
     - id: 3_Oxodecanoyl_c
     - name: 3-Oxodecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C10H17O2SR
+    - annotation: !!omap
+      - kegg.compound: C05753
   - !!omap
     - id: trans_Dec_2_enoyl_c
     - name: trans-Dec-2-enoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C10H17OSR
+    - annotation: !!omap
+      - kegg.compound: C05754
   - !!omap
     - id: Decanoyl_c
     - name: Decanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C10H19OSR
+    - annotation: !!omap
+      - kegg.compound: C05755
   - !!omap
     - id: 3_Oxododecanoyl_c
     - name: 3-Oxododecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C12H21O2SR
+    - annotation: !!omap
+      - kegg.compound: C05756
   - !!omap
     - id: R_3_Hydroxydodecanoyl_c
     - name: (R)-3-Hydroxydodecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C12H23O2SR
+    - annotation: !!omap
+      - kegg.compound: C05757
   - !!omap
     - id: trans_Dodec_2_enoyl_c
     - name: trans-Dodec-2-enoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C12H21OSR
+    - annotation: !!omap
+      - kegg.compound: C05758
   - !!omap
     - id: 3_Oxotetradecanoyl_c
     - name: 3-Oxotetradecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C14H25O2SR
+    - annotation: !!omap
+      - kegg.compound: C05759
   - !!omap
     - id: trans_Tetradec_2_enoyl_c
     - name: trans-Tetradec-2-enoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C14H25OSR
+    - annotation: !!omap
+      - kegg.compound: C05760
   - !!omap
     - id: Tetradecanoyl_c
     - name: Tetradecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C14H27OSR
+    - annotation: !!omap
+      - kegg.compound: C05761
   - !!omap
     - id: 3_Oxohexadecanoyl_c
     - name: 3-Oxohexadecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C16H29O2SR
+    - annotation: !!omap
+      - kegg.compound: C05762
   - !!omap
     - id: trans_Hexadec_2_enoyl_c
     - name: trans-Hexadec-2-enoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C16H29OSR
+    - annotation: !!omap
+      - kegg.compound: C05763
   - !!omap
     - id: Hexadecanoyl_c
     - name: Hexadecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C16H31OSR
+    - annotation: !!omap
+      - kegg.compound: C05764
   - !!omap
     - id: Precorrin_3A_c
     - name: Precorrin 3A
     - compartment: c
-    - charge: 0
+    - charge: -7
     - formula: C43H50N4O16
+    - annotation: !!omap
+      - inchikey: AILJETHLKULYHE-IHDLTXBCSA-N
+      - kegg.compound: C05772
   - !!omap
     - id: alpha_Ribazole_c
     - name: alpha-Ribazole
     - compartment: c
     - charge: 0
     - formula: C14H18N2O4
+    - annotation: !!omap
+      - inchikey: HLRUKOJSWOKCPP-SYQHCUMBSA-N
+      - kegg.compound: C05775
+      - pubchem.substance: '160433'
   - !!omap
     - id: 3Z_Phycocyanobilin_c
     - name: (3Z)-Phycocyanobilin
     - compartment: c
     - charge: 0
     - formula: C33H38N4O6
+    - annotation: !!omap
+      - inchikey: INPDFIMLLXXDOQ-AIKFXVFZSA-N
+      - kegg.compound: C05786
   - !!omap
     - id: 1R_6R_6_Hydroxy_2_succinylcyclohexa_2_4_diene_1_carboxylate_c
     - name: (1R_6R)-6-Hydroxy-2-succinylcyclohexa-2_4-diene-1-carboxylate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C11H12O6
+    - annotation: !!omap
+      - inchikey: QJYRAJSESKVEAE-PSASIEDQSA-N
+      - kegg.compound: C05817
+      - pubchem.substance: '5287432'
   - !!omap
     - id: 2_Demethylmenaquinone_c
     - name: 2-Demethylmenaquinone
     - compartment: c
     - charge: 0
     - formula: C50H72O2
+    - annotation: !!omap
+      - inchikey: WALCBDVYDNDULV-RVDMUPIBSA-N
+      - kegg.compound: C05818
+      - pubchem.substance: '5280838'
   - !!omap
     - id: Iminoaspartate_c
     - name: Iminoaspartate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H5NO4
+    - annotation: !!omap
+      - inchikey: NMUOATVLLQEYHI-UHFFFAOYSA-N
+      - kegg.compound: C05840
+      - pubchem.substance: '796'
   - !!omap
     - id: Crosslinked_peptideglycan_c
     - name: Peptidoglycan
     - compartment: c
     - charge: 0
     - formula: C40H64N8O21
+    - annotation: !!omap
+      - kegg.compound: C05896
   - !!omap
     - id: Undecaprenyl_diphospho_N_acetylmuramoyl_L_alanyl_D_glutamyl_meso_2_6_diaminopimeloyl_D_alanyl_D_alanine_c
     - name: Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2_6-diaminopimeloyl-D-alanyl-D-alanine
     - compartment: c
     - charge: 0
     - formula: C87H143N7O23P2
+    - annotation: !!omap
+      - inchikey: PNWZQTONLRRPST-KLDRQJOASA-N
+      - kegg.compound: C05897
+      - pubchem.substance: '46173752'
   - !!omap
     - id: Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_D_glutamyl_meso_2_6_diaminopimeloyl_D_alanyl_D_alanine_c
     - name: Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-glutamyl-meso-2_6-diaminopimeloyl-D-alanyl-D-alanine
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C95H156N8O28P2
+    - annotation: !!omap
+      - inchikey: OXJNZXDFVLDLEI-MBCYCBSHSA-N
+      - kegg.compound: C05898
+      - pubchem.substance: '46173753'
   - !!omap
     - id: 3Z_Phycoerythrobilin_c
     - name: (3Z)-Phycoerythrobilin
     - compartment: c
     - charge: 0
     - formula: C33H38N4O6
+    - annotation: !!omap
+      - inchikey: IGJXAXFFKKRFKU-ISRBKNAYSA-N
+      - kegg.compound: C05912
   - !!omap
     - id: Formamidopyrimidine_nucleoside_triphosphate_c
     - name: Formamidopyrimidine nucleoside triphosphate
     - compartment: c
     - charge: 0
     - formula: C10H18N5O15P3
+    - annotation: !!omap
+      - inchikey: NDXMRXXKCCKQQV-UUOKFMHZSA-N
+      - kegg.compound: C05922
+      - pubchem.substance: '440840'
   - !!omap
     - id: 2_5_Diaminopyrimidine_nucleoside_triphosphate_c
     - name: 2_5-Diaminopyrimidine nucleoside triphosphate
     - compartment: c
     - charge: 0
     - formula: C9H18N5O14P3
+    - annotation: !!omap
+      - inchikey: CRXOALRUOMUPMC-UMMCILCDSA-N
+      - kegg.compound: C05923
+      - pubchem.substance: '440841'
   - !!omap
     - id: Acetyl_adenylate_c
     - name: Acetyl adenylate
     - compartment: c
     - charge: 0
     - formula: C12H16N5O8P
+    - annotation: !!omap
+      - inchikey: UBPVOHPZRZIJHM-WOUKDFQISA-N
+      - kegg.compound: C05993
+      - pubchem.substance: '440867'
   - !!omap
     - id: S_2_Aceto_2_hydroxybutanoate_c
     - name: (S)-2-Aceto-2-hydroxybutanoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H10O4
+    - annotation: !!omap
+      - inchikey: VUQLHQFKACOHNZ-LURJTMIESA-N
+      - kegg.compound: C06006
+      - pubchem.substance: '440875'
   - !!omap
     - id: R_2_3_Dihydroxy_3_methylpentanoate_c
     - name: (R)-2_3-Dihydroxy-3-methylpentanoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H12O4
+    - annotation: !!omap
+      - inchikey: PDGXJDXVGMHUIR-UJURSFKZSA-N
+      - kegg.compound: C06007
+      - pubchem.substance: '448154'
   - !!omap
     - id: S_2_Acetolactate_c
     - name: (S)-2-Acetolactate
     - compartment: c
     - charge: 0
     - formula: C5H8O4
+    - annotation: !!omap
+      - inchikey: NMDWGEGFJUBKLB-YFKPBYRVSA-N
+      - kegg.compound: C06010
+      - pubchem.substance: '440878'
   - !!omap
     - id: UDP_3_O_3_hydroxytetradecanoyl_D_glucosamine_c
     - name: UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C29H51N3O18P2
+    - annotation: !!omap
+      - inchikey: ZFPNNOXCEDQJQS-SSVOXRMNSA-N
+      - kegg.compound: C06022
+      - pubchem.substance: '25201749'
   - !!omap
     - id: D_erythro_3_Methylmalate_c
     - name: D-erythro-3-Methylmalate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H8O5
+    - annotation: !!omap
+      - inchikey: NPYQJIHHTGFBLN-STHAYSLISA-N
+      - kegg.compound: C06032
+      - pubchem.substance: '440892'
   - !!omap
     - id: Digalactosyl_diacylglycerol_c
     - name: Digalactosyl-diacylglycerol (DGDG)
     - compartment: c
     - charge: 0
     - formula: C17H26O15
+    - annotation: !!omap
+      - kegg.compound: C06037
+      - pubchem.substance: '8309'
   - !!omap
     - id: Zeaxanthin_c
     - name: Zeaxanthin
     - compartment: c
     - charge: 0
     - formula: C40H56O2
+    - annotation: !!omap
+      - inchikey: JKQXZKUSFCKOGQ-QAYBQHTQSA-N
+      - kegg.compound: C06098
   - !!omap
     - id: L_Glutamyl_tRNAGln_c
     - name: L-Glutamyl-tRNA(Gln)
     - compartment: c
     - charge: 0
     - formula: C20H32NO19P2R
+    - annotation: !!omap
+      - kegg.compound: C06112
   - !!omap
     - id: L_Aspartyl_tRNAAsn_c
     - name: L-Aspartyl-tRNA(Asn)
     - compartment: c
     - charge: 0
     - formula: C19H30NO19P2R
+    - annotation: !!omap
+      - kegg.compound: C06113
   - !!omap
     - id: 2_5_Diamino_6_5_triphosphoryl_3_4_trihydroxy_2_oxopentyl_amino_4_oxopyrimidine_c
     - name: 2_5-Diamino-6-(5-triphosphoryl-3_4-trihydroxy-2-oxopentyl)-amino-4-oxopyrimidine
     - compartment: c
     - charge: 0
     - formula: C9H18N5O14P3
+    - annotation: !!omap
+      - inchikey: ZJYBJXKSWQPKFW-UHFFFAOYSA-N
+      - kegg.compound: C06148
+      - pubchem.substance: '440923'
   - !!omap
     - id: alpha_D_Glucosamine_1_phosphate_c
     - name: alpha-D-Glucosamine 1-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C6H14NO8P
+    - annotation: !!omap
+      - inchikey: YMJBYRVFGYXULK-QZABAPFNSA-N
+      - kegg.compound: C06156
+      - pubchem.substance: '188960'
   - !!omap
     - id: Precorrin_6Y_c
     - name: Precorrin 6Y
     - compartment: c
-    - charge: 0
+    - charge: -6
     - formula: C44H56N4O16
+    - annotation: !!omap
+      - inchikey: KIAIWUYRVXWYAI-NTZNHEDZSA-N
+      - kegg.compound: C06319
+      - pubchem.substance: '5280916'
   - !!omap
     - id: Precorrin_6x_c
     - name: Precorrin 6X
     - compartment: c
-    - charge: 0
+    - charge: -7
     - formula: C44H54N4O16
+    - annotation: !!omap
+      - inchikey: SOHWQLUTRKYCGZ-YTMGQXKNSA-N
+      - kegg.compound: C06320
+      - pubchem.substance: '5280917'
   - !!omap
     - id: Hydrogenobyrinate_c
     - name: Hydrogenobyrinate
     - compartment: c
-    - charge: 0
+    - charge: -6
     - formula: C45H60N4O14
+    - annotation: !!omap
+      - inchikey: ALLJLLMNGBKZLT-XTOXSSBSSA-N
+      - kegg.compound: C06399
   - !!omap
     - id: Precorrin_3B_c
     - name: Precorrin 3B
     - compartment: c
-    - charge: 0
+    - charge: -7
     - formula: C43H50N4O17
+    - annotation: !!omap
+      - inchikey: KJHZYYJBHKAUHS-NXWQJPGNSA-N
+      - kegg.compound: C06406
   - !!omap
     - id: Precorrin_4_c
     - name: Precorrin 4
     - compartment: c
-    - charge: 0
+    - charge: -8
     - formula: C44H52N4O17
+    - annotation: !!omap
+      - inchikey: IOBDBIPWYQGVMM-VLMJWMIZSA-N
+      - kegg.compound: C06407
+      - pubchem.substance: '5280930'
   - !!omap
     - id: Precorrin_8X_c
     - name: Precorrin 8X
     - compartment: c
-    - charge: 0
+    - charge: -7
     - formula: C45H60N4O14
+    - annotation: !!omap
+      - inchikey: IGCZFSMEIXUSJY-RATFVIFXSA-N
+      - kegg.compound: C06408
+      - pubchem.substance: '11953881'
   - !!omap
     - id: Precorrin_5_c
     - name: Precorrin 5
     - compartment: c
-    - charge: 0
+    - charge: -8
     - formula: C45H54N4O17
+    - annotation: !!omap
+      - inchikey: OUPXZNRNMLYOGK-FNFWWFRLSA-N
+      - kegg.compound: C06416
+      - pubchem.substance: '5280932'
   - !!omap
     - id: Tetradecanoic_acid_c
     - name: Tetradecanoic acid
     - compartment: c
     - charge: 0
     - formula: C14H28O2
+    - annotation: !!omap
+      - inchikey: TUNFSRHWOTWDNC-UHFFFAOYSA-N
+      - kegg.compound: C06424
+      - pubchem.substance: '11005'
   - !!omap
     - id: L_Seryl_tRNASec_c
     - name: L-Seryl-tRNA(Sec)
     - compartment: c
     - charge: 0
     - formula: C18H30NO18P2R
+    - annotation: !!omap
+      - kegg.compound: C06481
   - !!omap
     - id: Hydrogenobyrinate_a_c_diamide_c
     - name: Hydrogenobyrinate a_c diamide
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C45H62N6O12
+    - annotation: !!omap
+      - inchikey: BYLRAQWTUVCQLV-XTOXSSBSSA-N
+      - kegg.compound: C06503
   - !!omap
     - id: CobIIyrinate_a_c_diamide_c
     - name: Cob(II)yrinate a_c diamide
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C45H62CoN6O12
+    - annotation: !!omap
+      - inchikey: IADMSJRJSGLGJI-OKJGWHJPSA-M
+      - kegg.compound: C06504
+      - pubchem.substance: '11953882'
   - !!omap
     - id: CobIyrinate_a_c_diamide_c
     - name: Cob(I)yrinate a_c diamide
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C45H62CoN6O12
+    - annotation: !!omap
+      - inchikey: NKLHEMWEQJCPPF-YYYLUSCNSA-M
+      - kegg.compound: C06505
   - !!omap
     - id: Adenosyl_cobyrinate_a_c_diamide_c
     - name: Adenosyl cobyrinate a_c diamide
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C55H73CoN11O15
+    - annotation: !!omap
+      - inchikey: OCNLJCZKGHKJGF-QOCQOLRHSA-M
+      - kegg.compound: C06506
   - !!omap
     - id: Adenosyl_cobyrinate_hexaamide_c
     - name: Adenosyl cobyrinate hexaamide
     - compartment: c
     - charge: 0
     - formula: C55H77CoN15O11
+    - annotation: !!omap
+      - inchikey: AXZSUSWNAXMBBB-QOCQOLRHSA-M
+      - kegg.compound: C06507
   - !!omap
     - id: Adenosyl_cobinamide_c
     - name: Adenosyl cobinamide
     - compartment: c
     - charge: 0
     - formula: C58H84CoN16O11
+    - annotation: !!omap
+      - inchikey: KQXSPGAEBZWHMC-OCUXTBADSA-M
+      - kegg.compound: C06508
   - !!omap
     - id: Adenosyl_cobinamide_phosphate_c
     - name: Adenosyl cobinamide phosphate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C58H85CoN16O14P
+    - annotation: !!omap
+      - inchikey: MQCMBMUJJHSGIF-OCUXTBADSA-M
+      - kegg.compound: C06509
   - !!omap
     - id: Adenosine_GDP_cobinamide_c
     - name: Adenosine-GDP-cobinamide
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C68H97CoN21O21P2
+    - annotation: !!omap
+      - inchikey: IQTYKHRKNGVJEO-KTPDRMMFSA-M
+      - kegg.compound: C06510
   - !!omap
     - id: delta_Carotene_c
     - name: delta-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - inchikey: WGIYGODPCLMGQH-BXOLYSJBSA-N
+      - kegg.compound: C08586
+      - pubchem.substance: '10779'
   - !!omap
     - id: beta_Cryptoxanthin_c
     - name: beta-Cryptoxanthin
     - compartment: c
     - charge: 0
     - formula: C40H56O
+    - annotation: !!omap
+      - inchikey: DMASLKHVQRHNES-FKKUPVFPSA-N
+      - kegg.compound: C08591
+      - pubchem.substance: '10784'
   - !!omap
     - id: THF_L_glutamate_c
     - name: THF-L-glutamate
     - compartment: c
     - charge: 0
     - formula: C24H30N8O9
+    - annotation: !!omap
+      - inchikey: ZAOGJXDWOQXFBW-UHFFFAOYSA-N
+      - kegg.compound: C09332
+      - pubchem.substance: '442163'
   - !!omap
     - id: 4_Amino_4_deoxychorismate_c
     - name: 4-Amino-4-deoxychorismate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C10H11NO5
+    - annotation: !!omap
+      - inchikey: OIUJHGOLFKDBSU-HTQZYQBOSA-N
+      - kegg.compound: C11355
+      - pubchem.substance: '443142'
   - !!omap
     - id: 2_C_Methyl_D_erythritol_4_phosphate_c
     - name: 2-C-Methyl-D-erythritol 4-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H13O7P
+    - annotation: !!omap
+      - inchikey: XMWHRVNVKDKBRG-UHNVWZDZSA-N
+      - kegg.compound: C11434
+      - pubchem.substance: '443198'
   - !!omap
     - id: 4_Cytidine_5_diphospho_2_C_methyl_D_erythritol_c
     - name: 4-(Cytidine 5-diphospho)-2-C-methyl-D-erythritol
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C14H25N3O14P2
+    - annotation: !!omap
+      - inchikey: YFAUKWZNPVBCFF-XHIBXCGHSA-N
+      - kegg.compound: C11435
+      - pubchem.substance: '443199'
   - !!omap
     - id: 2_Phospho_4_cytidine_5_diphospho_2_C_methyl_D_erythritol_c
     - name: 2-Phospho-4-(cytidine 5-diphospho)-2-C-methyl-D-erythritol
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C14H26N3O17P3
+    - annotation: !!omap
+      - inchikey: HTJXTKBIUVFUAR-XHIBXCGHSA-N
+      - kegg.compound: C11436
+      - pubchem.substance: '443200'
   - !!omap
     - id: 1_Deoxy_D_xylulose_5_phosphate_c
     - name: 1-Deoxy-D-xylulose 5-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H11O7P
+    - annotation: !!omap
+      - inchikey: AJPADPZSRRUGHI-RFZPGFLSSA-N
+      - kegg.compound: C11437
+      - pubchem.substance: '443201'
   - !!omap
     - id: 2_C_Methyl_D_erythritol_2_4_cyclodiphosphate_c
     - name: 2-C-Methyl-D-erythritol 2_4-cyclodiphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H12O9P2
+    - annotation: !!omap
+      - inchikey: SFRQRNJMIIUYDI-UHNVWZDZSA-N
+      - kegg.compound: C11453
+      - pubchem.substance: '126747'
   - !!omap
     - id: UDP_6_sulfoquinovose_c
     - name: UDP-6-sulfoquinovose
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C15H24N2O19P2S
+    - annotation: !!omap
+      - inchikey: FQANCGQCBCUSMI-JZMIEXBBSA-N
+      - kegg.compound: C11521
+      - pubchem.substance: '443244'
   - !!omap
     - id: 15_16_Dihydrobiliverdin_c
     - name: 15_16-Dihydrobiliverdin
     - compartment: c
     - charge: 0
     - formula: C33H36N4O6
+    - annotation: !!omap
+      - inchikey: ZQHDSLZHMAUUQK-ZTYGKHTCSA-N
+      - kegg.compound: C11630
   - !!omap
     - id: 1_Hydroxy_2_methyl_2_butenyl_4_diphosphate_c
     - name: 1-Hydroxy-2-methyl-2-butenyl 4-diphosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C5H12O8P2
+    - annotation: !!omap
+      - inchikey: MDSIZRKJVDMQOQ-GORDUTHDSA-N
+      - kegg.compound: C11811
+      - pubchem.substance: '5281976'
   - !!omap
     - id: 131_Hydroxy_magnesium_protoporphyrin_IX_13_monomethyl_ester_c
     - name: 13(1)-Hydroxy-magnesium-protoporphyrin IX 13-monomethyl ester
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C35H35MgN4O5
+    - annotation: !!omap
+      - inchikey: MVCDIAGKFJFPBB-JXBSUKTBSA-M
+      - kegg.compound: C11829
   - !!omap
     - id: 131_Oxo_magnesium_protoporphyrin_IX_13_monomethyl_ester_c
     - name: 13(1)-Oxo-magnesium-protoporphyrin IX 13-monomethyl ester
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C35H34MgN4O5
+    - annotation: !!omap
+      - inchikey: IOQIILLGNAOXJE-JXBSUKTBSA-L
+      - kegg.compound: C11830
   - !!omap
     - id: Divinylprotochlorophyllide_c
     - name: Divinylprotochlorophyllide
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C35H32MgN4O5
+    - annotation: !!omap
+      - inchikey: YXBIPIDDNARELO-KKNVGXODSA-L
+      - kegg.compound: C11831
   - !!omap
     - id: Divinyl_chlorophyllide_c
     - name: Divinyl chlorophyllide a
     - compartment: c
     - charge: 0
     - formula: C35H34MgN4O5
+    - annotation: !!omap
+      - inchikey: IQLDSMIBDORHSF-NYABAGMLSA-L
+      - kegg.compound: C11832
+      - pubchem.substance: '443431'
   - !!omap
     - id: Divinylchlorophyll_a_c
     - name: Divinylchlorophyll a
     - compartment: c
     - charge: 0
     - formula: C55H72MgN4O5
+    - annotation: !!omap
+      - inchikey: COQGSKNKQZLZEJ-AENOIHSZSA-M
+      - kegg.compound: C11850
+      - pubchem.substance: '14012'
   - !!omap
     - id: L_Threonine_O_3_phosphate_c
     - name: L-Threonine O-3-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H10NO6P
+    - annotation: !!omap
+      - inchikey: USRGIUJOYOXOQJ-GBXIJSLDSA-N
+      - kegg.compound: C12147
+      - pubchem.substance: '3246323'
   - !!omap
     - id: Sulfoquinovosyldiacylglycerol_c
     - name: Sulfoquinovosyldiacylglycerol (SQDG)
     - compartment: c
     - charge: 0
     - formula: C11H16O12S
+    - annotation: !!omap
+      - kegg.compound: C13508
+      - pubchem.substance: '586228'
   - !!omap
     - id: Strontium_cation_c
     - name: Strontium cation
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: Sr
+    - annotation: !!omap
+      - inchikey: PWYYWQHXAPXYMF-UHFFFAOYSA-N
+      - kegg.compound: C13884
+      - pubchem.substance: '854129'
   - !!omap
     - id: R_3_Hydroxy_3_methyl_2_oxopentanoate_c
     - name: (R)-3-Hydroxy-3-methyl-2-oxopentanoate
     - compartment: c
-    - charge: 0
+    - charge: -1
     - formula: C6H10O4
+    - annotation: !!omap
+      - inchikey: YJVOWRAWFXRESP-ZCFIWIBFSA-N
+      - kegg.compound: C14463
+      - pubchem.substance: '11954026'
   - !!omap
     - id: Fe2_c
     - name: Fe2+
     - compartment: c
-    - charge: 0
+    - charge: 2
     - formula: Fe
+    - annotation: !!omap
+      - inchikey: CWYNVVGOOAEACU-UHFFFAOYSA-N
+      - kegg.compound: C14818
+      - pubchem.substance: '27284'
   - !!omap
     - id: 1_4_Dihydroxy_2_naphthoyl_c
     - name: 1_4-Dihydroxy-2-naphthoyl-CoA
     - compartment: c
-    - charge: 0
+    - charge: -4
     - formula: C32H42N7O19P3S
+    - annotation: !!omap
+      - inchikey: PYTINLGPKDJURZ-HSJNEKGZSA-N
+      - kegg.compound: C15547
+      - pubchem.substance: '44140569'
   - !!omap
     - id: L_3_4_Dihydroxybutan_2_one_4_phosphate_c
     - name: L-3_4-Dihydroxybutan-2-one 4-phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C4H9O6P
+    - annotation: !!omap
+      - inchikey: OKYHYXLCTGGOLM-UHFFFAOYSA-N
+      - kegg.compound: C15556
+      - pubchem.substance: '669'
   - !!omap
     - id: 5_Carboxyamino_1_5_phospho_D_ribosylimidazole_c
     - name: 5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole
     - compartment: c
-    - charge: 0
+    - charge: -3
     - formula: C9H14N3O9P
+    - annotation: !!omap
+      - inchikey: JHLXDWGVSYMXPL-XVFCMESISA-N
+      - kegg.compound: C15667
+      - pubchem.substance: '23657851'
   - !!omap
     - id: Heme_O_c
     - name: Heme_O
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C49H58FeN4O5
+    - annotation: !!omap
+      - kegg.compound: C15672
   - !!omap
     - id: Iminoglycine_c
     - name: Iminoglycine
     - compartment: c
     - charge: 0
     - formula: C2H3NO2
+    - annotation: !!omap
+      - inchikey: TVMUHOAONWHJBV-UHFFFAOYSA-N
+      - kegg.compound: C15809
+      - pubchem.substance: '3080609'
   - !!omap
     - id: 9_9_dicis_zeta_Carotene_c
     - name: 9_9-dicis-zeta-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H60
+    - annotation: !!omap
+      - inchikey: BIWLELKAFXRPDE-ZURBLSRNSA-N
+      - kegg.compound: C15857
+      - pubchem.substance: '6440490'
   - !!omap
     - id: 7_9_7_9_tetracis_Lycopene_c
     - name: 7_9_7_9-tetracis-Lycopene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - inchikey: OAIJSZIZWZSQBC-BYUNHUQQSA-N
+      - kegg.compound: C15858
+      - pubchem.substance: '10918539'
   - !!omap
     - id: 7_Cyano_7_carbaguanine_c
     - name: 7-Cyano-7-carbaguanine
     - compartment: c
     - charge: 0
     - formula: C7H5N5O
+    - annotation: !!omap
+      - inchikey: FMKSMYDYKXQYRV-UHFFFAOYSA-N
+      - kegg.compound: C15996
+      - pubchem.substance: '47205307'
   - !!omap
     - id: Linoleoyl_acyl_carrier_protein_c
     - name: Linoleoyl-acyl-carrier protein
     - compartment: c
     - charge: 0
     - formula: C18H31OSR
+    - annotation: !!omap
+      - kegg.compound: C16160
+      - pubchem.substance: '47205470'
   - !!omap
     - id: 3_Oxostearoyl_c
     - name: 3-Oxostearoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C18H33O2SR
+    - annotation: !!omap
+      - kegg.compound: C16219
   - !!omap
     - id: 3_Hydroxyoctadecanoyl_c
     - name: 3-Hydroxyoctadecanoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C18H35O2SR
+    - annotation: !!omap
+      - kegg.compound: C16220
   - !!omap
     - id: 2E_Octadecenoyl_c
     - name: (2E)-Octadecenoyl-(acp)
     - compartment: c
     - charge: 0
     - formula: C18H33OSR
+    - annotation: !!omap
+      - kegg.compound: C16221
   - !!omap
     - id: epsilon_Carotene_c
     - name: epsilon-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H56
+    - annotation: !!omap
+      - kegg.compound: C16276
+      - pubchem.substance: '47205584'
   - !!omap
     - id: 7_8_Dihydro_beta_carotene_c
     - name: 7,8-Dihydro-beta-carotene
     - compartment: c
     - charge: 0
     - formula: C40H58
+    - annotation: !!omap
+      - kegg.compound: C16291
+      - pubchem.substance: '47205599'
   - !!omap
     - id: 2_Succinyl_5_enolpyruvyl_6_hydroxy_3_cyclohexene_1_carboxylate_c
     - name: 2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
     - compartment: c
     - charge: 0
     - formula: C14H16O9
+    - annotation: !!omap
+      - inchikey: XYCATPIYKOARSZ-OAIFWDMCSA-N
+      - kegg.compound: C16519
+      - pubchem.substance: '24883454'
   - !!omap
     - id: 7_Aminomethyl_7_carbaguanine_c
     - name: 7-Aminomethyl-7-carbaguanine
     - compartment: c
     - charge: 0
     - formula: C7H9N5O
+    - annotation: !!omap
+      - inchikey: MEYMBLGOKYDGLZ-UHFFFAOYSA-N
+      - kegg.compound: C16675
+      - pubchem.substance: '51090998'
   - !!omap
     - id: Plastoquinol_c
     - name: Plastoquinol
     - compartment: c
     - charge: 0
     - formula: C13H18O2
+    - annotation: !!omap
+      - inchikey: WKFUDLTXRQQGHB-UHFFFAOYSA-N
+      - kegg.compound: C16693
+      - pubchem.substance: '24892729'
   - !!omap
     - id: 2_Aminobut_2_enoate_c
     - name: 2-Aminobut-2-enoate
     - compartment: c
     - charge: 0
     - formula: C4H7NO2
+    - annotation: !!omap
+      - inchikey: PAWSVPVNIXFKOS-IHWYPQMZSA-N
+      - kegg.compound: C17234
+      - pubchem.substance: '6449989'
   - !!omap
     - id: di_trans_poly_cis_Undecaprenyl_phosphate_c
     - name: di-trans_poly-cis-Undecaprenyl phosphate
     - compartment: c
-    - charge: 0
+    - charge: -2
     - formula: C55H91O4P
+    - annotation: !!omap
+      - inchikey: UFPHFKCTOZIAFY-NTDVEAECSA-N
+      - kegg.compound: C17556
+      - pubchem.substance: '5283548'
   - !!omap
     - id: Malonyl_acp_methyl_ester_c
     - name: Malonyl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C4H5O3SR
+    - annotation: !!omap
+      - kegg.compound: C19673
   - !!omap
     - id: 7_9_9_tricis_Neurosporene_c
     - name: 7,9,9'-tricis-Neurosporene;
     - compartment: c
     - charge: 0
     - formula: C40H58
+    - annotation: !!omap
+      - kegg.compound: C19759
+      - pubchem.substance: '135626226'
   - !!omap
     - id: 9_15_9_tricis_zeta_Carotene_c
     - name: 9_15_9-tricis-zeta-Carotene
     - compartment: c
     - charge: 0
     - formula: C40H60
+    - annotation: !!omap
+      - inchikey: BIWLELKAFXRPDE-LMARSQGMSA-N
+      - kegg.compound: C19764
+      - pubchem.substance: '135626231'
   - !!omap
     - id: 15_9_dicis_Phytofluene_c
     - name: 15_9-dicis-Phytofluene
     - compartment: c
     - charge: 0
     - formula: C40H62
+    - annotation: !!omap
+      - inchikey: OVSVTCFNLSGAMM-IQEMYQFOSA-N
+      - kegg.compound: C19765
+      - pubchem.substance: '51351778'
   - !!omap
     - id: Pimeloyl_acyl_carrier_protein_c
     - name: Pimeloyl-(acyl-carrier protein)
     - compartment: c
     - charge: 0
     - formula: C7H11O3SR
+    - annotation: !!omap
+      - kegg.compound: C19845
   - !!omap
     - id: Pimeloyl_acyl_carrier_protein_methyl_ester_c
     - name: Pimeloyl-(acyl-carrier protein) methyl ester
     - compartment: c
     - charge: 0
     - formula: C8H13O3SR
+    - annotation: !!omap
+      - kegg.compound: C19846
   - !!omap
     - id: 6_Carboxy_5_6_7_8_tetrahydropterin_c
     - name: 6-Carboxy-5_6_7_8-tetrahydropterin
     - compartment: c
     - charge: 0
     - formula: C7H9N5O3
+    - annotation: !!omap
+      - inchikey: QSIYONWVWDSRRO-UHFFFAOYSA-N
+      - kegg.compound: C20239
+      - pubchem.substance: '12463319'
   - !!omap
     - id: 7_Carboxy_7_carbaguanine_c
     - name: 7-Carboxy-7-carbaguanine
     - compartment: c
     - charge: 0
     - formula: C7H6N4O3
+    - annotation: !!omap
+      - inchikey: XIUIRSLBMMTDSK-UHFFFAOYSA-N
+      - kegg.compound: C20248
+      - pubchem.substance: '13344694'
   - !!omap
     - id: 2S_4S_4_Hydroxy_2_3_4_5_tetrahydrodipicolinate_c
     - name: (2S_4S)-4-Hydroxy-2_3_4_5-tetrahydrodipicolinate
     - compartment: c
     - charge: 0
     - formula: C7H9NO5
+    - annotation: !!omap
+      - inchikey: DVTPRYHENFBCII-IMJSIDKUSA-N
+      - kegg.compound: C20258
+      - pubchem.substance: '53323638'
   - !!omap
     - id: 3_Ketoglutaryl_acp_methyl_ester_c
     - name: 3-Ketoglutaryl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C6H7O4SR
+    - annotation: !!omap
+      - kegg.compound: C20372
   - !!omap
     - id: 3_Hydroxyglutaryl_acp_methyl_ester_c
     - name: 3-Hydroxyglutaryl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C6H9O4SR
+    - annotation: !!omap
+      - kegg.compound: C20373
   - !!omap
     - id: Enoylglutaryl_acp_methyl_ester_c
     - name: Enoylglutaryl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C6H7O3SR
+    - annotation: !!omap
+      - kegg.compound: C20374
   - !!omap
     - id: Glutaryl_acp_methyl_ester_c
     - name: Glutaryl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C6H9O3SR
+    - annotation: !!omap
+      - kegg.compound: C20375
   - !!omap
     - id: 3_Ketopimeloyl_acp_methyl_ester_c
     - name: 3-Ketopimeloyl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C8H11O4SR
+    - annotation: !!omap
+      - kegg.compound: C20376
   - !!omap
     - id: 3_Hydroxypimeloyl_acp_methyl_ester_c
     - name: 3-Hydroxypimeloyl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C8H13O4SR
+    - annotation: !!omap
+      - kegg.compound: C20377
   - !!omap
     - id: Enoylpimeloyl_acp_methyl_ester_c
     - name: Enoylpimeloyl-(acp) methyl ester
     - compartment: c
     - charge: 0
     - formula: C8H11O3SR
+    - annotation: !!omap
+      - kegg.compound: C20378
   - !!omap
     - id: Cell_wall_c
     - name: Cell wall Biomass precursor
@@ -3486,36 +5509,60 @@
     - compartment: car
     - charge: 0
     - formula: H2O
+    - annotation: !!omap
+      - inchikey: XLYOFNOQVPJJNP-UHFFFAOYSA-N
+      - kegg.compound: C00001
+      - pubchem.substance: '962'
   - !!omap
     - id: CO2_car
     - name: CO2
     - compartment: car
     - charge: 0
     - formula: CO2
+    - annotation: !!omap
+      - inchikey: CURLTUGMZLYLDI-UHFFFAOYSA-N
+      - kegg.compound: C00011
+      - pubchem.substance: '280'
   - !!omap
     - id: H_car
     - name: H+ car
     - compartment: car
-    - charge: 0
+    - charge: 1
     - formula: H
+    - annotation: !!omap
+      - inchikey: GPRLSGONYQIRFK-UHFFFAOYSA-N
+      - kegg.compound: C00080
+      - pubchem.substance: '1038'
   - !!omap
     - id: 3_Phospho_D_glycerate_car
     - name: 3-Phospho-D-glycerate
     - compartment: car
-    - charge: 0
+    - charge: -3
     - formula: C3H7O7P
+    - annotation: !!omap
+      - inchikey: OSJPPGNTCRNQQC-UWTATZPHSA-N
+      - kegg.compound: C00197
+      - pubchem.substance: '439183'
   - !!omap
     - id: HCO3__car
     - name: HCO3-
     - compartment: car
-    - charge: 0
+    - charge: -1
     - formula: CHO3
+    - annotation: !!omap
+      - inchikey: BVKZGUZCCUSVTD-UHFFFAOYSA-M
+      - kegg.compound: C00288
+      - pubchem.substance: '769'
   - !!omap
     - id: D_Ribulose_1_5_bisphosphate_car
     - name: D-Ribulose 1_5-bisphosphate
     - compartment: car
-    - charge: 0
+    - charge: -4
     - formula: C5H12O11P2
+    - annotation: !!omap
+      - inchikey: YAHZABJORDUQGO-NQXXGFSBSA-N
+      - kegg.compound: C01182
+      - pubchem.substance: '123658'
   - !!omap
     - id: Amino_sugars_e
     - name: Amino sugars pool
@@ -3540,432 +5587,695 @@
     - compartment: e
     - charge: 0
     - formula: H2O
+    - annotation: !!omap
+      - inchikey: XLYOFNOQVPJJNP-UHFFFAOYSA-N
+      - kegg.compound: C00001
+      - pubchem.substance: '962'
   - !!omap
     - id: Oxygen_e
     - name: O2
     - compartment: e
     - charge: 0
     - formula: O2
+    - annotation: !!omap
+      - inchikey: MYMOFIZGZYHOMD-UHFFFAOYSA-N
+      - kegg.compound: C00007
+      - pubchem.substance: '977'
   - !!omap
     - id: Orthophosphate_e
     - name: Orthophosphate
     - compartment: e
-    - charge: 0
+    - charge: -2
     - formula: H3O4P
+    - annotation: !!omap
+      - inchikey: NBIIXXVUZAFLBC-UHFFFAOYSA-N
+      - kegg.compound: C00009
+      - pubchem.substance: '1004'
   - !!omap
     - id: CO2_e
     - name: CO2
     - compartment: e
     - charge: 0
     - formula: CO2
+    - annotation: !!omap
+      - inchikey: CURLTUGMZLYLDI-UHFFFAOYSA-N
+      - kegg.compound: C00011
+      - pubchem.substance: '280'
   - !!omap
     - id: Ammonia_e
     - name: Ammonia
     - compartment: e
-    - charge: 0
+    - charge: 1
     - formula: H3N
+    - annotation: !!omap
+      - inchikey: QGZKDVFQNNGYKY-UHFFFAOYSA-N
+      - kegg.compound: C00014
+      - pubchem.substance: '222'
   - !!omap
     - id: FAD_e
     - name: FAD
     - compartment: e
-    - charge: 0
+    - charge: -3
     - formula: C27H33N9O15P2
+    - annotation: !!omap
+      - inchikey: VWWQXMAJTJZDQX-UYBVJOGSSA-N
+      - kegg.compound: C00016
+      - pubchem.substance: '643975'
   - !!omap
     - id: L_Glutamate_e
     - name: L-Glutamate
     - compartment: e
-    - charge: 0
+    - charge: -1
     - formula: C5H9NO4
+    - annotation: !!omap
+      - inchikey: WHUUTDBJXJRKMK-VKHMYHEASA-N
+      - kegg.compound: C00025
+      - pubchem.substance: '33032'
   - !!omap
     - id: D_Glucose_e
     - name: D-Glucose
     - compartment: e
     - charge: 0
     - formula: C6H12O6
+    - annotation: !!omap
+      - inchikey: WQZGKKKJIJFFOK-GASJEMHNSA-N
+      - kegg.compound: C00031
+      - pubchem.substance: '5793'
   - !!omap
     - id: Glycine_e
     - name: Glycine
     - compartment: e
     - charge: 0
     - formula: C2H5NO2
+    - annotation: !!omap
+      - inchikey: DHMQDGOQFOQNFH-UHFFFAOYSA-N
+      - kegg.compound: C00037
+      - pubchem.substance: '750'
   - !!omap
     - id: Zn2_e
     - name: Zn2+
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00038
   - !!omap
     - id: L_Alanine_e
     - name: L-Alanine
     - compartment: e
     - charge: 0
     - formula: C3H7NO2
+    - annotation: !!omap
+      - inchikey: QNAYBMKLOCPYGJ-REOHCLBHSA-N
+      - kegg.compound: C00041
+      - pubchem.substance: '5950'
   - !!omap
     - id: L_Lysine_e
     - name: L-Lysine
     - compartment: e
-    - charge: 0
+    - charge: 1
     - formula: C6H14N2O2
+    - annotation: !!omap
+      - inchikey: KDXKERNSBIXSRK-YFKPBYRVSA-N
+      - kegg.compound: C00047
+      - pubchem.substance: '5962'
   - !!omap
     - id: L_Aspartate_e
     - name: L-Aspartate
     - compartment: e
-    - charge: 0
+    - charge: -1
     - formula: C4H7NO4
+    - annotation: !!omap
+      - inchikey: CKLJMWTZIZZHCS-REOHCLBHSA-N
+      - kegg.compound: C00049
+      - pubchem.substance: '5960'
   - !!omap
     - id: Adenosine_3_5_bisphosphate_e
     - name: Adenosine 3_5-bisphosphate
     - compartment: e
-    - charge: 0
+    - charge: -4
     - formula: C10H15N5O10P2
+    - annotation: !!omap
+      - inchikey: WHTCPDAXWFLDIH-KQYNXXCUSA-N
+      - kegg.compound: C00054
+      - pubchem.substance: '159296'
   - !!omap
     - id: Sulfate_e
     - name: Sulfate
     - compartment: e
-    - charge: 0
+    - charge: -2
     - formula: H2O4S
+    - annotation: !!omap
+      - inchikey: QAOWNCQODCNURD-UHFFFAOYSA-N
+      - kegg.compound: C00059
+      - pubchem.substance: '1118'
   - !!omap
     - id: L_Arginine_e
     - name: L-Arginine
     - compartment: e
-    - charge: 0
+    - charge: 1
     - formula: C6H14N4O2
+    - annotation: !!omap
+      - inchikey: ODKSFYDXXFIFQN-BYPYZUCNSA-N
+      - kegg.compound: C00062
+      - pubchem.substance: '6322'
   - !!omap
     - id: L_Glutamine_e
     - name: L-Glutamine
     - compartment: e
     - charge: 0
     - formula: C5H10N2O3
+    - annotation: !!omap
+      - inchikey: ZDXPYRJPNDTMRX-VKHMYHEASA-N
+      - kegg.compound: C00064
+      - pubchem.substance: '5961'
   - !!omap
     - id: L_Serine_e
     - name: L-Serine
     - compartment: e
     - charge: 0
     - formula: C3H7NO3
+    - annotation: !!omap
+      - inchikey: MTCFGRXMJLQNBG-REOHCLBHSA-N
+      - kegg.compound: C00065
+      - pubchem.substance: '5951'
   - !!omap
     - id: tRNA_e
     - name: tRNA
     - compartment: e
     - charge: 0
     - formula: C15H25O16P2R
+    - annotation: !!omap
+      - kegg.compound: C00066
   - !!omap
     - id: Thiamin_diphosphate_e
     - name: Thiamin diphosphate
     - compartment: e
-    - charge: 0
+    - charge: -1
     - formula: C12H19N4O7P2S
+    - annotation: !!omap
+      - inchikey: AYEKOFBPNLCAJY-UHFFFAOYSA-O
+      - kegg.compound: C00068
+      - pubchem.substance: '1132'
   - !!omap
     - id: Copper_e
     - name: Copper
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: Cu
+    - annotation: !!omap
+      - inchikey: RYGMFSIKBFXOCR-UHFFFAOYSA-N
+      - kegg.compound: C00070
+      - pubchem.substance: '3370'
   - !!omap
     - id: L_Methionine_e
     - name: L-Methionine
     - compartment: e
     - charge: 0
     - formula: C5H11NO2S
+    - annotation: !!omap
+      - inchikey: FFEARJCKVFRZRR-BYPYZUCNSA-N
+      - kegg.compound: C00073
+      - pubchem.substance: '6137'
   - !!omap
     - id: Calcium_cation_e
     - name: Ca2+
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00076
   - !!omap
     - id: L_Tryptophan_e
     - name: L-Tryptophan
     - compartment: e
     - charge: 0
     - formula: C11H12N2O2
+    - annotation: !!omap
+      - inchikey: QIVBCDIJIAJPQS-VIFPVBQESA-N
+      - kegg.compound: C00078
+      - pubchem.substance: '6305'
   - !!omap
     - id: L_Phenylalanine_e
     - name: L-Phenylalanine
     - compartment: e
     - charge: 0
     - formula: C9H11NO2
+    - annotation: !!omap
+      - inchikey: COLNVLDHVKWLRT-QMMMGPOBSA-N
+      - kegg.compound: C00079
+      - pubchem.substance: '6140'
   - !!omap
     - id: H_e
     - name: H+
     - compartment: e
-    - charge: 0
+    - charge: 1
     - formula: H
+    - annotation: !!omap
+      - inchikey: GPRLSGONYQIRFK-UHFFFAOYSA-N
+      - kegg.compound: C00080
+      - pubchem.substance: '1038'
   - !!omap
     - id: L_Tyrosine_e
     - name: L-Tyrosine
     - compartment: e
     - charge: 0
     - formula: C9H11NO3
+    - annotation: !!omap
+      - inchikey: OUYCCCASQSFEME-QMMMGPOBSA-N
+      - kegg.compound: C00082
+      - pubchem.substance: '6057'
   - !!omap
     - id: Urea_e
     - name: Urea
     - compartment: e
     - charge: 0
     - formula: CH4N2O
+    - annotation: !!omap
+      - inchikey: XSQUKJJJFZCRTK-UHFFFAOYSA-N
+      - kegg.compound: C00086
+      - pubchem.substance: '1176'
   - !!omap
     - id: Biotin_e
     - name: Biotin
     - compartment: e
     - charge: 0
     - formula: C10H16N2O3S
+    - annotation: !!omap
+      - inchikey: YBJHBAHKTGYVGT-ZKWXMUAHSA-N
+      - kegg.compound: C00120
+      - pubchem.substance: '171548'
   - !!omap
     - id: L_Leucine_e
     - name: L-Leucine
     - compartment: e
     - charge: 0
     - formula: C6H13NO2
+    - annotation: !!omap
+      - inchikey: ROHFNLRQFUQHCH-YFKPBYRVSA-N
+      - kegg.compound: C00123
+      - pubchem.substance: '6106'
   - !!omap
     - id: Methanol_e
     - name: Methanol
     - compartment: e
     - charge: 0
     - formula: CH4O
+    - annotation: !!omap
+      - inchikey: OKKJLVBELUTLKV-UHFFFAOYSA-N
+      - kegg.compound: C00132
+      - pubchem.substance: '887'
   - !!omap
     - id: L_Histidine_e
     - name: L-Histidine
     - compartment: e
     - charge: 0
     - formula: C6H9N3O2
+    - annotation: !!omap
+      - inchikey: HNDVDQJCIGZPNO-YFKPBYRVSA-N
+      - kegg.compound: C00135
+      - pubchem.substance: '6274'
   - !!omap
     - id: L_Proline_e
     - name: L-Proline
     - compartment: e
     - charge: 0
     - formula: C5H9NO2
+    - annotation: !!omap
+      - inchikey: ONIBWKKTOPOVIA-BYPYZUCNSA-N
+      - kegg.compound: C00148
+      - pubchem.substance: '145742'
   - !!omap
     - id: Molybdenum_e
     - name: Molybdenum
     - compartment: e
     - charge: 0
     - formula: Mo
+    - annotation: !!omap
+      - inchikey: ZOKXTWBITQBERF-UHFFFAOYSA-N
+      - kegg.compound: C00150
+      - pubchem.substance: '3450'
   - !!omap
     - id: L_Asparagine_e
     - name: L-Asparagine
     - compartment: e
     - charge: 0
     - formula: C4H8N2O3
+    - annotation: !!omap
+      - inchikey: DCXYFEDJOCDNAF-REOHCLBHSA-N
+      - kegg.compound: C00152
+      - pubchem.substance: '6267'
   - !!omap
     - id: Glycolate_e
     - name: Glycolate
     - compartment: e
     - charge: 0
     - formula: C2H4O3
+    - annotation: !!omap
+      - inchikey: AEMRFAOFKBGASW-UHFFFAOYSA-N
+      - kegg.compound: C00160
+      - pubchem.substance: '3460'
   - !!omap
     - id: Cobalt_ion_e
     - name: Cobalt ion
     - compartment: e
     - charge: 0
     - formula: Co
+    - annotation: !!omap
+      - inchikey: XLJKHNWPARRRJB-UHFFFAOYSA-N
+      - kegg.compound: C00175
+      - pubchem.substance: '104729'
   - !!omap
     - id: Glycogen_e
     - name: Glycogen
     - compartment: e
     - charge: 0
     - formula: C6H10O5
+    - annotation: !!omap
+      - kegg.compound: C00182
+      - pubchem.substance: '3482'
   - !!omap
     - id: L_Valine_e
     - name: L-Valine
     - compartment: e
     - charge: 0
     - formula: C5H11NO2
+    - annotation: !!omap
+      - inchikey: KZSNJWFQEVHDMF-BYPYZUCNSA-N
+      - kegg.compound: C00183
+      - pubchem.substance: '6287'
   - !!omap
     - id: L_Threonine_e
     - name: L-Threonine
     - compartment: e
     - charge: 0
     - formula: C4H9NO3
+    - annotation: !!omap
+      - inchikey: AYFVYJQAPQTCCC-GBXIJSLDSA-N
+      - kegg.compound: C00188
+      - pubchem.substance: '6288'
   - !!omap
     - id: Cobamide_coenzyme_e
     - name: Cobamide coenzyme
     - compartment: e
     - charge: 0
     - formula: C72H100CoN18O17P
+    - annotation: !!omap
+      - inchikey: ZIHHMGTYZOSFRC-QRVZQHAISA-L
+      - kegg.compound: C00194
   - !!omap
     - id: Photon_e
     - name: Photon
     - compartment: e
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00205
   - !!omap
     - id: Acyl_carrier_protein_e
     - name: Acyl-carrier protein
     - compartment: e
     - charge: 0
     - formula: HSR
+    - annotation: !!omap
+      - kegg.compound: C00229
   - !!omap
     - id: CO_e
     - name: CO
     - compartment: e
     - charge: 0
     - formula: CO
+    - annotation: !!omap
+      - inchikey: UGFAIRIUMAVXCW-UHFFFAOYSA-N
+      - kegg.compound: C00237
+      - pubchem.substance: '281'
   - !!omap
     - id: K_e
     - name: K+
     - compartment: e
-    - charge: 0
+    - charge: 1
     - formula: K
+    - annotation: !!omap
+      - inchikey: NPYPAHLBTDXSSS-UHFFFAOYSA-N
+      - kegg.compound: C00238
+      - pubchem.substance: '3537'
   - !!omap
     - id: Nicotinate_e
     - name: Nicotinate
     - compartment: e
-    - charge: 0
+    - charge: -1
     - formula: C6H5NO2
+    - annotation: !!omap
+      - inchikey: PVNIIMVLHYAWGP-UHFFFAOYSA-N
+      - kegg.compound: C00253
+      - pubchem.substance: '938'
   - !!omap
     - id: Glycolaldehyde_e
     - name: Glycolaldehyde
     - compartment: e
     - charge: 0
     - formula: C2H4O2
+    - annotation: !!omap
+      - inchikey: WGCNASOHLSPBMP-UHFFFAOYSA-N
+      - kegg.compound: C00266
+      - pubchem.substance: '756'
   - !!omap
     - id: Hydrogen_sulfide_e
     - name: Hydrogen sulfide
     - compartment: e
-    - charge: 0
+    - charge: -1
     - formula: H2S
+    - annotation: !!omap
+      - inchikey: RWSOTUBLDIXVET-UHFFFAOYSA-N
+      - kegg.compound: C00283
+      - pubchem.substance: '402'
   - !!omap
     - id: HCO3_e
     - name: HCO3-
     - compartment: e
-    - charge: 0
+    - charge: -1
     - formula: CHO3
+    - annotation: !!omap
+      - inchikey: BVKZGUZCCUSVTD-UHFFFAOYSA-M
+      - kegg.compound: C00288
+      - pubchem.substance: '769'
   - !!omap
     - id: Magnesium_cation_e
     - name: Magnesium cation
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: Mg
+    - annotation: !!omap
+      - inchikey: JLVVSXFLKOJNIY-UHFFFAOYSA-N
+      - kegg.compound: C00305
+      - pubchem.substance: '888'
   - !!omap
     - id: Thiosulfate_e
     - name: Thiosulfate
     - compartment: e
     - charge: 0
     - formula: HO3S2
+    - annotation: !!omap
+      - inchikey: DHCDFWKWKRSZHF-UHFFFAOYSA-M
+      - kegg.compound: C00320
+      - pubchem.substance: '439208'
   - !!omap
     - id: Thioredoxin_e
     - name: Thioredoxin
     - compartment: e
     - charge: 0
     - formula: C10H14N4O4S2R4
+    - annotation: !!omap
+      - kegg.compound: C00342
   - !!omap
     - id: L_Isoleucine_e
     - name: L-Isoleucine
     - compartment: e
     - charge: 0
     - formula: C6H13NO2
+    - annotation: !!omap
+      - inchikey: AGPKZVBTJJNPAG-WHFBIAKZSA-N
+      - kegg.compound: C00407
+      - pubchem.substance: '6306'
   - !!omap
     - id: N_Acetylornithine_e
     - name: N-Acetylornithine
     - compartment: e
     - charge: 0
     - formula: C7H14N2O3
+    - annotation: !!omap
+      - inchikey: JRLGPAXAGHMNOL-LURJTMIESA-N
+      - kegg.compound: C00437
+      - pubchem.substance: '439232'
   - !!omap
     - id: L_Cystine_e
     - name: L-Cystine
     - compartment: e
     - charge: 0
     - formula: C6H12N2O4S2
+    - annotation: !!omap
+      - inchikey: LEVWYRKDKASIDU-IMJSIDKUSA-N
+      - kegg.compound: C00491
+      - pubchem.substance: '67678'
   - !!omap
     - id: Chloride_ion_e
     - name: Cl-
     - compartment: e
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C00698
   - !!omap
     - id: Spermine_e
     - name: Spermine
     - compartment: e
-    - charge: 0
+    - charge: 4
     - formula: C10H26N4
+    - annotation: !!omap
+      - inchikey: PFNFFQXMRSDOHW-UHFFFAOYSA-N
+      - kegg.compound: C00750
+      - pubchem.substance: '1103'
   - !!omap
     - id: Menaquinone_e
     - name: Menaquinone
     - compartment: e
     - charge: 0
     - formula: C51H74O2
+    - annotation: !!omap
+      - kegg.compound: C00828
+      - pubchem.substance: '4086'
   - !!omap
     - id: Phosphonate_e
     - name: Phosphonate
     - compartment: e
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C01153
   - !!omap
     - id: Sodium_cation_e
     - name: Na+
     - compartment: e
-    - charge: 0
+    - charge: 1
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C01330
   - !!omap
     - id: Cadmium_e
     - name: Cadmium
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: Cd
+    - annotation: !!omap
+      - inchikey: WLZRMCYVCSSEQC-UHFFFAOYSA-N
+      - kegg.compound: C01413
+      - pubchem.substance: '4601'
   - !!omap
     - id: Cyanate_e
     - name: Cyanate
     - compartment: e
     - charge: 0
     - formula: CHNO
+    - annotation: !!omap
+      - inchikey: XLJMAIOERFSOGZ-UHFFFAOYSA-N
+      - kegg.compound: C01417
+      - pubchem.substance: '540'
   - !!omap
     - id: Cadaverine_e
     - name: Cadaverine
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: C5H14N2
+    - annotation: !!omap
+      - inchikey: VHRGRCVQAFMJIZ-UHFFFAOYSA-N
+      - kegg.compound: C01672
+      - pubchem.substance: '273'
   - !!omap
     - id: Lipoylprotein_e
     - name: Lipoylprotein
     - compartment: e
     - charge: 0
     - formula: C8H14NOS2R
+    - annotation: !!omap
+      - kegg.compound: C02051
   - !!omap
     - id: S_Methyl_5_thio_D_ribose_e
     - name: S-Methyl-5-thio-D-ribose
     - compartment: e
     - charge: 0
     - formula: C6H12O4S
+    - annotation: !!omap
+      - inchikey: OLVVOVIFTBSBBH-KAZBKCHUSA-N
+      - kegg.compound: C03089
+      - pubchem.substance: '5987'
   - !!omap
     - id: THF_polyglutamate_e
     - name: THF-polyglutamate
     - compartment: e
     - charge: 0
     - formula: C29H37N9O12
+    - annotation: !!omap
+      - inchikey: ZAOGJXDWOQXFBW-UHFFFAOYSA-N
+      - kegg.compound: C03541
+      - pubchem.substance: '442163'
   - !!omap
     - id: Apo_acyl_carrier_protein_e
     - name: Apo-(acyl-carrier-protein)
     - compartment: e
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C03688
   - !!omap
     - id: S_Adenosyl_4_methylthio_2_oxobutanoate_e
     - name: S-Adenosyl-4-methylthio-2-oxobutanoate
     - compartment: e
     - charge: 0
     - formula: C15H20N5O6S
+    - annotation: !!omap
+      - inchikey: UOKVQQMBGVMXPU-CJPDYEHRSA-O
+      - kegg.compound: C04425
+      - pubchem.substance: '440336'
   - !!omap
     - id: Selenate_e
     - name: Selenate
     - compartment: e
     - charge: 0
     - formula: H2O4Se
+    - annotation: !!omap
+      - inchikey: QYHFIVBSNOWOCQ-UHFFFAOYSA-N
+      - kegg.compound: C05697
+      - pubchem.substance: '1089'
   - !!omap
     - id: Strontium_cation_e
     - name: Strontium cation
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: Sr
+    - annotation: !!omap
+      - inchikey: PWYYWQHXAPXYMF-UHFFFAOYSA-N
+      - kegg.compound: C13884
+      - pubchem.substance: '854129'
   - !!omap
     - id: Fe2_e
     - name: Fe2+
     - compartment: e
-    - charge: 0
+    - charge: 2
     - formula: Fe
+    - annotation: !!omap
+      - inchikey: CWYNVVGOOAEACU-UHFFFAOYSA-N
+      - kegg.compound: C14818
+      - pubchem.substance: '27284'
   - !!omap
     - id: 7_Aminomethyl_7_carbaguanine_e
     - name: 7-Aminomethyl-7-carbaguanine
     - compartment: e
     - charge: 0
     - formula: C7H9N5O
+    - annotation: !!omap
+      - inchikey: MEYMBLGOKYDGLZ-UHFFFAOYSA-N
+      - kegg.compound: C16675
+      - pubchem.substance: '51090998'
   - !!omap
     - id: Free_fatty_acids_e
     - name: Free fatty acids
@@ -3982,86 +6292,130 @@
     - id: H_p
     - name: H+ p
     - compartment: p
-    - charge: 0
+    - charge: 1
     - formula: H
+    - annotation: !!omap
+      - inchikey: GPRLSGONYQIRFK-UHFFFAOYSA-N
+      - kegg.compound: C00080
+      - pubchem.substance: '1038'
   - !!omap
     - id: Ferricytochrome_p
     - name: Ferricytochrome_c_p
     - compartment: p
     - charge: 0
     - formula: C42H44FeN8O8S2R4
+    - annotation: !!omap
+      - kegg.compound: C00125
+      - pubchem.substance: '3426'
   - !!omap
     - id: Ferrocytochrome_p
     - name: Ferrocytochrome_c_p
     - compartment: p
     - charge: 0
     - formula: C42H44FeN8O8S2R4
+    - annotation: !!omap
+      - kegg.compound: C00126
+      - pubchem.substance: '3426'
   - !!omap
     - id: Plastoquinone_p
     - name: Plastoquinone_p
     - compartment: p
     - charge: 0
     - formula: C13H16O2
+    - annotation: !!omap
+      - inchikey: VBFJJMPOYIKNHB-UHFFFAOYSA-N
+      - kegg.compound: C02061
+      - pubchem.substance: '10219885'
   - !!omap
     - id: Reduced_plastocyanin_p
     - name: Reduced_plastocyanin_p
     - compartment: p
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C03025
   - !!omap
     - id: Oxidized_plastocyanin_p
     - name: Oxidized_plastocyanin_p
     - compartment: p
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C03162
   - !!omap
     - id: Plastoquinol_p
     - name: Plastoquinol_p
     - compartment: p
     - charge: 0
     - formula: C13H18O2
+    - annotation: !!omap
+      - inchikey: WKFUDLTXRQQGHB-UHFFFAOYSA-N
+      - kegg.compound: C16693
+      - pubchem.substance: '24892729'
   - !!omap
     - id: H_th
     - name: H+ th
     - compartment: th
-    - charge: 0
+    - charge: 1
     - formula: H
+    - annotation: !!omap
+      - inchikey: GPRLSGONYQIRFK-UHFFFAOYSA-N
+      - kegg.compound: C00080
+      - pubchem.substance: '1038'
   - !!omap
     - id: Ferricytochrome_c_th
     - name: Ferricytochrome_c_th
     - compartment: th
     - charge: 0
     - formula: C42H44FeN8O8S2R4
+    - annotation: !!omap
+      - kegg.compound: C00125
+      - pubchem.substance: '3426'
   - !!omap
     - id: Ferrocytochrome_c_th
     - name: Ferrocytochrome_c_th
     - compartment: th
     - charge: 0
     - formula: C42H44FeN8O8S2R4
+    - annotation: !!omap
+      - kegg.compound: C00126
+      - pubchem.substance: '3426'
   - !!omap
     - id: Plastoquinone_th
     - name: Plastoquinone_th
     - compartment: th
     - charge: 0
     - formula: C13H16O2
+    - annotation: !!omap
+      - inchikey: VBFJJMPOYIKNHB-UHFFFAOYSA-N
+      - kegg.compound: C02061
+      - pubchem.substance: '10219885'
   - !!omap
     - id: Reduced_plastocyanin_th
     - name: Reduced_plastocyanin_th
     - compartment: th
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C03025
   - !!omap
     - id: Oxidized_plastocyanin_th
     - name: Oxidized_plastocyanin_th
     - compartment: th
     - charge: 0
     - formula: ''
+    - annotation: !!omap
+      - kegg.compound: C03162
   - !!omap
     - id: Plastoquinol_th
     - name: Plastoquinol_th
     - compartment: th
     - charge: 0
     - formula: C13H18O2
+    - annotation: !!omap
+      - inchikey: WKFUDLTXRQQGHB-UHFFFAOYSA-N
+      - kegg.compound: C16693
+      - pubchem.substance: '24892729'
   - !!omap
     - id: preqtRNA_c
     - name: preqtRNA_c
@@ -4414,14 +6768,22 @@
     - id: Malonyl_CoA_c
     - name: Malonyl_CoA_c
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -1
+    - formula: C24H38N7O19P3S
+    - annotation: !!omap
+      - inchikey: LTYOQGRJFJAKNA-DVVLENMVSA-N
+      - kegg.compound: C00083
+      - pubchem.substance: '644066'
   - !!omap
     - id: Acetyl_CoA_c
     - name: Acetyl_CoA_c
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -4
+    - formula: C23H38N7O17P3S
+    - annotation: !!omap
+      - inchikey: ZSLZBFCDCINBPY-ZSJPKINUSA-N
+      - kegg.compound: C00024
+      - pubchem.substance: '444493'
   - !!omap
     - id: P1_P4_Bis5_adenosyltetraphosphate_c
     - name: P1_P4_Bis5_adenosyltetraphosphate_c
@@ -4810,8 +7172,12 @@
     - id: Deamino_NAD_c
     - name: Deamino_NAD_c
     - compartment: c
-    - charge: 0
-    - formula: ''
+    - charge: -2
+    - formula: C21H27N6O15P2
+    - annotation: !!omap
+      - inchikey: SENPVEZBRZQVST-HISDBWNOSA-O
+      - kegg.compound: C00857
+      - pubchem.substance: '165491'
 - reactions:
   - !!omap
     - id: R01055
