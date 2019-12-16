@@ -225,7 +225,7 @@ if __name__ == '__main__':
 
     REPO_PATH = Path.cwd().parent
     print(REPO_PATH)
-    model_path = REPO_PATH / "Model_files" / "iSO595c1.xml"
+    model_path = REPO_PATH / "Model_files" / "iSO595c3.xml"
     model = cobra.io.read_sbml_model(str(model_path))
     if 0:
         # Find duplicate reactions
@@ -238,12 +238,12 @@ if __name__ == '__main__':
         # Give KEGG annotations
         add_KEGG_annotations_from_IDs(model, str(model_path))
 
-    if 0:
+    if 1:
         # Get metabolite annotations from model iJC568 (preceeding model) 
-        spreadsheet_fn = "C:\\Users\\snorres\\OneDrive - SINTEF\\Boston University\\Marine strains project\\GEM\\template_GEM_iJC568\\SI_File_1_iJC568_Excel.xls"
+        spreadsheet_fn = "C:\\Users\\snorres\\OneDrive - SINTEF\\Boston University\\Marine strains project\\GEM\\Prochlorococcus\\template_GEM_iJC568\\SI_File_1_iJC568_Excel.xls"
         add_metabolite_annotations_from_spreadsheet(model, spreadsheet_fn, save_fn = str(model_path))
 
-    if 0:
+    if 1:
         # Delete one of the reactions in each duplicate
         #                            Keep       Delete  Gene rule
         duplicate_reactions_list = [("R00488", "R00546", "PMM0222"),
@@ -252,7 +252,7 @@ if __name__ == '__main__':
                                     ("R01068", "R01070", "PMM0767 or PMM0781"),
                                     ("R00835", "R02736", "PMM1074 or PMM0771")]
         delete_duplicate_reactions(model, duplicate_reactions_list, save_fn = str(model_path))
-    if 1:
+    if 0:
         # Fix wrong exchange reactions
         #                     Reaction id    Correct metabolite
         exchange_reactions = [("ThymidineEX", "Thymidine_e"),   

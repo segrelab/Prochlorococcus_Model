@@ -1552,15 +1552,11 @@
       - kegg.compound: C00286
       - pubchem.substance: '65103'
   - !!omap
-    - id: HCO3__c
+    - id: HCO3_c
     - name: HCO3-
     - compartment: c
-    - charge: -1
+    - charge: 0
     - formula: CHO3
-    - annotation: !!omap
-      - inchikey: BVKZGUZCCUSVTD-UHFFFAOYSA-M
-      - kegg.compound: C00288
-      - pubchem.substance: '769'
   - !!omap
     - id: Inosine_c
     - name: Inosine
@@ -2715,7 +2711,7 @@
       - pubchem.substance: '121992'
   - !!omap
     - id: Oleoyl_acyl_carrier_protein_c
-    - name: Oleoyl-acyl-carrier protein
+    - name: Oleoyl-[acyl-carrier protein]
     - compartment: c
     - charge: 0
     - formula: C18H33OSR
@@ -5205,7 +5201,7 @@
       - pubchem.substance: '47205307'
   - !!omap
     - id: Linoleoyl_acyl_carrier_protein_c
-    - name: Linoleoyl-acyl-carrier protein
+    - name: Linoleoyl-[acyl-carrier protein]
     - compartment: c
     - charge: 0
     - formula: C18H31OSR
@@ -5544,15 +5540,11 @@
       - kegg.compound: C00197
       - pubchem.substance: '439183'
   - !!omap
-    - id: HCO3__car
+    - id: HCO3_car
     - name: HCO3-
     - compartment: car
-    - charge: -1
+    - charge: 0
     - formula: CHO3
-    - annotation: !!omap
-      - inchikey: BVKZGUZCCUSVTD-UHFFFAOYSA-M
-      - kegg.compound: C00288
-      - pubchem.substance: '769'
   - !!omap
     - id: D_Ribulose_1_5_bisphosphate_car
     - name: D-Ribulose 1_5-bisphosphate
@@ -6418,355 +6410,355 @@
       - pubchem.substance: '24892729'
   - !!omap
     - id: preqtRNA_c
-    - name: preqtRNA_c
+    - name: preqtRNA[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: epxytRNA_c
-    - name: epxytRNA_c
+    - name: epxytRNA[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Succinyl_CoA_c
-    - name: Succinyl_CoA_c
+    - name: Succinyl_CoA[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Acetate_e
-    - name: Acetate_e
+    - name: Acetate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Citrate_e
-    - name: Citrate_e
+    - name: Citrate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Formate_e
-    - name: Formate_e
+    - name: Formate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyruvate_e
-    - name: Pyruvate_e
+    - name: Pyruvate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Fumarate_e
-    - name: Fumarate_e
+    - name: Fumarate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Glutathione_e
-    - name: Glutathione_e
+    - name: Glutathione[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: 4_Methyl_2_oxopentanoate_e
-    - name: 4_Methyl_2_oxopentanoate_e
+    - name: 4_Methyl_2_oxopentanoate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pantothenate_e
-    - name: Pantothenate_e
+    - name: Pantothenate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Succinate_e
-    - name: Succinate_e
+    - name: Succinate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Thymidine_e
-    - name: Thymidine_e
+    - name: Thymidine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Xanthosine_e
-    - name: Xanthosine_e
+    - name: Xanthosine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: 4_Aminobenzoate_e
-    - name: 4_Aminobenzoate_e
+    - name: 4_Aminobenzoate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: 5_Methylthioadenosine_e
-    - name: 5_Methylthioadenosine_e
+    - name: 5_Methylthioadenosine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Adenine_e
-    - name: Adenine_e
+    - name: Adenine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Dethiobiotin_e
-    - name: Dethiobiotin_e
+    - name: Dethiobiotin[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Guanine_e
-    - name: Guanine_e
+    - name: Guanine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Guanosine_e
-    - name: Guanosine_e
+    - name: Guanosine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Putrescine_e
-    - name: Putrescine_e
+    - name: Putrescine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Spermidine_e
-    - name: Spermidine_e
+    - name: Spermidine[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: 4_Hydroxybenzoate_e
-    - name: 4_Hydroxybenzoate_e
+    - name: 4_Hydroxybenzoate[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: 4_Hydroxybenzoate_c
-    - name: 4_Hydroxybenzoate_c
+    - name: 4_Hydroxybenzoate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Ethanol_e
-    - name: Ethanol_e
+    - name: Ethanol[e]
     - compartment: e
     - charge: 0
     - formula: ''
   - !!omap
     - id: Ethanol_c
-    - name: Ethanol_c
+    - name: Ethanol[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: tRNA_with_a_3_cytidine_c
-    - name: tRNA_with_a_3_cytidine_c
+    - name: tRNA_with_a_3_cytidine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: tRNA_with_a_3_CC_end_c
-    - name: tRNA_with_a_3_CC_end_c
+    - name: tRNA_with_a_3_CC_end[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_L_cysteine_c
-    - name: Protein_L_cysteine_c
+    - name: '[Protein]_L_cysteine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridinium_3_carboxy_5_thiocarboxylic_acid_mononucleotide_c
-    - name: Pyridinium_3_carboxy_5_thiocarboxylic_acid_mononucleotide_c
+    - name: Pyridinium_3_carboxy_5_thiocarboxylic_acid_mononucleotide[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_dehydroalanine_c
-    - name: Protein_dehydroalanine_c
+    - name: '[Protein]_dehydroalanine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridinium_3_5_biscarboxylic_acid_mononucleotide_c
-    - name: Pyridinium_3_5_biscarboxylic_acid_mononucleotide_c
+    - name: Pyridinium_3_5_biscarboxylic_acid_mononucleotide[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
-    - id: trans_Dodec_2_enoyl_ACP_c
-    - name: trans_Dodec_2_enoyl_ACP_c
+    - id: trans_Dodec_2_enoyl_acp_c
+    - name: trans_Dodec_2_enoyl_[acp][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: beta_D_Fructose_6_phosphate_c
-    - name: beta_D_Fructose_6_phosphate_c
+    - name: beta_D_Fructose_6_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Acyl_acyl_carrier_protein_c
-    - name: Acyl_acyl_carrier_protein_c
+    - name: Acyl_[acyl_carrier_protein][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Acyl_phosphate_c
-    - name: Acyl_phosphate_c
+    - name: Acyl_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Enzyme_S_sulfanylcysteine_c
-    - name: Enzyme_S_sulfanylcysteine_c
+    - name: '[Enzyme]_S_sulfanylcysteine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Enzyme_cysteine_c
-    - name: Enzyme_cysteine_c
+    - name: '[Enzyme]_cysteine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_S_sulfanyl_L_cysteine_c
-    - name: Protein_S_sulfanyl_L_cysteine_c
+    - name: '[Protein]_S_sulfanyl_L_cysteine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 5_Carboxy_1_5_O_phospho_beta_D_ribofuranosylpyridin_1_ium_3_carbonyl_adenylate_c
-    - name: 5_Carboxy_1_5_O_phospho_beta_D_ribofuranosylpyridin_1_ium_3_carbonyl_adenylate_c
+    - name: 5_Carboxy_1_5_O_phospho_beta_D_ribofuranosylpyridin_1_ium_3_carbonyl_adenylate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: alpha_D_Glucose_6_phosphate_c
-    - name: alpha_D_Glucose_6_phosphate_c
+    - name: alpha_D_Glucose_6_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: beta_D_Glucose_6_phosphate_c
-    - name: beta_D_Glucose_6_phosphate_c
+    - name: beta_D_Glucose_6_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: DNAn_c
-    - name: DNAn_c
+    - name: DNAn[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 5_Phospho_DNAm_c
-    - name: 5_Phospho_DNAm_c
+    - name: 5_Phospho_DNAm[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Nicotinamide_D_ribonucleotide_c
-    - name: Nicotinamide_D_ribonucleotide_c
+    - name: Nicotinamide_D_ribonucleotide[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: m_c
-    - name: m_c
+    - name: m[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_S_5_carboxy_1_5_O_phosphono_beta_D_ribofuranosylpyridin_1_ium_3_carbonyl_L_cysteine_c
-    - name: Protein_S_5_carboxy_1_5_O_phosphono_beta_D_ribofuranosylpyridin_1_ium_3_carbonyl_L_cysteine_c
+    - name: '[Protein]_S_[5_carboxy_1_5_O_phosphono_beta_D_ribofuranosylpyridin_1_ium_3_carbonyl]_L_cysteine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
-    - id: Lipoyl_ACP_c
-    - name: Lipoyl_ACP_c
+    - id: Lipoyl_acp_c
+    - name: Lipoyl_[acp][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Lipoyl_carrier_protein_L_lysine_c
-    - name: Lipoyl_carrier_protein_L_lysine_c
+    - name: '[Lipoyl_carrier_protein]_L_lysine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_N6_lipoyllysine_c
-    - name: Protein_N6_lipoyllysine_c
+    - name: Protein_N6_lipoyllysine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: ITP_c
-    - name: ITP_c
+    - name: ITP[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: IDP_c
-    - name: IDP_c
+    - name: IDP[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridoxine_c
-    - name: Pyridoxine_c
+    - name: Pyridoxine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridoxal_c
-    - name: Pyridoxal_c
+    - name: Pyridoxal[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 2_alpha_Hydroxyethylthiamine_diphosphate_c
-    - name: 2_alpha_Hydroxyethylthiamine_diphosphate_c
+    - name: 2_alpha_Hydroxyethylthiamine_diphosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: tRNA_containing_6_isopentenyladenosine_c
-    - name: tRNA_containing_6_isopentenyladenosine_c
+    - name: tRNA_containing_6_isopentenyladenosine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Chlorophyllide_c
-    - name: Chlorophyllide_c
+    - name: Chlorophyllide[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protochlorophyllide_c
-    - name: Protochlorophyllide_c
+    - name: Protochlorophyllide[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Malonyl_CoA_c
-    - name: Malonyl_CoA_c
+    - name: Malonyl_CoA[c]
     - compartment: c
     - charge: -1
     - formula: C24H38N7O19P3S
@@ -6776,7 +6768,7 @@
       - pubchem.substance: '644066'
   - !!omap
     - id: Acetyl_CoA_c
-    - name: Acetyl_CoA_c
+    - name: Acetyl_CoA[c]
     - compartment: c
     - charge: -4
     - formula: C23H38N7O17P3S
@@ -6786,391 +6778,391 @@
       - pubchem.substance: '444493'
   - !!omap
     - id: P1_P4_Bis5_adenosyltetraphosphate_c
-    - name: P1_P4_Bis5_adenosyltetraphosphate_c
+    - name: P1_P4_Bis5_adenosyltetraphosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Sulfur_donor_c
-    - name: Sulfur_donor_c
+    - name: Sulfur_donor[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
-    - id: e__c
-    - name: e__c
+    - id: e_c
+    - name: e[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Lipoyl_AMP_c
-    - name: Lipoyl_AMP_c
+    - name: Lipoyl_AMP[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Biotinyl_5_AMP_c
-    - name: Biotinyl_5_AMP_c
+    - name: Biotinyl_5_AMP[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Enzyme_N6_dihydrolipoyllysine_c
-    - name: Enzyme_N6_dihydrolipoyllysine_c
+    - name: Enzyme_N6_dihydrolipoyllysine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Enzyme_N6_lipoyllysine_c
-    - name: Enzyme_N6_lipoyllysine_c
+    - name: Enzyme_N6_lipoyllysine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: L_Threonylcarbamoyladenylate_c
-    - name: L_Threonylcarbamoyladenylate_c
+    - name: L_Threonylcarbamoyladenylate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Folinic_acid_c
-    - name: Folinic_acid_c
+    - name: Folinic_acid[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Hydroxyproline_c
-    - name: Hydroxyproline_c
+    - name: Hydroxyproline[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: L_1_Pyrroline_3_hydroxy_5_carboxylate_c
-    - name: L_1_Pyrroline_3_hydroxy_5_carboxylate_c
+    - name: L_1_Pyrroline_3_hydroxy_5_carboxylate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Holo_carboxylase_c
-    - name: Holo_carboxylase_c
+    - name: Holo_[carboxylase][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Carboxybiotin_carboxyl_carrier_protein_c
-    - name: Carboxybiotin_carboxyl_carrier_protein_c
+    - name: Carboxybiotin_carboxyl_carrier_protein[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 4_Aminobutyraldehyde_c
-    - name: 4_Aminobutyraldehyde_c
+    - name: 4_Aminobutyraldehyde[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 4_Aminobutanoate_c
-    - name: 4_Aminobutanoate_c
+    - name: 4_Aminobutanoate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 2_Thio_N6_dimethylallyladenine_in_tRNA_c
-    - name: 2_Thio_N6_dimethylallyladenine_in_tRNA_c
+    - name: 2_Thio_N6_dimethylallyladenine_in_tRNA[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 2_Methylthio_N6_dimethylallyladenine_in_tRNA_c
-    - name: 2_Methylthio_N6_dimethylallyladenine_in_tRNA_c
+    - name: 2_Methylthio_N6_dimethylallyladenine_in_tRNA[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 1_Acyl_sn_glycerol_3_phosphate_c
-    - name: 1_Acyl_sn_glycerol_3_phosphate_c
+    - name: 1_Acyl_sn_glycerol_3_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Sulfur_carrier_protein_c
-    - name: Sulfur_carrier_protein_c
+    - name: Sulfur_carrier_protein[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Adenylyl_sulfur_carrier_protein_c
-    - name: Adenylyl_sulfur_carrier_protein_c
+    - name: Adenylyl_[sulfur_carrier_protein][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
-    - id: Octanoyl_ACP_c
-    - name: Octanoyl_ACP_c
+    - id: Octanoyl_acp_c
+    - name: Octanoyl_[acp][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_N6_octanoyl_L_lysine_c
-    - name: Protein_N6_octanoyl_L_lysine_c
+    - name: '[Protein]_N6_octanoyl_L_lysine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Propanoate_c
-    - name: Propanoate_c
+    - name: Propanoate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Propionyladenylate_c
-    - name: Propionyladenylate_c
+    - name: Propionyladenylate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: tRNA_precursor_c
-    - name: tRNA_precursor_c
+    - name: tRNA_precursor[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Dihydrogeranylgeranyl_diphosphate_c
-    - name: Dihydrogeranylgeranyl_diphosphate_c
+    - name: Dihydrogeranylgeranyl_diphosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 2_Amino_3_oxo_4_phosphonooxybutyrate_c
-    - name: 2_Amino_3_oxo_4_phosphonooxybutyrate_c
+    - name: 2_Amino_3_oxo_4_phosphonooxybutyrate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 3_Amino_2_oxopropyl_phosphate_c
-    - name: 3_Amino_2_oxopropyl_phosphate_c
+    - name: 3_Amino_2_oxopropyl_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Cobalt_precorrin_5A_c
-    - name: Cobalt_precorrin_5A_c
+    - name: Cobalt_precorrin_5A[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Cobalt_precorrin_5B_c
-    - name: Cobalt_precorrin_5B_c
+    - name: Cobalt_precorrin_5B[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: R_Lipoate_c
-    - name: R_Lipoate_c
+    - name: R_Lipoate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Propanoyl_CoA_c
-    - name: Propanoyl_CoA_c
+    - name: Propanoyl_CoA[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: all_trans_Nonaprenyl_diphosphate_c
-    - name: all_trans_Nonaprenyl_diphosphate_c
+    - name: all_trans_Nonaprenyl_diphosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: tRNA_with_a_3_CCA_end_c
-    - name: tRNA_with_a_3_CCA_end_c
+    - name: tRNA_with_a_3_CCA_end[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 2_Phytyl_1_4_naphthoquinone_c
-    - name: 2_Phytyl_1_4_naphthoquinone_c
+    - name: 2_Phytyl_1_4_naphthoquinone[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Demethylphylloquinol_c
-    - name: Demethylphylloquinol_c
+    - name: Demethylphylloquinol[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Reduced_acceptor_c
-    - name: Reduced_acceptor_c
+    - name: Reduced_acceptor[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Thiocarboxy_sulfur_carrier_protein_c
-    - name: Thiocarboxy_sulfur_carrier_protein_c
+    - name: Thiocarboxy_[sulfur_carrier_protein][c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Acceptor_c
-    - name: Acceptor_c
+    - name: Acceptor[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: O_Phospho_4_hydroxy_L_threonine_c
-    - name: O_Phospho_4_hydroxy_L_threonine_c
+    - name: O_Phospho_4_hydroxy_L_threonine[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Carboxyphosphate_c
-    - name: Carboxyphosphate_c
+    - name: Carboxyphosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Dihydrolipoyllysine_residue_acetyltransferase_S_acetyldihydrolipoyllysine_c
-    - name: Dihydrolipoyllysine_residue_acetyltransferase_S_acetyldihydrolipoyllysine_c
+    - name: '[Dihydrolipoyllysine_residue_acetyltransferase]_S_acetyldihydrolipoyllysine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Cobalt_precorrin_4_c
-    - name: Cobalt_precorrin_4_c
+    - name: Cobalt_precorrin_4[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Cobalt_precorrin_6_c
-    - name: Cobalt_precorrin_6_c
+    - name: Cobalt_precorrin_6[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: UDPMurNAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_c
-    - name: UDPMurNAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_c
+    - name: UDPMurNAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: MurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_diphospho_undecaprenol_c
-    - name: MurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_diphospho_undecaprenol_c
+    - name: MurAcoyl_L_Ala_D_gamma_Glu_L_Lys_D_Ala_D_Ala_diphospho_undecaprenol[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Aldehyde_c
-    - name: Aldehyde_c
+    - name: Aldehyde[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Fatty_acid_c
-    - name: Fatty_acid_c
+    - name: Fatty_acid[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 1_5_O_Phospho_beta_D_ribofuranosyl_5_sulfanylcarbonylpyridin_1_ium_3_carbonyl_adenylate_c
-    - name: 1_5_O_Phospho_beta_D_ribofuranosyl_5_sulfanylcarbonylpyridin_1_ium_3_carbonyl_adenylate_c
+    - name: 1_5_O_Phospho_beta_D_ribofuranosyl_5_sulfanylcarbonylpyridin_1_ium_3_carbonyl_adenylate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Protein_S_1_5_O_phosphono_beta_D_ribofuranosyl_5_sulfanylcarbonylpyridin_1_ium_3_carbonyl_L_cysteine_c
-    - name: Protein_S_1_5_O_phosphono_beta_D_ribofuranosyl_5_sulfanylcarbonylpyridin_1_ium_3_carbonyl_L_cysteine_c
+    - name: '[Protein]_S_[1_5_O_phosphono_beta_D_ribofuranosyl_5_sulfanylcarbonylpyridin_1_ium_3_carbonyl]_L_cysteine[c]'
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridinium_3_5_bisthiocarboxylate_mononucleotide_c
-    - name: Pyridinium_3_5_bisthiocarboxylate_mononucleotide_c
+    - name: Pyridinium_3_5_bisthiocarboxylate_mononucleotide[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Oxidized_plastocyanin_c
-    - name: Oxidized_plastocyanin_c
+    - name: Oxidized_plastocyanin[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Reduced_plastocyanin_c
-    - name: Reduced_plastocyanin_c
+    - name: Reduced_plastocyanin[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Tetrahydrogeranylgeranyl_diphosphate_c
-    - name: Tetrahydrogeranylgeranyl_diphosphate_c
+    - name: Tetrahydrogeranylgeranyl_diphosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridoxine_phosphate_c
-    - name: Pyridoxine_phosphate_c
+    - name: Pyridoxine_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Pyridoxal_phosphate_c
-    - name: Pyridoxal_phosphate_c
+    - name: Pyridoxal_phosphate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: R_S_Lactoylglutathione_c
-    - name: R_S_Lactoylglutathione_c
+    - name: R_S_Lactoylglutathione[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Methylglyoxal_c
-    - name: Methylglyoxal_c
+    - name: Methylglyoxal[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 1_2_Diacyl_sn_glycerol_c
-    - name: 1_2_Diacyl_sn_glycerol_c
+    - name: 1_2_Diacyl_sn_glycerol[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Quinone_c
-    - name: Quinone_c
+    - name: Quinone[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Hydroquinone_c
-    - name: Hydroquinone_c
+    - name: Hydroquinone[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: L_Histidinal_c
-    - name: L_Histidinal_c
+    - name: L_Histidinal[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: 3_D_Glucosyl_1_2_diacylglycerol_c
-    - name: 3_D_Glucosyl_1_2_diacylglycerol_c
+    - name: 3_D_Glucosyl_1_2_diacylglycerol[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Cobyrinate_c
-    - name: Cobyrinate_c
+    - name: Cobyrinate[c]
     - compartment: c
     - charge: 0
     - formula: ''
   - !!omap
     - id: Deamino_NAD_c
-    - name: Deamino_NAD_c
+    - name: Deamino_NAD[c]
     - compartment: c
     - charge: -2
     - formula: C21H27N6O15P2
@@ -7178,6 +7170,12 @@
       - inchikey: SENPVEZBRZQVST-HISDBWNOSA-O
       - kegg.compound: C00857
       - pubchem.substance: '165491'
+  - !!omap
+    - id: S_Malate_e
+    - name: S_Malate[e]
+    - compartment: e
+    - charge: 0
+    - formula: ''
 - reactions:
   - !!omap
     - id: R01055
@@ -8262,7 +8260,7 @@
       - kegg.reaction: R03231
   - !!omap
     - id: R09543
-    - name: S-adenosyl-L-methionine:malonyl-acyl-carrier protein O-methyltransferase
+    - name: S-adenosyl-L-methionine:malonyl-[acyl-carrier protein] O-methyltransferase
     - metabolites: !!omap
       - Malonyl_acp_methyl_ester_c: 1.0
       - Malonyl_acyl_carrier_protein_c: -1.0
@@ -8275,7 +8273,7 @@
       - kegg.reaction: R09543
   - !!omap
     - id: R09725
-    - name: pimeloyl-acyl-carrier protein-methyl-ester hydrolase
+    - name: pimeloyl-[acyl-carrier protein]-methyl-ester hydrolase
     - metabolites: !!omap
       - H2O_c: -1.0
       - Methanol_c: 1.0
@@ -8288,7 +8286,7 @@
       - kegg.reaction: R09725
   - !!omap
     - id: R10115
-    - name: malonyl-acyl-carrier protein-methyl-ester:malonyl-acyl-carrier protein  C-acyltransferase
+    - name: malonyl-[acyl-carrier protein]-methyl-ester:malonyl-[acyl-carrier protein]  C-acyltransferase
     - metabolites: !!omap
       - 3_Ketoglutaryl_acp_methyl_ester_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -8302,7 +8300,7 @@
       - kegg.reaction: R10115
   - !!omap
     - id: R10116
-    - name: 3-hydroxyglutaryl-ACP-methyl-ester:NADP+ oxidoreductase
+    - name: 3-hydroxyglutaryl-[acp]-methyl-ester:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3_Hydroxyglutaryl_acp_methyl_ester_c: 1.0
       - 3_Ketoglutaryl_acp_methyl_ester_c: -1.0
@@ -8316,7 +8314,7 @@
       - kegg.reaction: R10116
   - !!omap
     - id: R10117
-    - name: 3-hydroxyglutaryl-ACP-methyl-ester hydro-lyase
+    - name: 3-hydroxyglutaryl-[acp]-methyl-ester hydro-lyase
     - metabolites: !!omap
       - 3_Hydroxyglutaryl_acp_methyl_ester_c: -1.0
       - Enoylglutaryl_acp_methyl_ester_c: 1.0
@@ -8328,7 +8326,7 @@
       - kegg.reaction: R10117
   - !!omap
     - id: R10118
-    - name: glutaryl-ACP-methyl-ester:NADP+ oxidoreductase
+    - name: glutaryl-[acp]-methyl-ester:NADP+ oxidoreductase
     - metabolites: !!omap
       - Enoylglutaryl_acp_methyl_ester_c: -1.0
       - Glutaryl_acp_methyl_ester_c: 1.0
@@ -8342,7 +8340,7 @@
       - kegg.reaction: R10118
   - !!omap
     - id: R10119
-    - name: glutaryl-ACP-methyl-ester:malonyl-acyl-carrier protein C-acyltransferase
+    - name: glutaryl-[acp]-methyl-ester:malonyl-[acyl-carrier protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Ketopimeloyl_acp_methyl_ester_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -8356,7 +8354,7 @@
       - kegg.reaction: R10119
   - !!omap
     - id: R10120
-    - name: 3-hydroxypimeloyl-ACP-methyl-ester:NADP+ oxidoreductase
+    - name: 3-hydroxypimeloyl-[acp]-methyl-ester:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3_Hydroxypimeloyl_acp_methyl_ester_c: 1.0
       - 3_Ketopimeloyl_acp_methyl_ester_c: -1.0
@@ -8370,7 +8368,7 @@
       - kegg.reaction: R10120
   - !!omap
     - id: R10121
-    - name: 3-hydroxypimeloyl-ACP-methyl-ester hydro-lyase
+    - name: 3-hydroxypimeloyl-[acp]-methyl-ester hydro-lyase
     - metabolites: !!omap
       - 3_Hydroxypimeloyl_acp_methyl_ester_c: -1.0
       - Enoylpimeloyl_acp_methyl_ester_c: 1.0
@@ -8382,7 +8380,7 @@
       - kegg.reaction: R10121
   - !!omap
     - id: R10122
-    - name: pimelyl-acyl-carrier protein-methyl-ester:NADP+ oxidoreductase
+    - name: pimelyl-[acyl-carrier protein]-methyl-ester:NADP+ oxidoreductase
     - metabolites: !!omap
       - Enoylpimeloyl_acp_methyl_ester_c: -1.0
       - H_c: -1.0
@@ -8396,7 +8394,7 @@
       - kegg.reaction: R10122
   - !!omap
     - id: R10124
-    - name: pimeloyl-acyl-carrier protein:L-alanine C-pimeloyltransferase
+    - name: pimeloyl-[acyl-carrier protein]:L-alanine C-pimeloyltransferase
     - metabolites: !!omap
       - 8_Amino_7_oxononanoate_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -8452,7 +8450,7 @@
     - metabolites: !!omap
       - CO2_car: 1.0
       - H2O_car: 1.0
-      - HCO3__car: -1.0
+      - HCO3_car: -1.0
       - H_car: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -8960,7 +8958,7 @@
       - kegg.reaction: R00177
   - !!omap
     - id: R00178
-    - name: S-adenosyl-L-methionine carboxy-lyase (5-deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium-forming
+    - name: S-adenosyl-L-methionine carboxy-lyase [(5-deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium-forming]
     - metabolites: !!omap
       - CO2_c: 1.0
       - H_c: -1.0
@@ -9468,7 +9466,7 @@
     - gene_reaction_rule: PMM1378
   - !!omap
     - id: R01624
-    - name: acetyl-CoA:acyl-carrier-protein S-acetyltransferase
+    - name: acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase
     - metabolites: !!omap
       - Acetyl_CoA_c: -1.0
       - Acetyl_acyl_carrier_protein_c: 1.0
@@ -9481,7 +9479,7 @@
       - kegg.reaction: R01624
   - !!omap
     - id: R01626
-    - name: Malonyl-CoA:acyl-carrier-protein S-malonyltransferase
+    - name: Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase
     - metabolites: !!omap
       - Acyl_carrier_protein_c: -1.0
       - CoA_c: 1.0
@@ -9494,7 +9492,7 @@
       - kegg.reaction: R01626
   - !!omap
     - id: R01706
-    - name: Oleoyl-acyl-carrier protein hydrolase
+    - name: Oleoyl-[acyl-carrier protein] hydrolase
     - metabolites: !!omap
       - Acyl_carrier_protein_c: 1.0
       - H2O_c: -1.0
@@ -9522,7 +9520,7 @@
       - kegg.reaction: R03370
   - !!omap
     - id: R04355
-    - name: Acyl-acyl-carrier-protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - Acetoacetyl_c: 1.0
       - Acetyl_acyl_carrier_protein_c: -1.0
@@ -9536,7 +9534,7 @@
       - kegg.reaction: R04355
   - !!omap
     - id: R04428
-    - name: (3R)-3-Hydroxybutanoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - 3R_3_Hydroxybutanoyl_acyl_carrier_protein_c: -1.0
       - But_2_enoyl_acyl_carrier_protein_c: 1.0
@@ -9548,7 +9546,7 @@
       - kegg.reaction: R04428
   - !!omap
     - id: R04430
-    - name: Butyryl-acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating,
+    - name: Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating,
         oxoacyl- and enoyl-reducing and thioester-hydrolysing)
     - metabolites: !!omap
       - But_2_enoyl_acyl_carrier_protein_c: 1.0
@@ -9563,7 +9561,7 @@
       - kegg.reaction: R04430
   - !!omap
     - id: R04533
-    - name: (3R)-3-Hydroxybutanoyl-acyl-carrier protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3R_3_Hydroxybutanoyl_acyl_carrier_protein_c: -1.0
       - Acetoacetyl_c: 1.0
@@ -9577,7 +9575,7 @@
       - kegg.reaction: R04533
   - !!omap
     - id: R04534
-    - name: (3R)-3-Hydroxydecanoyl-acyl-carrier-protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3R_3_Hydroxydecanoyl_acyl_carrier_protein_c: -1.0
       - 3_Oxodecanoyl_c: 1.0
@@ -9591,7 +9589,7 @@
       - kegg.reaction: R04534
   - !!omap
     - id: R04535
-    - name: (3R)-3-Hydroxybutanoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - 3R_3_Hydroxydecanoyl_acyl_carrier_protein_c: -1.0
       - H2O_c: 1.0
@@ -9603,7 +9601,7 @@
       - kegg.reaction: R04535
   - !!omap
     - id: R04536
-    - name: (3R)-3-Hydroxyoctanoyl-acyl-carrier-protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3R_3_Hydroxyoctanoyl_acyl_carrier_protein_c: -1.0
       - 3_Oxooctanoyl_c: 1.0
@@ -9617,7 +9615,7 @@
       - kegg.reaction: R04536
   - !!omap
     - id: R04537
-    - name: (3R)-3-Hydroxybutanoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - 3R_3_Hydroxyoctanoyl_acyl_carrier_protein_c: -1.0
       - H2O_c: 1.0
@@ -9629,7 +9627,7 @@
       - kegg.reaction: R04537
   - !!omap
     - id: R04543
-    - name: (3R)-3-Hydroxypalmitoyl-acyl-carrier-protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3R_3_Hydroxypalmitoyl_acyl_carrier_protein_c: -1.0
       - 3_Oxohexadecanoyl_c: 1.0
@@ -9643,7 +9641,7 @@
       - kegg.reaction: R04543
   - !!omap
     - id: R04544
-    - name: (3R)-3-hydroxypalmitoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - 3R_3_Hydroxypalmitoyl_acyl_carrier_protein_c: -1.0
       - H2O_c: 1.0
@@ -9655,7 +9653,7 @@
       - kegg.reaction: R04544
   - !!omap
     - id: R04566
-    - name: (3R)-3-Hydroxytetradecanoyl-acyl-carrier-protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3R_3_Hydroxytetradecanoyl_acyl_carrier_protein_c: -1.0
       - 3_Oxotetradecanoyl_c: 1.0
@@ -9669,7 +9667,7 @@
       - kegg.reaction: R04566
   - !!omap
     - id: R04568
-    - name: (3R)-3-Hydroxypalmitoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - 3R_3_Hydroxytetradecanoyl_acyl_carrier_protein_c: -1.0
       - H2O_c: 1.0
@@ -9681,7 +9679,7 @@
       - kegg.reaction: R04568
   - !!omap
     - id: R04725
-    - name: 'Dodecanoyl-acyl-carrier protein: malonyl-CoA C-acyltransferase(decarboxylating,
+    - name: 'Dodecanoyl-[acyl-carrier protein]: malonyl-CoA C-acyltransferase(decarboxylating,
         oxoacyl- and enoyl-reducing and thioester-hydrolysing)'
     - metabolites: !!omap
       - Dodecanoyl_acyl_carrier_protein_c: -1.0
@@ -9696,7 +9694,7 @@
       - kegg.reaction: R04725
   - !!omap
     - id: R04726
-    - name: dodecanoyl-acyl-carrier-protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Oxotetradecanoyl_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -9710,7 +9708,7 @@
       - kegg.reaction: R04726
   - !!omap
     - id: R04952
-    - name: butyryl-acyl-carrier protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Oxohexanoyl_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -9724,7 +9722,7 @@
       - kegg.reaction: R04952
   - !!omap
     - id: R04953
-    - name: (3R)-3-Hydroxyhexanoyl-acyl-carrier-protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3_Oxohexanoyl_c: 1.0
       - H_c: 1.0
@@ -9738,7 +9736,7 @@
       - kegg.reaction: R04953
   - !!omap
     - id: R04954
-    - name: (3R)-3-Hydroxybutanoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - H2O_c: 1.0
       - R_3_Hydroxyhexanoyl_c: -1.0
@@ -9750,7 +9748,7 @@
       - kegg.reaction: R04954
   - !!omap
     - id: R04956
-    - name: Hexanoyl-acyl-carrier protein:oxoacyl- and enoyl-reducing and thioester-hydrolysing)
+    - name: Hexanoyl-[acyl-carrier protein]:oxoacyl- and enoyl-reducing and thioester-hydrolysing)
     - metabolites: !!omap
       - H_c: 1.0
       - Hexanoyl_c: -1.0
@@ -9764,7 +9762,7 @@
       - kegg.reaction: R04956
   - !!omap
     - id: R04957
-    - name: hexanoyl-acyl-carrier protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Oxooctanoyl_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -9778,7 +9776,7 @@
       - kegg.reaction: R04957
   - !!omap
     - id: R04959
-    - name: Octanoyl-acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating,
+    - name: Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating,
         oxoacyl- and enoyl-reducing and thioester-hydrolysing)
     - metabolites: !!omap
       - H_c: 1.0
@@ -9793,7 +9791,7 @@
       - kegg.reaction: R04959
   - !!omap
     - id: R04960
-    - name: Octanoyl-acyl-carrier protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Oxodecanoyl_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -9807,7 +9805,7 @@
       - kegg.reaction: R04960
   - !!omap
     - id: R04962
-    - name: Decanoyl-acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating,
+    - name: Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating,
         oxoacyl- and enoyl-reducing and thioester-hydrolysing)
     - metabolites: !!omap
       - Decanoyl_c: -1.0
@@ -9822,7 +9820,7 @@
       - kegg.reaction: R04962
   - !!omap
     - id: R04963
-    - name: Decanoyl-acyl-carrier protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Oxododecanoyl_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -9836,7 +9834,7 @@
       - kegg.reaction: R04963
   - !!omap
     - id: R04964
-    - name: (3R)-3-Hydroxydodecanoyl-acyl-carrier-protein:NADP+ oxidoreductase
+    - name: (3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase
     - metabolites: !!omap
       - 3_Oxododecanoyl_c: 1.0
       - H_c: 1.0
@@ -9850,7 +9848,7 @@
       - kegg.reaction: R04964
   - !!omap
     - id: R04965
-    - name: (3R)-3-Hydroxybutanoyl-acyl-carrier-protein hydro-lyase
+    - name: (3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase
     - metabolites: !!omap
       - H2O_c: 1.0
       - R_3_Hydroxydodecanoyl_c: -1.0
@@ -9862,7 +9860,7 @@
       - kegg.reaction: R04965
   - !!omap
     - id: R04967
-    - name: Tetradecanoyl-acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating,
+    - name: Tetradecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating,
         oxoacyl- and enoyl-reducing and thioester-hydrolysing)
     - metabolites: !!omap
       - H_c: 1.0
@@ -9877,7 +9875,7 @@
       - kegg.reaction: R04967
   - !!omap
     - id: R04968
-    - name: Tetradecanoyl-acyl-carrier protein:malonyl-acyl-carrier-protein C-acyltransferase
+    - name: Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase
     - metabolites: !!omap
       - 3_Oxohexadecanoyl_c: 1.0
       - Acyl_carrier_protein_c: 1.0
@@ -9891,7 +9889,7 @@
       - kegg.reaction: R04968
   - !!omap
     - id: R04970
-    - name: Hexadecanoyl-acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating,
+    - name: Hexadecanoyl-[acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating,
         oxoacyl- and enoyl-reducing and thioester-hydrolysing)
     - metabolites: !!omap
       - H_c: 1.0
@@ -10887,7 +10885,7 @@
       - kegg.reaction: R02291
   - !!omap
     - id: R02722
-    - name: L-serine hydro-lyase adding 1-C-(indol-3-yl)glycerol 3-phosphate
+    - name: L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate
     - metabolites: !!omap
       - D_Glyceraldehyde_3_phosphate_c: 1.0
       - H2O_c: 1.0
@@ -11200,7 +11198,7 @@
       - kegg.reaction: R04640
   - !!omap
     - id: R04549
-    - name: UDP-2,3-bis(3R)-3-hydroxymyristoyl-alpha-D-glucosamine 2,3-bis(3R)-3-hydroxymyristoyl-beta-D-glucosaminyl
+    - name: UDP-2,3-bis[(3R)-3-hydroxymyristoyl]-alpha-D-glucosamine 2,3-bis[(3R)-3-hydroxymyristoyl]-beta-D-glucosaminyl
         1-phosphate phosphohydrolase
     - metabolites: !!omap
       - H2O_c: -1.0
@@ -11214,7 +11212,7 @@
       - kegg.reaction: R04549
   - !!omap
     - id: R04550
-    - name: (3R)-3-hydroxymyristoyl-acyl-carrier protein:UDP-3-O-(3R)-3-hydroxymyristoyl-alpha-D-glucosamine
+    - name: (3R)-3-hydroxymyristoyl-[acyl-carrier protein]:UDP-3-O-[(3R)-3-hydroxymyristoyl]-alpha-D-glucosamine
         N-acetyltransferase
     - metabolites: !!omap
       - 3R_3_Hydroxytetradecanoyl_acyl_carrier_protein_c: -1.0
@@ -11228,7 +11226,7 @@
       - kegg.reaction: R04550
   - !!omap
     - id: R04567
-    - name: (R)-3-Hydroxytetradecanoly-acyl-carrier-protein:UDP-N-acetyl-glucosamine
+    - name: (R)-3-Hydroxytetradecanoly-[acyl-carrier-protein]:UDP-N-acetyl-glucosamine
         3-O-(3-hydroxytetradecanoyl)transferase
     - metabolites: !!omap
       - 3R_3_Hydroxytetradecanoyl_acyl_carrier_protein_c: -1.0
@@ -11242,7 +11240,7 @@
       - kegg.reaction: R04567
   - !!omap
     - id: R04587
-    - name: UDP-3-O-(3R)-3-hydroxymyristoyl-N-acetylglucosamine amidohydrolase
+    - name: UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase
     - metabolites: !!omap
       - Acetate_c: 1.0
       - H2O_c: -1.0
@@ -11337,7 +11335,7 @@
       - kegg.reaction: R07613
   - !!omap
     - id: R10147
-    - name: L-aspartate-4-semialdehyde hydro-lyase adding pyruvate and cyclizing
+    - name: L-aspartate-4-semialdehyde hydro-lyase [adding pyruvate and cyclizing
     - metabolites: !!omap
       - 2S_4S_4_Hydroxy_2_3_4_5_tetrahydrodipicolinate_c: 1.0
       - H2O_c: 1.0
@@ -11565,7 +11563,7 @@
       - CO2_c: 1.0
       - Carbamate_c: 1.0
       - Cyanate_c: -1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - H_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -11920,7 +11918,7 @@
       - kegg.reaction: R01226
   - !!omap
     - id: R01623
-    - name: Acyl-carrier-protein 4'-pantetheine-phosphohydrolase
+    - name: "[Acyl-carrier-protein] 4'-pantetheine-phosphohydrolase"
     - metabolites: !!omap
       - Acyl_carrier_protein_c: -1.0
       - Apo_acyl_carrier_protein_c: 1.0
@@ -12002,7 +12000,7 @@
       - kegg.reaction: R03051
   - !!omap
     - id: R03269
-    - name: N-(R)-4-Phosphopantothenoyl-L-cysteine carboxy-lyase
+    - name: N-[(R)-4-Phosphopantothenoyl]-L-cysteine carboxy-lyase
     - metabolites: !!omap
       - CO2_c: 1.0
       - Pantetheine_4_phosphate_c: 1.0
@@ -12144,8 +12142,8 @@
       - kegg.reaction: R06837
   - !!omap
     - id: R04519
-    - name: poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)-diphosphoundecaprenol:N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide-diphosphoundecaprenol
-        polysaccharidetransferase
+    - name: '[poly-N-acetyl-D-glucosaminyl-(1->4)-(N-acetyl-D-muramoylpentapeptide)]-diphosphoundecaprenol:[N-acetyl-D-glucosaminyl-(1->4)-N-acetyl-D-muramoylpentapeptide]-diphosphoundecaprenol
+        polysaccharidetransferase'
     - metabolites: !!omap
       - Crosslinked_peptideglycan_c: 1.0
       - ? Undecaprenyl_diphospho_N_acetylmuramoyl_N_acetylglucosamine_L_alanyl_D_glutamyl_meso_2_6_diaminopimeloyl_D_alanyl_D_alanine_c
@@ -12660,7 +12658,7 @@
       - kegg.reaction: R00036
   - !!omap
     - id: R00084
-    - name: porphobilinogen:(4-2-carboxyethyl-3-carboxymethylpyrrol-2-yl)methyltransferase
+    - name: porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase
     - metabolites: !!omap
       - Ammonia_c: 4.0
       - H2O_c: -1.0
@@ -13805,7 +13803,7 @@
       - ADP_c: 1.0
       - ATP_c: -1.0
       - Aminoimidazole_ribotide_c: -1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - H_c: -1.0
       - Orthophosphate_c: 1.0
     - lower_bound: 0.0
@@ -13981,7 +13979,7 @@
       - ATP_c: -2.0
       - Carbamoyl_phosphate_c: 1.0
       - H2O_c: -1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - H_c: -1.0
       - L_Glutamate_c: 1.0
       - L_Glutamine_c: -1.0
@@ -14498,7 +14496,7 @@
       - ADP_c: 1.0
       - ATP_c: -1.0
       - Acetyl_CoA_c: -1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - H_c: -1.0
       - Malonyl_c: 1.0
       - Orthophosphate_c: 1.0
@@ -15600,8 +15598,8 @@
     - id: HCO3TRANScar
     - name: Bicarbonate Transport Carboxysome
     - metabolites: !!omap
-      - HCO3__c: -1.0
-      - HCO3__car: 1.0
+      - HCO3_c: -1.0
+      - HCO3_car: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: PMM0213
@@ -15609,7 +15607,7 @@
     - id: HCO3TRANScyt
     - name: Bicarbonate Transport
     - metabolites: !!omap
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - HCO3_e: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
@@ -17299,7 +17297,7 @@
     - id: ThymidineEX
     - name: ThymidineEX
     - metabolites: !!omap
-      - Thymidine_e: -1
+      - Thymidine_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -17401,7 +17399,7 @@
     - id: GuanineEX
     - name: GuanineEX
     - metabolites: !!omap
-      - Guanine_e: -1
+      - Guanine_e: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
@@ -17553,7 +17551,7 @@
       - H_c: 1.0
       - NADH_c: 1.0
       - NAD_c: -1.0
-      - trans_Dodec_2_enoyl_ACP_c: 1.0
+      - trans_Dodec_2_enoyl_acp_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: PMM0282
@@ -17727,7 +17725,7 @@
     - name: R07769
     - metabolites: !!omap
       - Acyl_carrier_protein_c: 1.0
-      - Lipoyl_ACP_c: -1.0
+      - Lipoyl_acp_c: -1.0
       - Lipoyl_carrier_protein_L_lysine_c: -1.0
       - Protein_N6_lipoyllysine_c: 1.0
     - lower_bound: 0.0
@@ -17970,7 +17968,7 @@
       - ATP_c: -1.0
       - Diphosphate_c: 1.0
       - H2O_c: 1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - H_c: -1.0
       - L_Threonine_c: -1.0
       - L_Threonylcarbamoyladenylate_c: 1.0
@@ -18087,7 +18085,7 @@
       - ADP_c: 1.0
       - ATP_c: -1.0
       - Carboxybiotin_carboxyl_carrier_protein_c: 1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - Holo_carboxylase_c: -1.0
       - Orthophosphate_c: 1.0
     - lower_bound: 0.0
@@ -18388,7 +18386,7 @@
     - metabolites: !!omap
       - Acyl_carrier_protein_c: 1.0
       - Lipoyl_carrier_protein_L_lysine_c: -1.0
-      - Octanoyl_ACP_c: -1.0
+      - Octanoyl_acp_c: -1.0
       - Protein_N6_octanoyl_L_lysine_c: 1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -18698,7 +18696,7 @@
       - ADP_c: 1.0
       - ATP_c: -1.0
       - Carboxyphosphate_c: 1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: PMM0825 and PMM0951
@@ -18980,8 +18978,8 @@
     - metabolites: !!omap
       - 5_Deoxyadenosine_c: 2.0
       - L_Methionine_c: 2.0
-      - Lipoyl_ACP_c: 1.0
-      - Octanoyl_ACP_c: -1.0
+      - Lipoyl_acp_c: 1.0
+      - Octanoyl_acp_c: -1.0
       - S_Adenosyl_L_methionine_c: -2.0
       - Sulfur_donor_c: -2.0
     - lower_bound: -1000.0
@@ -18996,7 +18994,7 @@
       - Ammonia_c: 1.0
       - CO2_c: 2.0
       - Cyanate_c: -1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - H_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
@@ -19492,7 +19490,7 @@
     - metabolites: !!omap
       - AMP_c: 1.0
       - Deamino_NAD_c: -1.0
-      - HCO3__c: -1.0
+      - HCO3_c: -1.0
       - Pyridinium_3_5_biscarboxylic_acid_mononucleotide_c: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
@@ -19553,6 +19551,40 @@
     - gene_reaction_rule: PMM0989
     - annotation: !!omap
       - kegg.reaction: R02097
+  - !!omap
+    - id: Trans_S_Malate
+    - name: Trans_S_Malate
+    - metabolites: !!omap
+      - S_Malate_c: 1.0
+      - S_Malate_e: -1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: S_MalateEX
+    - name: S_MalateEX
+    - metabolites: !!omap
+      - S_Malate_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+  - !!omap
+    - id: R01078
+    - name: R01078
+    - metabolites: !!omap
+      - 5_Deoxyadenosine_c: 2.0
+      - Biotin_c: 1.0
+      - Dethiobiotin_c: -1.0
+      - H_c: -2.0
+      - L_Methionine_c: 2.0
+      - S_Adenosyl_L_methionine_c: -2.0
+      - Sulfur_donor_c: -1.0
+      - e_c: -2.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - kegg.reaction: R01078
 - genes:
   - !!omap
     - id: PMM0001
@@ -21339,12 +21371,12 @@
   - !!omap
     - id: PMM1278
     - name: COBRAProtein595
-- id: iSO595c
-- name: Genome-scale Model for Prochlorococcus marinus med4
+- id: COBRAModel
+- name: Model Exported from COBRA Toolbox
 - compartments: !!omap
   - c: Cytoplasm
-  - car: Carboxysome
+  - car: unknownCompartment2
   - e: Extracellular
   - p: Periplasm
-  - th: Thylakoid
+  - th: unknownCompartment5
 - version: '1.2'
