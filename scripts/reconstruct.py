@@ -4,7 +4,7 @@ Author: Snorre Sulheim
 Email: snorre.sulheim@sintef.no
 Date: 11/9/2019
 
-This script contains functions used to edit and improve the genome-scale model of *Prochlorococcus marinus med*.
+This script contains functions used to edit and improve the genome-scale model of *Prochlorococcus marinus med4*. The starting point for the reconstruction is iSO595c3.xml, however where ascii codes are removed as well as one duplicated metabolite.
 
 """
 import cobra
@@ -214,6 +214,8 @@ def add_metabolite_annotations_from_spreadsheet(model, spreadsheet_fn, sheetname
     if save_fn:
         _export(model, save_fn)
 
+
+
 def _export(model, save_fn, yml_copy = True):
     cobra.io.write_sbml_model(model, save_fn)
     if yml_copy:
@@ -225,7 +227,7 @@ if __name__ == '__main__':
 
     REPO_PATH = Path.cwd().parent
     print(REPO_PATH)
-    model_path = REPO_PATH / "Model_files" / "iSO595c3.xml"
+    model_path = REPO_PATH / "Model_files" / "iSO595c3_ss.xml"
     model = cobra.io.read_sbml_model(str(model_path))
     if 0:
         # Find duplicate reactions
@@ -234,7 +236,7 @@ if __name__ == '__main__':
         for lst in duplicate_reactions:
             print(lst)
 
-    if 0:
+    if 1:
         # Give KEGG annotations
         add_KEGG_annotations_from_IDs(model, str(model_path))
 
