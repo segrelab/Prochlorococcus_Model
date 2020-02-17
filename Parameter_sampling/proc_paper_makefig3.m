@@ -5,17 +5,17 @@
 % plots all the fractions on one figure.
 
 clear all;
-load('iSO595c1.mat');
-run='ct0_';
+load('iSO595c3.mat');
+run='cmax2c_';
 % conctatanting the matrices
 f=[];
-load('flux_iSO595c1_run_ct0_test2_100000.mat');
-f=fluxmtx;
-% for i=1:10
-%     filename=['flux_iSO595c1_run_',run,num2str(i),'_100000.mat'];
-%     load(filename);
-%     f=[f,fluxmtx];
-% end
+% load('flux_iSO595c1_run_ct0_test3_100000.mat');
+% f=fluxmtx;
+for i=1:10
+    filename=['flux_iSO595c3_run_',run,num2str(i),'_100000.mat'];
+    load(filename);
+    f=[f,fluxmtx];
+end
 
 %ranges
 %HCO3
@@ -55,40 +55,45 @@ ind_AA = [765 766 767 768 769 770 771 772 773 774 775 776 777 778 779 780 781 ..
 %Fatty acids
 ind_FA = [717 786];
 %Organic acids
-ind_OA = [733 744 801 803 805 807 809];
+ind_OA = [733 744 800 802 804 806 808 814 816];
+ind_Na=758;
 
 %Find data points (indeces) for which there is glycogen production
 
-% glycg_prod_ind = find((f(ind_glycg,:))>0);
+glycg_prod_ind = find((f(ind_glycg,:))>0);
 [sortf1,sortf2]=sort(f(ind_glycg,:));
-glycg_prod_ind = sortf2((end-1000):end);
+%glycg_prod_ind = sortf2((end-1000):end);
+
+% plot sodium vs. glycogen
+scatter(f(ind_glycg,ind_Na));
 
 % Plot nonzero value of glycogen production
 figure; hold on; set(gca,'fontsize',[16])
 plot(sort(f(ind_glycg,glycg_prod_ind)));
 xlabel('index (sorted)')
 ylabel('Nonzero Glycogen production flux')
-title(['Nonzero/Total  = ' num2str(100*length(glycg_prod_ind)/20000) '%'])
+title(['Nonzero/Total  = ' num2str(100*length(glycg_prod_ind)/1000000) '%'])
+%
 
-
-% Exudates for datapoints producing glycogen:
+% Exudates for all datapoints:
 % Amino acids
+%producing glycogen and AA
 AA_prod_ind = f(ind_AA,glycg_prod_ind);
-AA_exud = f(ind_AA,:);
+AA_exud = find(sum(f(ind_AA,:))>0);
 [sumf1,sumf2]=sort(sum(f(ind_AA,:)));
-ind_AA_exude = sumf2((end-1000):end);
+ind_AA_exude = find(sum(f(ind_AA,:))>0);
 
 % Fatty acids
 FA_prod_ind = f(ind_FA,glycg_prod_ind);
 FA_exud = f(ind_FA,:);
 [sumf1,sumf2]=sort(sum(f(ind_FA,:)));
-ind_FA_exude = sumf2((end-1000):end);
+ind_FA_exude = find(sum(f(ind_FA,:))>0);
 
 % Organic acids
 OA_prod_ind = f(ind_OA,glycg_prod_ind);
 OA_exud = f(ind_OA,:);
 [sumf1,sumf2]=sort(sum(f(ind_OA,:)));
-ind_OA_exude = sumf2((end-1000):end);
+ind_OA_exude = find(sum(f(ind_OA,:))>0);
 
 %ind_exud_data =  find(sum(f(ind_exud,:))>0.25);
 %ind_exud_data =  find(sum(f(ind_exud,:))>0.2);
@@ -290,7 +295,21 @@ filename=['EX_p_',run,'.fig'];
 savefig(filename);
 
 
+% create a correlation matrix
+% correlation mtx
+cor=[];
+cor(1,:)=f(ind_glycg,glycg_prod_ind);
+cor(2,:)=f(ind_HCO3,glycg_prod_ind);
+cor(3,:)=f(ind_ammonia,glycg_prod_ind);
+cor(4,:)=f(ind_P,glycg_prod_ind);
+cor(5,:)=f(ind_light,glycg_prod_ind);
+cor(6,:)=f(ind_RUBISCO,glycg_prod_ind);
+cor(7,:)=f(ind_CO2,glycg_prod_ind);
+cor(8,:)=sum(f(ind_AA,glycg_prod_ind));
+cor(9,:)=sum(f(ind_FA,glycg_prod_ind));
+cor(10,:)=sum(f(ind_OA,glycg_prod_ind));
 
-
-
-
+cormat=cormat'
+cormat=corrcoef(cor);
+corrnamet=['corr_',run,'.txt'];
+dlmwrite(corrnamet,cor, 'delimiter','\t','newline','pc')
