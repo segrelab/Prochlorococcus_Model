@@ -173,3 +173,30 @@ model = addReaction(model, 'EthanolEX', 'metaboliteList', {'Ethanol[e]'} ,'stoic
 model=addReaction(model,'Trans_S_Malate','metaboliteList',{'S_Malate[e]','S_Malate[c]'},...
     'stoichCoeffList',[-1;1], 'reversible', true);
 model = addReaction(model, 'S_MalateEX', 'metaboliteList', {'S_Malate[e]'} ,'stoichCoeffList', [-1]);
+%% Changes added to go from iSO595 v4 to v5
+% Change reaction R06050 from reversible to forward. This reaction convers
+% Amylose to glucose 1-phosphate. Knockout mutant of glgC (PMM0769 -> R00948) does not store glycogen
+% (Shinde et al., 2020), and the change introduced here matches this phenotype. 
+model = changeRxnBounds(model, 'R06050', 0, 'l');
+
+% Add transport of hydrogen peroxide. Photosynthesis is known to create
+% reactive oxygen species and Prochlorococcus does not have catalase. It is
+% assumed (but not completely clear) that hydrogen peroxide can diffuse
+% across the cell membrane
+model = addMetabolite(model, 'Hydrogen_peroxide[e]', 'metName', 'Hydrogen peroxide', 'metFormula', 'H2O2','Charge', 0);
+model = addReaction(model, 'Trans_H2O2', 'reactionName', 'H2O2 diffusion', 'metaboliteList', {'Hydrogen_peroxide[e]', 'Hydrogen_peroxide[c]'},'stoichCoeffList', [1, -1], 'lowerBound', -1000);
+model = addReaction(model, 'H2O2EX', 'reactionName', 'H2O2 exchange','metaboliteList', {'Hydrogen_peroxide[e]'}, 'stoichCoeffList', [-1]);
+
+% Add missing reaction 6PG-dehydratase/ 4.2.1.12 in Entner-Doudoroff Pathway. 
+% Chen et al., 2016 clearly demonstrate that ED is present in Synechocystis, 
+% suggesting that the gene slr0452 is encoding for this enzyme. A blast search 
+% of this gene shows that PMM0774 is a homolog of this gene in P. marinus
+% MED4. A search on equilibrator show a dG'm of -43 kJ/mol, so therefore I
+% set this reaction to forward. It is striking that adding this reaction
+% increase the growth rate (only limited by rubisco) from 0.0786 to 0.0997
+model = addReaction(model, 'R02036', 'reactionName', '6-Phospho-D-gluconate hydro-lyase','metaboliteList', {'6_Phospho_D_gluconate[c]', '2_Dehydro_3_deoxy_6_phospho_D_gluconate[c]', 'H2O[c]'},...
+                    'stoichCoeffList', [-1, 1,1], 'lowerBound', 0, 'geneRule', 'PMM0774');
+%%
+
+writeCbModel(model, 'format', 'sbml', 'fileName', 'iSO595v5.xml');
+writeCbModel(model, 'format', 'mat', 'fileName', 'iSO595v5.mat');
