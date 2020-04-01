@@ -196,7 +196,17 @@ model = addReaction(model, 'H2O2EX', 'reactionName', 'H2O2 exchange','metabolite
 % increase the growth rate (only limited by rubisco) from 0.0786 to 0.0997
 model = addReaction(model, 'R02036', 'reactionName', '6-Phospho-D-gluconate hydro-lyase','metaboliteList', {'6_Phospho_D_gluconate[c]', '2_Dehydro_3_deoxy_6_phospho_D_gluconate[c]', 'H2O[c]'},...
                     'stoichCoeffList', [-1, 1,1], 'lowerBound', 0, 'geneRule', 'PMM0774');
+                
+%% Changes added to go to iSO595 v6
+% By setting these two reactions to the same direction (producing
+% Chlorophyllide) we avoid that these reactions are used in a cycle to generate ATP /
+% NADPH
+model = changeRxnBounds(model, 'R06282', -1000, 'l');
+model = changeRxnBounds(model, 'R06282', 0, 'u');
+model = changeRxnBounds(model, 'R03845', -1000, 'l');
+model = changeRxnBounds(model, 'R03845', 0, 'u');
+
 %%
 
-writeCbModel(model, 'format', 'sbml', 'fileName', 'iSO595v5.xml');
-writeCbModel(model, 'format', 'mat', 'fileName', 'iSO595v5.mat');
+writeCbModel(model, 'format', 'sbml', 'fileName', 'iSO595v6.xml');
+writeCbModel(model, 'format', 'mat', 'fileName', 'iSO595v6.mat');
