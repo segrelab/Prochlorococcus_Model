@@ -6,7 +6,7 @@ The cyanobacteria _Prochlorococcus marinus MED4_ is one of the most abundant pho
 ### Model content
 | Taxonomy | Template Model | Reactions | Metabolites| Genes | Memote score |
 | ------------- |:-------------:|:-------------:|:-------------:|-----:|-----:|
-| _Prochlorococcus marinus MED4_ | - | 992 | 803 | 595 | - |
+| _Prochlorococcus marinus MED4_ | [iJC568](https://dx.doi.org/10.1128%2FmSystems.00065-16) | 992 | 803 | 595 | 27 |
 
 ### Contributors
 * [Shany Ofaim](https://www.barabasilab.com/people/shany-ofaim) ([@shashany](https://github.com/shashany)), Boston University, USA / University of Haifa, Israel 
