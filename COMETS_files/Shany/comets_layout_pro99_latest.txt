@@ -1,0 +1,99 @@
+model_file draft.txt
+	model_world
+		grid_size 1 1
+		world_media
+		7_Aminomethyl_7_carbaguanine[e] 0
+		Acyl_carrier_protein[e] 0
+		Adenosine_3_5_bisphosphate[e] 0
+		Amino_sugars[e] 0
+		Ammonia[e] 0.0008
+		Apo_acyl_carrier_protein[e] 0
+		Artificial_protein[e] 0
+		Biotin[e] 0
+		CO2[e] 0.1
+		CO[e] 0.1
+		Cadaverine[e] 0
+		Cadmium[e] 0.1
+		Calcium_cation[e] 0.1
+		Chloride_ion[e] 0.0008
+		Cobalt_ion[e] 0.1
+		Cobamide_coenzyme[e] 0
+		Copper[e] 0.1
+		Cyanate[e] 0
+		D_Glucose[e] 0
+		FAD[e] 0
+		Fe2[e] 0.1
+		Free_fatty_acids[e] 0
+		Glycine[e] 0
+		Glycogen[e] 0
+		Glycogen_granule[e] 0.1
+		Glycolaldehyde[e] 0
+		Glycolate[e] 0
+		H2O[e] 0.1
+		HCO3[e] 0.0848
+		H[e] 0.1
+		Hydrogen_sulfide[e] 0
+		K[e] 0.1
+		L_Alanine[e] 0
+		L_Arginine[e] 0
+		L_Asparagine[e] 0
+		L_Aspartate[e] 0
+		L_Cystine[e] 0
+		L_Glutamate[e] 0
+		L_Glutamine[e] 0
+		L_Histidine[e] 0
+		L_Isoleucine[e] 0
+		L_Leucine[e] 0
+		L_Lysine[e] 0
+		L_Methionine[e] 0
+		L_Phenylalanine[e] 0
+		L_Proline[e] 0
+		L_Serine[e] 0
+		L_Threonine[e] 0
+		L_Tryptophan[e] 0
+		L_Tyrosine[e] 0
+		L_Valine[e] 0
+		Lipid_A_disaccharide[e] 0
+		Lipoylprotein[e] 0
+		Magnesium_cation[e] 0.1
+		Menaquinone[e] 0
+		Methanol[e] 0
+		Molybdenum[e] 0.1
+		N_Acetylornithine[e] 0
+		Nicotinate[e] 0
+		Orthophosphate[e] 0.00005
+		Oxygen[e] 0.1
+		Phosphonate[e] 0
+		Photon[e] 0.1
+		S_Adenosyl_4_methylthio_2_oxobutanoate[e] 0
+		S_Methyl_5_thio_D_ribose[e] 0
+		Selenate[e] 0.1
+		Sodium_cation[e] 0.1
+		Spermine[e] 0
+		Strontium_cation[e] 0.1
+		Sulfate[e] 0.0312
+		THF_polyglutamate[e] 0
+		Thiamin_diphosphate[e] 0
+		Thioredoxin[e] 0
+		Thiosulfate[e] 0
+		Urea[e] 0
+		Zn2[e] 0.1
+		amino_acid_pool[e] 0
+		biomass[e] 0
+		sn_Glycerol_3_phosphate[e] 0
+		tRNA[e] 0
+	//
+	diffusion_constants 1.000000e-06
+	//
+	media
+	//
+	media_refresh 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	//
+	static_media 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	//
+	barrier
+	//
+//
+initial_pop
+	0 0 1.000000e-07
+//
