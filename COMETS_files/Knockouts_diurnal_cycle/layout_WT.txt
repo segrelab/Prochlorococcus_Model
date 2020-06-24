@@ -1,0 +1,179 @@
+	parameters
+	activateRate = 0.001
+	allowCellOverlap = true
+	deathRate = 0.0041667
+	maxCycles = 2400
+	maxSpaceBiomass = 100000
+	minSpaceBiomass = 2.5e-11
+	pauseOnStep = false
+	randomOrder = true
+	spaceWidth = 1
+	simulateActivation = false
+	timeStep = 0.1
+	toroidalWorld = false
+	randomSeed = 0
+	colorRelative = true
+	displayLayer = 0
+	pixelScale = 5
+	showCycleTime = true
+	showCycleCount = true
+	saveslideshow = false
+	slideshowColorRelative = true
+	slideshowExt = png
+	slideshowLayer = 0
+	slideshowName = ./res.png
+	slideshowRate = 1
+	biomassMotionStyle = Diffusion (Crank-Nicolson)
+	exchangeStyle = Monod Style
+	flowDiffRate = 0
+	growthDiffRate = 0
+	numDiffPerStep = 10
+	numRunThreads = 1
+	defaultAlpha = 1
+	defaultHill = 2
+	defaultKm = 0.01
+	defaultVmax = 10
+	defaultW = 10
+	numExRxnSubsteps = 10
+	writeFluxLog = false
+	fluxLogName = WT_fluxLog.csv
+	fluxLogRate = 1
+	fluxLogFormat = COMETS
+	writeMediaLog = true
+	mediaLogName = WT_mediaLog.csv
+	mediaLogRate = 1
+	mediaLogFormat = COMETS
+	writeBiomassLog = false
+	biomassLogName = WT_biomassLog.csv
+	biomassLogRate = 1
+	biomassLogFormat = COMETS
+	writeTotalBiomassLog = false
+	totalBiomassLogRate = 1
+	totalBiomassLogName = ./total_biomass.m
+	useLogNameTimeStamp = false
+	writeMatFile = false
+	MatFileName = ./comets_log.mat
+//
+model_file iSO595_WT.txt
+	model_world
+		grid_size 1 1
+		world_media
+		4_Aminobenzoate[e] 0
+		4_Hydroxybenzoate[e] 0
+		4_Methyl_2_oxopentanoate[e] 0
+		5_Methylthioadenosine[e] 0
+		Acetate[e] 0
+		Acyl_carrier_protein[e] 0
+		Adenine[e] 0
+		Adenosine_3_5_bisphosphate[e] 0
+		Amino_sugars[e] 0
+		Ammonia[e] 0.0001
+		Apo_acyl_carrier_protein[e] 0
+		Artificial_protein[e] 0
+		Biotin[e] 0
+		CO2[e] 0
+		CO[e] 0
+		Cadaverine[e] 0
+		Cadmium[e] 1000
+		Calcium_cation[e] 1000
+		Chloride_ion[e] 1000
+		Citrate[e] 0
+		Cobalt_ion[e] 1000
+		Cobamide_coenzyme[e] 0
+		Copper[e] 1000
+		Cyanate[e] 0
+		D_Glucose[e] 0
+		Dethiobiotin[e] 0
+		Ethanol[e] 0
+		FAD[e] 0
+		Fe2[e] 1000
+		Formate[e] 0
+		Free_fatty_acids[e] 0
+		Fumarate[e] 0
+		Glutathione[e] 0
+		Glycine[e] 0
+		Glycogen[e] 0
+		Glycolaldehyde[e] 0
+		Glycolate[e] 0
+		Guanine[e] 0
+		Guanosine[e] 0
+		H2O[e] 1000
+		HCO3[e] 0.003
+		H[e] 1000
+		Hydrogen_peroxide[e] 0
+		Hydrogen_sulfide[e] 0
+		K[e] 1000
+		L_Alanine[e] 0
+		L_Arginine[e] 0
+		L_Asparagine[e] 0
+		L_Aspartate[e] 0
+		L_Cystine[e] 0
+		L_Glutamate[e] 0
+		L_Glutamine[e] 0
+		L_Histidine[e] 0
+		L_Isoleucine[e] 0
+		L_Leucine[e] 0
+		L_Lysine[e] 0
+		L_Methionine[e] 0
+		L_Phenylalanine[e] 0
+		L_Proline[e] 0
+		L_Serine[e] 0
+		L_Threonine[e] 0
+		L_Tryptophan[e] 0
+		L_Tyrosine[e] 0
+		L_Valine[e] 0
+		Lipid_A_disaccharide[e] 0
+		Lipoylprotein[e] 0
+		Magnesium_cation[e] 1000
+		Menaquinone[e] 0
+		Methanol[e] 0
+		Molybdenum[e] 1000
+		N_Acetylornithine[e] 0
+		Nicotinate[e] 0
+		Orthophosphate[e] 5e-05
+		Oxygen[e] 1000
+		Pantothenate[e] 0
+		Phosphonate[e] 0
+		Photon[e] 0
+		Putrescine[e] 0
+		Pyruvate[e] 0
+		S_Adenosyl_4_methylthio_2_oxobutanoate[e] 0
+		S_Malate[e] 0
+		S_Methyl_5_thio_D_ribose[e] 0
+		Selenate[e] 1000
+		Sodium_cation[e] 1000
+		Spermidine[e] 0
+		Spermine[e] 0
+		Strontium_cation[e] 1000
+		Succinate[e] 0
+		Sulfate[e] 1000
+		THF_polyglutamate[e] 0
+		Thiamin_diphosphate[e] 0
+		Thioredoxin[e] 0
+		Thiosulfate[e] 0
+		Thymidine[e] 0
+		Urea[e] 0
+		Xanthosine[e] 0
+		Zn2[e] 1000
+		amino_acid_pool[e] 0
+		biomass[e] 0
+		sn_Glycerol_3_phosphate[e] 0
+		tRNA[e] 0
+	//
+	diffusion_constants 0
+	//
+	media
+	//
+	media_refresh 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	//
+	static_media 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	//
+	barrier
+	//
+	periodic_media	global
+		76	half_sin	4.000000e-02	24	0	0
+	//
+//
+initial_pop
+	0 0 8.580000e-08
+//
