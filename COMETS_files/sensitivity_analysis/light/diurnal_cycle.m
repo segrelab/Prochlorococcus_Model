@@ -19,8 +19,8 @@ timeStep = 0.1;% hours
 maxCycles = 24*4/timeStep; % Simulate 4 days
 lightFlux = 0.04;
 glycVmax = 0.5;
-glycKm = 1e-4;
-AmmoniumConc = 100;
+glycKm = 1e-7;
+AmmoniumConc = 800;
 CO2MAX =  0.818; % From environmental sampling
 HCO3MAX = 18.43;
 %% 
@@ -56,7 +56,7 @@ model = setVmax(model, 'HCO3EXcar', HCO3MAX); % Default value
 model = setKm(model, 'HCO3EXcar', 0.082*1e-3); % From Hopkinson et al., 2014
 model = setVmax(model, 'FAKEOrthophosphateEX', 0.7575); % From Krumhardt et al., 2013
 model = setKm(model, 'FAKEOrthophosphateEX', 0.00053*1e-3); % From Krumhardt et al., 2013
-model = setKm(model, 'GlycogenEX', glycKm*1e-3);
+model = setKm(model, 'GlycogenEX', glycKm);
 model = setVmax(model, 'GlycogenEX', glycVmax);
 
 % Define model light settings
@@ -109,9 +109,9 @@ model  = setLight(model, {'LightEX'}, absorption_matrix);
 %% 
 % Make folder and define filenames
 
-folder_i = [folder '\' sprintf('N%d', AmmoniumConc) '_' sprintf('light_%0.2f', lightFlux) '_' sprintf('glycVmax_%0.2f', glycVmax) '_' sprintf('glycKm_%0.0e', glycKm) '_' sprintf('N_Km%0.0e', ammonium_Km) '_' sprintf('Vmax_%0.2f', ammonium_Vmax)];
-if ~exist(folder_i,'dir')
-    mkdir(folder_i);
+folder = [folder '\' sprintf('N%d', AmmoniumConc) '_' sprintf('light_%0.2f', lightFlux) '_' sprintf('glycVmax_%0.2f', glycVmax) '_' sprintf('glycKm_%0.0e', glycKm) '_' sprintf('HCO3MAX_%0.0f', HCO3MAX)];
+if ~exist(folder,'dir')
+    mkdir(folder);
 end
 
 fluxLogfn = 'fluxLog.csv';
@@ -127,15 +127,15 @@ layout = setInitialPop(layout, '1x1', initial_pop); % g DW
 
 % Set simulation parameters
 
-layout.params.mediaLogName = [folder_i '\' mediaLogfn];
+layout.params.mediaLogName = [folder '\' mediaLogfn];
 layout.params.writeMediaLog = true;
 layout.params.mediaLogRate = 1;
-layout.params.biomassLogName = [folder_i '\' biomassLogfn];
-layout.params.writeBiomassLog = true;
+layout.params.biomassLogName = [folder '\' biomassLogfn];
+layout.params.writeBiomassLog = false;
 layout.params.biomassLogRate = 1;
 
 % Write fluxes
-layout.params.fluxLogName =  [folder_i '\' fluxLogfn];
+layout.params.fluxLogName =  [folder '\' fluxLogfn];
 layout.params.writeFluxLog = true;
 layout.params.fluxLogRate = 1;
 
@@ -216,34 +216,32 @@ layout.models{1,1}.c(glycogen_index) = 3;
 
 %model.lb(biomassIndex) = 1e-5;
 % Write layout
-createCometsFiles(layout, folder_i, layout_name);
+createCometsFiles(layout, folder, layout_name);
 %%
-runCometsOnDirectory(folder_i)
+runCometsOnDirectory(folder)
 cd('../..');
 %% Plot results
 
 % Load experimental data
 %hold on;
-biomass = parseBiomassLog([folder_i '\' biomassLogfn]);
-
 %%
-media = parseMediaLog([folder_i '\' mediaLogfn]);
+media = parseMediaLog([folder '\' mediaLogfn]);
 %%
 %converting from biomass (g DW) to number of cells
 f = figure();
-%biomass_table = media(strcmp('biomass[e]', media.metname),:);
-time = biomass.t*timeStep;
-plot(time, biomass.biomass, 'DisplayName', 'Predicted growth', 'LineWidth',2);
-saveas(f, [folder_i '\Growth.png'])
+biomass_table = media(strcmp('biomass[e]', media.metname),:);
+time = biomass_table.t*timeStep;
+plot(time, biomass_table.amt+initial_pop, 'DisplayName', 'Predicted growth', 'LineWidth',2);
+saveas(f, [folder '\Growth.png'])
 f = figure();
 glycogen = media(strcmp('Glycogen[e]', media.metname),:);
 plot(time, glycogen.amt, 'DisplayName', 'Glycogen', 'LineWidth',2);
-saveas(f, [folder_i '\Glycogen.png'])
+saveas(f, [folder '\Glycogen.png'])
 
 f = figure();
 photon = media(strcmp('Photon[e]', media.metname),:);
 plot(time, photon.amt, 'DisplayName', 'Photon', 'LineWidth',2);
-saveas(f, [folder_i '\Light.png'])
+saveas(f, [folder '\Light.png'])
 Ammonia = media(strcmp('Ammonia[e]', media.metname),:);
 plot(time, Ammonia.amt, 'DisplayName', 'Ammonia', 'LineWidth',2);
 legend()
@@ -256,7 +254,7 @@ legend()
 %%
 f = figure();
 hold on;
-plot(time, biomass.biomass, 'DisplayName', 'Predicted growth', 'LineWidth',2);
+plot(time, biomass_table.amt+initial_pop, 'DisplayName', 'Predicted growth', 'LineWidth',2);
 yyaxis left;
 plot(time, photon.amt, 'DisplayName', 'Photon', 'LineWidth',2);
 %plot(time, Ammonia.amt, 'DisplayName', 'Ammonia', 'LineWidth',2);
@@ -266,12 +264,12 @@ legend()
 xlabel("Hours")
 ylabel('Concentration [mmol]')
 %%
-results_table = table(biomass.t*timeStep, biomass.biomass,glycogen.amt,photon.amt,hco3.amt, 'VariableNames', {'Time','Biomass','Glycogen', 'Photon', 'HCO3'});
-writetable(results_table, [folder_i '\' 'results_table.csv']);
+results_table = table(biomass_table.t*timeStep, biomass_table.amt+initial_pop,glycogen.amt,photon.amt,hco3.amt, 'VariableNames', {'Time','Biomass','Glycogen', 'Photon', 'HCO3'});
+writetable(results_table, [folder '\' 'results_table.csv']);
 %%
-flux = parseFluxLog([folder_i '\' fluxLogfn]);
+flux = parseFluxLog([folder '\' fluxLogfn]);
 %%
-writecell(layout.models{1,1}.rxns, [folder_i '\' 'rxnIDs.csv']);
+writecell(layout.models{1,1}.rxns, [folder '\' 'rxnIDs.csv']);
 %%
-writetable(flux, [folder_i '\' 'fluxTable.csv'])
-writetable(media, [folder_i '\' 'mediaTable.csv'])
+writetable(flux, [folder '\' 'fluxTable.csv'])
+writetable(media, [folder '\' 'mediaTable.csv'])

@@ -14,8 +14,8 @@ imshow(I)
 %%
 % Read Km Vmax values
 KmVmax = readtable('km_vmax05.csv');
-KmArr = KmVmax.Km(19:4:end);
-VmaxArr = KmVmax.Vmax(19:4:end);
+KmArr = KmVmax.Km(1:9:end-10);
+VmaxArr = KmVmax.Vmax(1:9:end-10);
 %%
 % Init cobra toolbox
 initCobraToolbox;
@@ -42,8 +42,8 @@ folder = [pwd '\kmVmaxComets5'];
 % a and b.
 
 % The ratio of chlorophyll is extracted from the model biomass-function
-ci_dvchla = 0.028*0.581196581 % g / gDW (Partensky 1993 / Casey 2016)
-ci_dvchlb = 0.028*0.047008547 % g / gDW (Partensky 1993 / Casey 2016)
+ci_dvchla = 0.028*0.581196581; % g / gDW (Partensky 1993 / Casey 2016)
+ci_dvchlb = 0.028*0.047008547; % g / gDW (Partensky 1993 / Casey 2016)
 absorption_dvchla_680 = 0.018358; % m2 mg-1 (Bricaud et al., 2004)
 absorption_dvchlb_680 = 0.0018;   % m2 mg-1 (Bricaud et al., 2004)
 absorption_water_680 = 0.465; % m^-1 (Pope and Fry, 1997)
