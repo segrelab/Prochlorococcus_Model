@@ -1,7 +1,8 @@
 ''' Patching holes in the prochlorcoccus metabolic network with new annotated reactions.
 the script uses a recursive function to build chains of possible reactions to be added.
  a chain of reaction can only be added if all the metabolites are connected to the network.
- the goal is to reduce reaction for manual curation.'''
+ the goal is to reduce reaction for manual curation.
+ Copyright 2019- Shany Ofaim - Segre Lab, all rights resereved'''
 
 #-------- imports -------
 from bioservices import *
