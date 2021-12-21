@@ -206,7 +206,34 @@ model = changeRxnBounds(model, 'R06282', 0, 'u');
 model = changeRxnBounds(model, 'R03845', -1000, 'l');
 model = changeRxnBounds(model, 'R03845', 0, 'u');
 
-%%
+%% Changes to go from v6 to v7
+% This change scales the biomass coefficents by 1/0.9873 to so
+% that the biomass components sum to 1
+%printRxnFormula(model, 'BIOMASS');
+biomass_scale = 1/0.9873;
+[mets, coeffs] = findMetsFromRxns(model, 'BIOMASS');
+mets = mets{1};
+coeffs = full(coeffs{1});
+mets2change = {'amino_acid_pool[c]'; 
+               'Cell_wall[c]';
+               'deoxyribonucleic_acids[c]';
+               'Free_nucleic_acids[c]';
+               'lipid[c]';
+               'pigments[c]';
+               'Protein[c]';
+               'ribonucleic_acids[c]';
+               'BioPool[c]';
+               'Bmineral[c]'};
+new_coeffs = zeros(length(mets2change), 1);
+for i =1:length(mets2change)
+    m_id = mets2change{i};
+    index = find(strcmp(mets,m_id));
+    new_coeffs(i) = coeffs(index)*biomass_scale;    
+end
 
-writeCbModel(model, 'format', 'sbml', 'fileName', 'iSO595v6.xml');
-writeCbModel(model, 'format', 'mat', 'fileName', 'iSO595v6.mat');
+[model, new_rxn] = changeRxnMets(model, mets2change, mets2change, 'BIOMASS', new_coeffs);
+%printRxnFormula(model, 'BIOMASS');
+
+%%
+writeCbModel(model, 'format', 'sbml', 'fileName', 'iSO595v7.xml');
+writeCbModel(model, 'format', 'mat', 'fileName', 'iSO595v7.mat');
