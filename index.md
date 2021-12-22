@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# iSO595 - a genome-scale metabolic model for _Prochlorococcus_
+Read about the development and use of this model in 
 
-You can use the [editor on GitHub](https://github.com/segrelab/Prochlorococcus_Model/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[Ofaim, S., Sulheim, S., Almaas, E., Sher, D., & Segrè, D. (2021). Dynamic allocation of carbon storage and nutrient-dependent exudation in a revised genome-scale model of Prochlorococcus. Frontiers in genetics, 12, 91.](https://doi.org/10.3389/fgene.2021.586293)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Memote report
+The memote report for iS=595v7 is found [here](https://github.com/segrelab/Prochlorococcus_Model/master/Model_files/memote.html). Not that the biomass - scaling is not computed correctly by Memote because the biomass-reaction (_BIOMASS_) only consumes macromolecules (pseudo-metabolites) that are assembled in designated reactions (e.g. all proteins, nucleic acids etc).
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/segrelab/Prochlorococcus_Model/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
